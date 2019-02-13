@@ -22251,12 +22251,36 @@ Based on the following sources:
 </class>
 </classes>
 <parts>
-<part name="U8" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="MCP46X1" device="" package3d_urn="urn:adsk.eagle:package:8719354/1" value="10k"/>
-<part name="U7" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="MCP46X1" device="" package3d_urn="urn:adsk.eagle:package:8719354/1" value="10k"/>
-<part name="U5" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="MCP46X1" device="" package3d_urn="urn:adsk.eagle:package:8719354/1" value="10k"/>
-<part name="U4" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="MCP46X1" device="" package3d_urn="urn:adsk.eagle:package:8719354/1" value="10k"/>
-<part name="U3" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="MCP46X1" device="" package3d_urn="urn:adsk.eagle:package:8719354/1" value="10k"/>
-<part name="U2" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="MCP46X1" device="" package3d_urn="urn:adsk.eagle:package:8719354/1" value="10k"/>
+<part name="U8" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="MCP46X1" device="" package3d_urn="urn:adsk.eagle:package:8719354/1" value="10k">
+<attribute name="CONRAD" value="1083246 - 62"/>
+<attribute name="MOUSER" value="579-MCP4641-103E/ST"/>
+<attribute name="STOCK" value="6"/>
+</part>
+<part name="U7" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="MCP46X1" device="" package3d_urn="urn:adsk.eagle:package:8719354/1" value="10k">
+<attribute name="CONRAD" value="1083246 - 62"/>
+<attribute name="MOUSER" value="579-MCP4641-103E/ST"/>
+<attribute name="STOCK" value="6"/>
+</part>
+<part name="U5" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="MCP46X1" device="" package3d_urn="urn:adsk.eagle:package:8719354/1" value="10k">
+<attribute name="CONRAD" value="1083246 - 62"/>
+<attribute name="MOUSER" value="579-MCP4641-103E/ST"/>
+<attribute name="STOCK" value="6"/>
+</part>
+<part name="U4" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="MCP46X1" device="" package3d_urn="urn:adsk.eagle:package:8719354/1" value="10k">
+<attribute name="CONRAD" value="1083246 - 62"/>
+<attribute name="MOUSER" value="579-MCP4641-103E/ST"/>
+<attribute name="STOCK" value="6"/>
+</part>
+<part name="U3" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="MCP46X1" device="" package3d_urn="urn:adsk.eagle:package:8719354/1" value="10k">
+<attribute name="CONRAD" value="1083246 - 62"/>
+<attribute name="MOUSER" value="579-MCP4641-103E/ST"/>
+<attribute name="STOCK" value="6"/>
+</part>
+<part name="U2" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="MCP46X1" device="" package3d_urn="urn:adsk.eagle:package:8719354/1" value="10k">
+<attribute name="CONRAD" value="1083246 - 62"/>
+<attribute name="MOUSER" value="579-MCP4641-103E/ST"/>
+<attribute name="STOCK" value="6"/>
+</part>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="075-032X103" package3d_urn="urn:adsk.eagle:package:23646/1" value="4.7n">
 <spice>
 <pinmapping spiceprefix="C">
@@ -22265,7 +22289,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="459871 - 62"/>
+<attribute name="MOUSER" value="594-222237188472"/>
 <attribute name="SPEC" value="Wima FKS3D014702B00KSSD"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-045X075" package3d_urn="urn:adsk.eagle:package:23638/1" value="680p">
 <spice>
@@ -22275,7 +22301,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="450548 - 62"/>
+<attribute name="MOUSER" value="505-FKP2J006801D00KS"/>
 <attribute name="SPEC" value="Wima FKP2J006801D00HSSD"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="AGND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="5.6k">
@@ -22286,7 +22314,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621942 - AN"/>
+<attribute name="MOUSER" value="71-SMM02070C5601FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT5601"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -22296,7 +22326,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:26111/2" value="100k">
 <spice>
@@ -22306,63 +22338,209 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621537 - 62"/>
+<attribute name="MOUSER" value="756-WRM024HPC100KFT3"/>
 <attribute name="SPEC" value="Viking Tech CSRV0204FTDG1003"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="AGND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="IC5" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM358" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" value="OPA134PA">
 <attribute name="CONRAD" value="1011117 - 62"/>
+<attribute name="MOUSER" value="595-OPA134PA"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="AGND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="D2" library="Parts" library_urn="urn:adsk.eagle:library:2304016" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:2378356/2" value="4007">
+<attribute name="CONRAD" value="160493 - 62"/>
 <attribute name="MOUSER" value="583-FM4007W-W"/>
 <attribute name="SPEC" value="4007"/>
+<attribute name="STOCK" value="6"/>
 </part>
 <part name="D6" library="Parts" library_urn="urn:adsk.eagle:library:2304016" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:2378356/2" value="4007">
+<attribute name="CONRAD" value="160493 - 62"/>
 <attribute name="MOUSER" value="583-FM4007W-W"/>
 <attribute name="SPEC" value="4007"/>
+<attribute name="STOCK" value="6"/>
 </part>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="175TMP-0810" package3d_urn="urn:adsk.eagle:package:23407/3" value="220µ"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="175TMP-0810" package3d_urn="urn:adsk.eagle:package:23407/3" value="220µ"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="175TMP-0810" package3d_urn="urn:adsk.eagle:package:23407/3" value="220µ 25V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="404629 - 62"/>
+<attribute name="MOUSER" value="647-UWT1E221MNL1GS"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="175TMP-0810" package3d_urn="urn:adsk.eagle:package:23407/3" value="220µ 25V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="404629 - 62"/>
+<attribute name="MOUSER" value="647-UWT1E221MNL1GS"/>
+<attribute name="STOCK" value="2"/>
+</part>
 <part name="D7" library="Parts" library_urn="urn:adsk.eagle:library:2304016" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:2378356/2" value="4007">
+<attribute name="CONRAD" value="160493 - 62"/>
 <attribute name="MOUSER" value="583-FM4007W-W"/>
 <attribute name="SPEC" value="4007"/>
+<attribute name="STOCK" value="6"/>
 </part>
 <part name="D1" library="Parts" library_urn="urn:adsk.eagle:library:2304016" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:2378356/2" value="4007">
+<attribute name="CONRAD" value="160493 - 62"/>
 <attribute name="MOUSER" value="583-FM4007W-W"/>
 <attribute name="SPEC" value="4007"/>
+<attribute name="STOCK" value="6"/>
 </part>
-<part name="IC3" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="79XXS" device="" package3d_urn="urn:adsk.eagle:package:30343/1" value="7912"/>
-<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1" value="7812"/>
-<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="IC3" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="79XXS" device="" package3d_urn="urn:adsk.eagle:package:30343/1" value="7912">
+<attribute name="CONRAD" value="156077 - 62"/>
+<attribute name="MOUSER" value="511-L7912CV"/>
+<attribute name="STOCK" value="1"/>
+</part>
+<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1" value="7812">
+<attribute name="CONRAD" value="179230 - 62"/>
+<attribute name="MOUSER" value="511-L7812CV"/>
+<attribute name="STOCK" value="1"/>
+</part>
+<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="175TMP-0810" package3d_urn="urn:adsk.eagle:package:23407/3" value="470µ"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="175TMP-0810" package3d_urn="urn:adsk.eagle:package:23407/3" value="470µ"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="175TMP-0810" package3d_urn="urn:adsk.eagle:package:23407/3" value="470µ 16V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="404626 - 62"/>
+<attribute name="MOUSER" value="647-UWT1C471MNL1S"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="175TMP-0810" package3d_urn="urn:adsk.eagle:package:23407/3" value="470µ 16V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="404626 - 62"/>
+<attribute name="MOUSER" value="647-UWT1C471MNL1S"/>
+<attribute name="STOCK" value="2"/>
+</part>
 <part name="D5" library="Parts" library_urn="urn:adsk.eagle:library:2304016" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:2378356/2" value="4007">
+<attribute name="CONRAD" value="160493 - 62"/>
 <attribute name="MOUSER" value="583-FM4007W-W"/>
 <attribute name="SPEC" value="4007"/>
+<attribute name="STOCK" value="6"/>
 </part>
 <part name="D3" library="Parts" library_urn="urn:adsk.eagle:library:2304016" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:2378356/2" value="4007">
+<attribute name="CONRAD" value="160493 - 62"/>
 <attribute name="MOUSER" value="583-FM4007W-W"/>
 <attribute name="SPEC" value="4007"/>
+<attribute name="STOCK" value="6"/>
 </part>
 <part name="P-3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="J1" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="TERMINAL-1" device="" package3d_urn="urn:adsk.eagle:package:6665093/5" value="6MM"/>
-<part name="J2" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="TERMINAL-1" device="" package3d_urn="urn:adsk.eagle:package:6665093/5" value="6MM"/>
-<part name="J3" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="TERMINAL-1" device="" package3d_urn="urn:adsk.eagle:package:6665093/5" value="6MM"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585269 - 62"/>
+<attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
+<attribute name="STOCK" value="5"/>
+</part>
+<part name="J1" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="TERMINAL-1" device="" package3d_urn="urn:adsk.eagle:package:6665093/5" value="6MM">
+<attribute name="CONRAD" value="808428 - 62"/>
+<attribute name="MOUSER" value="571-726386-2"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="J2" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="TERMINAL-1" device="" package3d_urn="urn:adsk.eagle:package:6665093/5" value="6MM">
+<attribute name="CONRAD" value="808428 - 62"/>
+<attribute name="MOUSER" value="571-726386-2"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="J3" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="TERMINAL-1" device="" package3d_urn="urn:adsk.eagle:package:6665093/5" value="6MM">
+<attribute name="CONRAD" value="808428 - 62"/>
+<attribute name="MOUSER" value="571-726386-2"/>
+<attribute name="STOCK" value="2"/>
+</part>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P-5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
 <part name="AGND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device="">
 <attribute name="SPICEGROUND" value=""/>
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
-<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
 <part name="AGND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device="">
 <attribute name="SPICEGROUND" value=""/>
 <attribute name="SPICEPREFIX" value="G"/>
@@ -22375,33 +22553,201 @@ Based on the following sources:
 <attribute name="SPICEGROUND" value=""/>
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
-<part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
-<part name="C66" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
-<part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
-<part name="C67" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1µ"/>
-<part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
-<part name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
-<part name="VR1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="TRIMPOT" device="-SMD-3MM-OPEN-1/10W-25%" package3d_urn="urn:adsk.eagle:package:39666/1" value="10k"/>
+<part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585286 - 62"/>
+<attribute name="MOUSER" value="71-RCA0603100KJNEC"/>
+<attribute name="STOCK" value="3"/>
+</part>
+<part name="C66" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585255 - 62"/>
+<attribute name="MOUSER" value="603-RC0603FR-071KL"/>
+<attribute name="STOCK" value="3"/>
+</part>
+<part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585286 - 62"/>
+<attribute name="MOUSER" value="71-RCA0603100KJNEC"/>
+<attribute name="STOCK" value="3"/>
+</part>
+<part name="C67" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1µ">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457913 - 62"/>
+<attribute name="MOUSER" value="710-885012106022"/>
+<attribute name="STOCK" value="1"/>
+</part>
+<part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585255 - 62"/>
+<attribute name="MOUSER" value="603-RC0603FR-071KL"/>
+<attribute name="STOCK" value="3"/>
+</part>
+<part name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585286 - 62"/>
+<attribute name="MOUSER" value="71-RCA0603100KJNEC"/>
+<attribute name="STOCK" value="3"/>
+</part>
+<part name="VR1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="TRIMPOT" device="-SMD-3MM-OPEN-1/10W-25%" package3d_urn="urn:adsk.eagle:package:39666/1" value="100k">
+<attribute name="CONRAD" value="1618568 - 62"/>
+<attribute name="MOUSER" value="858-35WR100KLFTR"/>
+<attribute name="STOCK" value="0"/>
+</part>
 <part name="+3V321" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
-<part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="IC8" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="2AMP_P8+4" device="D" package3d_urn="urn:adsk.eagle:package:16404/2"/>
-<part name="IC9" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="2AMP_P8+4" device="D" package3d_urn="urn:adsk.eagle:package:16404/2"/>
-<part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585255 - 62"/>
+<attribute name="MOUSER" value="603-RC0603FR-071KL"/>
+<attribute name="STOCK" value="3"/>
+</part>
+<part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585269 - 62"/>
+<attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
+<attribute name="STOCK" value="5"/>
+</part>
+<part name="IC8" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="2AMP_P8+4" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" value="LM358D">
+<attribute name="CONRAD" value="1010764 - 62"/>
+<attribute name="MOUSER" value="511-LM358DT"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="IC9" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="2AMP_P8+4" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" value="LM358D">
+<attribute name="CONRAD" value="1010764 - 62"/>
+<attribute name="MOUSER" value="511-LM358DT"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585269 - 62"/>
+<attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
+<attribute name="STOCK" value="5"/>
+</part>
+<part name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585269 - 62"/>
+<attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
+<attribute name="STOCK" value="5"/>
+</part>
 <part name="+3V322" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C65" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="C65" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
 <part name="+3V320" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C64" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="X1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="RCA-4-CHANNEL" device="" package3d_urn="urn:adsk.eagle:package:8807909/6" value=""/>
+<part name="C64" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="X1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="RCA-4-CHANNEL" device="" package3d_urn="urn:adsk.eagle:package:8807909/6" value="">
+<attribute name="CONRAD" value="1578879 - 62"/>
+<attribute name="MOUSER" value="806-KLP42X-61-WWRR"/>
+<attribute name="STOCK" value="1"/>
+</part>
 <part name="IC4" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM358" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" value="OPA134PA">
 <attribute name="CONRAD" value="1011117 - 62"/>
+<attribute name="MOUSER" value="595-OPA134PA"/>
+<attribute name="STOCK" value="0"/>
 </part>
-<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P-4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
-<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
 <part name="AGND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device="">
 <attribute name="SPICEGROUND" value=""/>
 <attribute name="SPICEPREFIX" value="G"/>
@@ -22420,12 +22766,20 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1325816 - 62"/>
+<attribute name="MOUSER" value="647-LLS1H103MELC"/>
 <attribute name="SPEC" value="Teapo SLG109M050S1A5T40K"/>
+<attribute name="STOCK" value="0"/>
 </part>
-<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148"/>
+<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148">
+<attribute name="CONRAD" value="1582023 - 62"/>
+<attribute name="MOUSER" value="512-1N4148WS"/>
+<attribute name="STOCK" value="4"/>
+</part>
 <part name="B1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="RECTIFIER-FB100" device="" package3d_urn="urn:adsk.eagle:package:8807759/3" value="1000V 25A">
 <attribute name="CONRAD" value="1582009 - 62"/>
+<attribute name="MOUSER" value="833-GBJL2510-BP"/>
 <attribute name="SPEC" value="TC-GBI25M"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="RESISTOR-0617-22" device="" package3d_urn="urn:adsk.eagle:package:8809788/2" value="470">
 <spice>
@@ -22435,7 +22789,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="402095 - 62"/>
+<attribute name="MOUSER" value="279-EP5WS470RJ"/>
 <attribute name="SPEC" value="Hochlast-Widerstand 470 Ω axial bedrahtet 5 W 5 % 1 St."/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="+12VAC"/>
 <part name="P-2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V-" device="" value="-12VAC"/>
@@ -22451,31 +22807,130 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1325816 - 62"/>
+<attribute name="MOUSER" value="647-LLS1H103MELC"/>
 <attribute name="SPEC" value="Teapo SLG109M050S1A5T40K"/>
+<attribute name="STOCK" value="0"/>
 </part>
-<part name="H2" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HOLE-3MM-PAD" device="" package3d_urn="urn:adsk.eagle:package:8809787/2" value="M3"/>
-<part name="H4" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HOLE-3MM-PAD" device="" package3d_urn="urn:adsk.eagle:package:8809787/2" value="M3"/>
-<part name="H1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HOLE-3MM-PAD" device="" package3d_urn="urn:adsk.eagle:package:8809787/2" value="M3"/>
-<part name="H3" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HOLE-3MM-PAD" device="" package3d_urn="urn:adsk.eagle:package:8809787/2" value="M3"/>
+<part name="H2" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HOLE-3MM-PAD" device="" package3d_urn="urn:adsk.eagle:package:8809787/2" value="M3">
+<attribute name="STOCK" value="4"/>
+</part>
+<part name="H4" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HOLE-3MM-PAD" device="" package3d_urn="urn:adsk.eagle:package:8809787/2" value="M3">
+<attribute name="STOCK" value="4"/>
+</part>
+<part name="H1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HOLE-3MM-PAD" device="" package3d_urn="urn:adsk.eagle:package:8809787/2" value="M3">
+<attribute name="STOCK" value="4"/>
+</part>
+<part name="H3" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HOLE-3MM-PAD" device="" package3d_urn="urn:adsk.eagle:package:8809787/2" value="M3">
+<attribute name="STOCK" value="4"/>
+</part>
 <part name="PE1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="PE" device=""/>
-<part name="J4" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="TERMINAL-1" device="" package3d_urn="urn:adsk.eagle:package:6665093/5" value="6MM"/>
-<part name="KK1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HEATSINK-SK104" device="" package3d_urn="urn:adsk.eagle:package:8798215/3"/>
-<part name="KK4" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HEATSINK-SK104" device="" package3d_urn="urn:adsk.eagle:package:8798215/3"/>
+<part name="J4" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="TERMINAL-1" device="" package3d_urn="urn:adsk.eagle:package:6665093/5" value="6MM">
+<attribute name="CONRAD" value="808428 - 62"/>
+<attribute name="MOUSER" value="571-726386-2"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="KK1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HEATSINK-SK104" device="" package3d_urn="urn:adsk.eagle:package:8798215/3">
+<attribute name="CONRAD" value="188093 - 62"/>
+<attribute name="MOUSER" value="490-HSE-B20254-035H"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="KK4" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HEATSINK-SK104" device="" package3d_urn="urn:adsk.eagle:package:8798215/3">
+<attribute name="CONRAD" value="188093 - 62"/>
+<attribute name="MOUSER" value="490-HSE-B20254-035H"/>
+<attribute name="STOCK" value="2"/>
+</part>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U1" library="NixieClock" library_urn="urn:adsk.eagle:library:7479626" deviceset="PMIC-CJT1117-3.3(SOT223)" device="" package3d_urn="urn:adsk.eagle:package:7496258/2" value="LM1117-3.3"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="4.7µ"/>
+<part name="U1" library="NixieClock" library_urn="urn:adsk.eagle:library:7479626" deviceset="PMIC-CJT1117-3.3(SOT223)" device="" package3d_urn="urn:adsk.eagle:package:7496258/2" value="LM1117-3.3">
+<attribute name="CONRAD" value="1261149 - 62"/>
+<attribute name="MOUSER" value="926-LM1117MPX3.3NOPB"/>
+<attribute name="STOCK" value="1"/>
+</part>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="4.7µ 10V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1280266 - 62"/>
+<attribute name="MOUSER" value="710-865230642008"/>
+<attribute name="STOCK" value="2"/>
+</part>
 <part name="+3V31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="U6" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="TDA7498L" device="" package3d_urn="urn:adsk.eagle:package:8733502/2"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="U6" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="TDA7498L" device="" package3d_urn="urn:adsk.eagle:package:8733502/2">
+<attribute name="MOUSER" value="511-TDA7498TR"/>
+<attribute name="STOCK" value="0"/>
+</part>
 <part name="PE2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="PE" device=""/>
 <part name="+3V312" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V317" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22"/>
-<part name="C52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="C58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="39k"/>
+<part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585778 - 62"/>
+<attribute name="MOUSER" value="603-RC0603FR-0722RL"/>
+<attribute name="STOCK" value="0"/>
+</part>
+<part name="C52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="C58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="39k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1584631 - 62"/>
+<attribute name="MOUSER" value="603-RC0603FR-0739KL"/>
+<attribute name="STOCK" value="1"/>
+</part>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-050X075" package3d_urn="urn:adsk.eagle:package:23665/1" value="1µ">
 <spice>
 <pinmapping spiceprefix="C">
@@ -22484,7 +22939,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235274 - 62"/>
+<attribute name="MOUSER" value="80-R82DC4100AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC4100AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-050X075" package3d_urn="urn:adsk.eagle:package:23665/1" value="1µ">
 <spice>
@@ -22494,7 +22951,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235274 - 62"/>
+<attribute name="MOUSER" value="80-R82DC4100AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC4100AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-050X075" package3d_urn="urn:adsk.eagle:package:23665/1" value="1µ">
 <spice>
@@ -22504,7 +22963,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235274 - 62"/>
+<attribute name="MOUSER" value="80-R82DC4100AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC4100AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-050X075" package3d_urn="urn:adsk.eagle:package:23665/1" value="1µ">
 <spice>
@@ -22514,7 +22975,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235274 - 62"/>
+<attribute name="MOUSER" value="80-R82DC4100AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC4100AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="1n">
 <spice>
@@ -22524,7 +22987,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235242 - 62"/>
+<attribute name="MOUSER" value="80-R82EC1100AA50K"/>
 <attribute name="SPEC" value="Kemet R82EC1100AA50K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="1n">
 <spice>
@@ -22534,7 +22999,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235242 - 62"/>
+<attribute name="MOUSER" value="80-R82EC1100AA50K"/>
 <attribute name="SPEC" value="Kemet R82EC1100AA50K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="1n">
 <spice>
@@ -22544,7 +23011,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235242 - 62"/>
+<attribute name="MOUSER" value="80-R82EC1100AA50K"/>
 <attribute name="SPEC" value="Kemet R82EC1100AA50K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="1n">
 <spice>
@@ -22554,15 +23023,47 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235242 - 62"/>
+<attribute name="MOUSER" value="80-R82EC1100AA50K"/>
 <attribute name="SPEC" value="Kemet R82EC1100AA50K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="AGND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="C62" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="C62" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
 <part name="+3V319" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="AGND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="C60" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="10µ 10V"/>
-<part name="C61" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="10µ 10V"/>
+<part name="C60" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="10µ 10V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="421520 - 6"/>
+<attribute name="MOUSER" value="710-865080642006"/>
+<attribute name="STOCK" value="0"/>
+</part>
+<part name="C61" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="10µ 10V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="421520 - 6"/>
+<attribute name="MOUSER" value="710-865080642006"/>
+<attribute name="STOCK" value="0"/>
+</part>
 <part name="C53" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="1µ 50V">
 <spice>
 <pinmapping spiceprefix="C">
@@ -22570,9 +23071,11 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="CONRAD" value="458140 - 62"/>
+<attribute name="CONRAD" value="1279028 - 62"/>
+<attribute name="MOUSER" value="80-C1206C105M5RECLR"/>
 <attribute name="SPEC" value=""/>
 <attribute name="SPICEPREFIX" value="Kemet C1206C105K5RAC7800+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="0.1µ 100V">
 <spice>
@@ -22582,8 +23085,10 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="458125 - 62"/>
+<attribute name="MOUSER" value="77-VJ1206Y104KXBAT"/>
 <attribute name="SPEC" value=""/>
 <attribute name="SPICEPREFIX" value="Kemet C1206C104K1RAC7800+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C54" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="1µ 50V">
 <spice>
@@ -22592,9 +23097,11 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="CONRAD" value="458140 - 62"/>
+<attribute name="CONRAD" value="1279028 - 62"/>
+<attribute name="MOUSER" value="80-C1206C105M5RECLR"/>
 <attribute name="SPEC" value=""/>
 <attribute name="SPICEPREFIX" value="Kemet C1206C105K5RAC7800+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C56" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="0.1µ 100V">
 <spice>
@@ -22604,8 +23111,10 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="458125 - 62"/>
+<attribute name="MOUSER" value="77-VJ1206Y104KXBAT"/>
 <attribute name="SPEC" value=""/>
 <attribute name="SPICEPREFIX" value="Kemet C1206C104K1RAC7800+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-045X075" package3d_urn="urn:adsk.eagle:package:23638/1" value="330p 630V">
 <spice>
@@ -22615,7 +23124,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="450521 - 62"/>
+<attribute name="MOUSER" value="505-FKP2C003301D00KI"/>
 <attribute name="SPEC" value="Wima FKP2J003301D00HSSD"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-045X075" package3d_urn="urn:adsk.eagle:package:23638/1" value="470n 100V">
 <spice>
@@ -22625,7 +23136,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="459945 - 62"/>
+<attribute name="MOUSER" value="505-MKS2D034701E00JI"/>
 <attribute name="SPEC" value="Wima MKS2D034701E00KSSD"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="220n 63V">
 <spice>
@@ -22635,7 +23148,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235241 - 62"/>
+<attribute name="MOUSER" value="80-R82DC3220AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC3220AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="220n 63V">
 <spice>
@@ -22645,7 +23160,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235241 - 62"/>
+<attribute name="MOUSER" value="80-R82DC3220AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC3220AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="220n 63V">
 <spice>
@@ -22655,7 +23172,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235241 - 62"/>
+<attribute name="MOUSER" value="80-R82DC3220AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC3220AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="220n 63V">
 <spice>
@@ -22665,7 +23184,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235241 - 62"/>
+<attribute name="MOUSER" value="80-R82DC3220AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC3220AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="22R 1W">
 <spice>
@@ -22675,7 +23196,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621763 - 62"/>
+<attribute name="MOUSER" value="756-WRM0207HPC22RFT2"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT0220"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:26111/2" value="8R 0.4W">
 <spice>
@@ -22685,7 +23208,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621223 - 62"/>
+<attribute name="MOUSER" value="756-WRM0204HPC8R2FT3"/>
 <attribute name="SPEC" value="Viking Tech CSRV0204FTDG7R68"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:26111/2" value="8R 0.4W">
 <spice>
@@ -22695,9 +23220,11 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621223 - 62"/>
+<attribute name="MOUSER" value="756-WRM0204HPC8R2FT3"/>
 <attribute name="SPEC" value="Viking Tech CSRV0204FTDG7R68"/>
+<attribute name="STOCK" value="0"/>
 </part>
-<part name="L1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="INDUCTOR" device="12MM-SMD" package3d_urn="urn:adsk.eagle:package:8804228/2" value="22µ 2.8A">
+<part name="L1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="INDUCTOR" device="12MM-SMD" package3d_urn="urn:adsk.eagle:package:8804228/2" value="22µ 2.2A">
 <spice>
 <pinmapping spiceprefix="L">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22705,9 +23232,11 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1589286 - 62"/>
+<attribute name="MOUSER" value="710-744771220"/>
 <attribute name="SPEC" value="TRU COMPONENTS TC-PIS4720-220M203"/>
+<attribute name="STOCK" value="0"/>
 </part>
-<part name="L2" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="INDUCTOR" device="12MM-SMD" package3d_urn="urn:adsk.eagle:package:8804228/2" value="22µ 2.8A">
+<part name="L2" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="INDUCTOR" device="12MM-SMD" package3d_urn="urn:adsk.eagle:package:8804228/2" value="22µ 2.2A">
 <spice>
 <pinmapping spiceprefix="L">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22715,7 +23244,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1589286 - 62"/>
+<attribute name="MOUSER" value="710-744771220"/>
 <attribute name="SPEC" value="TRU COMPONENTS TC-PIS4720-220M203"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="AGND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+18V" device=""/>
@@ -22728,7 +23259,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="450521 - 62"/>
+<attribute name="MOUSER" value="505-FKP2C003301D00KI"/>
 <attribute name="SPEC" value="Wima FKP2J003301D00HSSD"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-045X075" package3d_urn="urn:adsk.eagle:package:23638/1" value="470n 100V">
 <spice>
@@ -22738,7 +23271,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="459945 - 62"/>
+<attribute name="MOUSER" value="505-MKS2D034701E00JI"/>
 <attribute name="SPEC" value="Wima MKS2D034701E00KSSD"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="220n 63V">
 <spice>
@@ -22748,7 +23283,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235241 - 62"/>
+<attribute name="MOUSER" value="80-R82DC3220AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC3220AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="220n 63V">
 <spice>
@@ -22758,7 +23295,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235241 - 62"/>
+<attribute name="MOUSER" value="80-R82DC3220AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC3220AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="220n 63V">
 <spice>
@@ -22768,7 +23307,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235241 - 62"/>
+<attribute name="MOUSER" value="80-R82DC3220AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC3220AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="220n 63V">
 <spice>
@@ -22778,7 +23319,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235241 - 62"/>
+<attribute name="MOUSER" value="80-R82DC3220AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC3220AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="22R 1W">
 <spice>
@@ -22788,7 +23331,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621763 - 62"/>
+<attribute name="MOUSER" value="756-WRM0207HPC22RFT2"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT0220"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:26111/2" value="8R 0.4W">
 <spice>
@@ -22798,7 +23343,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621223 - 62"/>
+<attribute name="MOUSER" value="756-WRM0204HPC8R2FT3"/>
 <attribute name="SPEC" value="Viking Tech CSRV0204FTDG7R68"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:26111/2" value="8R 0.4W">
 <spice>
@@ -22808,9 +23355,11 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621223 - 62"/>
+<attribute name="MOUSER" value="756-WRM0204HPC8R2FT3"/>
 <attribute name="SPEC" value="Viking Tech CSRV0204FTDG7R68"/>
+<attribute name="STOCK" value="0"/>
 </part>
-<part name="L3" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="INDUCTOR" device="12MM-SMD" package3d_urn="urn:adsk.eagle:package:8804228/2" value="22µ 2.8A">
+<part name="L3" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="INDUCTOR" device="12MM-SMD" package3d_urn="urn:adsk.eagle:package:8804228/2" value="22µ 2.2A">
 <spice>
 <pinmapping spiceprefix="L">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22818,9 +23367,11 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1589286 - 62"/>
+<attribute name="MOUSER" value="710-744771220"/>
 <attribute name="SPEC" value="TRU COMPONENTS TC-PIS4720-220M203"/>
+<attribute name="STOCK" value="0"/>
 </part>
-<part name="L4" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="INDUCTOR" device="12MM-SMD" package3d_urn="urn:adsk.eagle:package:8804228/2" value="22µ 2.8A">
+<part name="L4" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="INDUCTOR" device="12MM-SMD" package3d_urn="urn:adsk.eagle:package:8804228/2" value="22µ 2.2A">
 <spice>
 <pinmapping spiceprefix="L">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22828,7 +23379,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1589286 - 62"/>
+<attribute name="MOUSER" value="710-744771220"/>
 <attribute name="SPEC" value="TRU COMPONENTS TC-PIS4720-220M203"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="AGND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
@@ -22839,7 +23392,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -22849,7 +23404,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -22859,7 +23416,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -22869,7 +23428,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -22879,7 +23440,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -22889,7 +23452,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -22899,7 +23464,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="5.6k">
 <spice>
@@ -22909,7 +23476,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621942 - AN"/>
+<attribute name="MOUSER" value="71-SMM02070C5601FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT5601"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="5.6k">
 <spice>
@@ -22919,7 +23488,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621942 - AN"/>
+<attribute name="MOUSER" value="71-SMM02070C5601FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT5601"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="5.6k">
 <spice>
@@ -22929,7 +23500,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621942 - AN"/>
+<attribute name="MOUSER" value="71-SMM02070C5601FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT5601"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="5.6k">
 <spice>
@@ -22939,7 +23512,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621942 - AN"/>
+<attribute name="MOUSER" value="71-SMM02070C5601FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT5601"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="5.6k">
 <spice>
@@ -22949,7 +23524,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621942 - AN"/>
+<attribute name="MOUSER" value="71-SMM02070C5601FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT5601"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="5.6k">
 <spice>
@@ -22959,7 +23536,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621942 - AN"/>
+<attribute name="MOUSER" value="71-SMM02070C5601FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT5601"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="5.6k">
 <spice>
@@ -22969,7 +23548,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621942 - AN"/>
+<attribute name="MOUSER" value="71-SMM02070C5601FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT5601"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:26111/2" value="100k">
 <spice>
@@ -22979,7 +23560,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621537 - 62"/>
+<attribute name="MOUSER" value="756-WRM024HPC100KFT3"/>
 <attribute name="SPEC" value="Viking Tech CSRV0204FTDG1003"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:26111/2" value="100k">
 <spice>
@@ -22989,7 +23572,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621537 - 62"/>
+<attribute name="MOUSER" value="756-WRM024HPC100KFT3"/>
 <attribute name="SPEC" value="Viking Tech CSRV0204FTDG1003"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:26111/2" value="100k">
 <spice>
@@ -22999,7 +23584,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621537 - 62"/>
+<attribute name="MOUSER" value="756-WRM024HPC100KFT3"/>
 <attribute name="SPEC" value="Viking Tech CSRV0204FTDG1003"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:26111/2" value="100k">
 <spice>
@@ -23009,7 +23596,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621537 - 62"/>
+<attribute name="MOUSER" value="756-WRM024HPC100KFT3"/>
 <attribute name="SPEC" value="Viking Tech CSRV0204FTDG1003"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:26111/2" value="100k">
 <spice>
@@ -23019,7 +23608,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621537 - 62"/>
+<attribute name="MOUSER" value="756-WRM024HPC100KFT3"/>
 <attribute name="SPEC" value="Viking Tech CSRV0204FTDG1003"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -23029,7 +23620,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -23039,7 +23632,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -23049,7 +23644,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -23059,7 +23656,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-050X075" package3d_urn="urn:adsk.eagle:package:23665/1" value="1µ">
 <spice>
@@ -23069,7 +23668,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235274 - 62"/>
+<attribute name="MOUSER" value="80-R82DC4100AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC4100AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-050X075" package3d_urn="urn:adsk.eagle:package:23665/1" value="1µ">
 <spice>
@@ -23079,7 +23680,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235274 - 62"/>
+<attribute name="MOUSER" value="80-R82DC4100AA60K"/>
 <attribute name="SPEC" value="Kemet R82DC4100AA60K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="1n">
 <spice>
@@ -23089,7 +23692,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235242 - 62"/>
+<attribute name="MOUSER" value="80-R82EC1100AA50K"/>
 <attribute name="SPEC" value="Kemet R82EC1100AA50K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="1n">
 <spice>
@@ -23099,7 +23704,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1235242 - 62"/>
+<attribute name="MOUSER" value="80-R82EC1100AA50K"/>
 <attribute name="SPEC" value="Kemet R82EC1100AA50K+"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="075-032X103" package3d_urn="urn:adsk.eagle:package:23646/1" value="4.7n">
 <spice>
@@ -23109,7 +23716,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="459871 - 62"/>
+<attribute name="MOUSER" value="594-222237188472"/>
 <attribute name="SPEC" value="Wima FKS3D014702B00KSSD"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="C59" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-045X075" package3d_urn="urn:adsk.eagle:package:23638/1" value="680p">
 <spice>
@@ -23119,10 +23728,20 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="450548 - 62"/>
+<attribute name="MOUSER" value="505-FKP2J006801D00KS"/>
 <attribute name="SPEC" value="Wima FKP2J006801D00HSSD"/>
+<attribute name="STOCK" value="0"/>
 </part>
-<part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
-<part name="JP3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
+<part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1">
+<attribute name="CONRAD" value="1560728 - 62"/>
+<attribute name="MOUSER" value="200-TSW10223TS"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="JP3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1">
+<attribute name="CONRAD" value="1560728 - 62"/>
+<attribute name="MOUSER" value="200-TSW10223TS"/>
+<attribute name="STOCK" value="2"/>
+</part>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
 <pinmapping spiceprefix="R">
@@ -23131,7 +23750,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -23141,7 +23762,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -23151,7 +23774,9 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="MELF0207W" package3d_urn="urn:adsk.eagle:package:26112/2" value="7.68k">
 <spice>
@@ -23161,22 +23786,42 @@ Based on the following sources:
 </pinmapping>
 </spice>
 <attribute name="CONRAD" value="1621954 - 62"/>
+<attribute name="MOUSER" value="71-SMM02070C7501FBP0"/>
 <attribute name="SPEC" value="Viking Tech CSRV0207FTDT7681"/>
+<attribute name="STOCK" value="0"/>
 </part>
-<part name="D8" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148"/>
-<part name="J5" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="TERMINAL-BLOCK-2" device="PLUG-IN" package3d_urn="urn:adsk.eagle:package:6658311/2"/>
-<part name="J6" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="TERMINAL-BLOCK-2" device="PLUG-IN" package3d_urn="urn:adsk.eagle:package:6658311/2" value="TERMINAL-BLOCK-2PLUG-IN"/>
+<part name="D8" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148">
+<attribute name="CONRAD" value="1582023 - 62"/>
+<attribute name="MOUSER" value="512-1N4148WS"/>
+<attribute name="STOCK" value="4"/>
+</part>
+<part name="J5" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="TERMINAL-BLOCK-2" device="PLUG-IN" package3d_urn="urn:adsk.eagle:package:6658311/2">
+<attribute name="CONRAD" value="1327203 - 62"/>
+<attribute name="MOUSER" value="651-1954919"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="J6" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="TERMINAL-BLOCK-2" device="PLUG-IN" package3d_urn="urn:adsk.eagle:package:6658311/2" value="TERMINAL-BLOCK-2PLUG-IN">
+<attribute name="CONRAD" value="1327203 - 62"/>
+<attribute name="MOUSER" value="651-1954919"/>
+<attribute name="STOCK" value="2"/>
+</part>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC817-16" value="BC817">
 <attribute name="CONRAD" value="1112873 - 62"/>
+<attribute name="MOUSER" value="863-BC817-16LT3G"/>
+<attribute name="STOCK" value="6"/>
 </part>
 <part name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC817-16" value="BC817">
 <attribute name="CONRAD" value="1112873 - 62"/>
+<attribute name="MOUSER" value="863-BC817-16LT3G"/>
+<attribute name="STOCK" value="6"/>
 </part>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
-<part name="JP1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="GND_CONNECT" device="" package3d_urn="urn:adsk.eagle:package:8798217/1"/>
+<part name="JP1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="GND_CONNECT" device="" package3d_urn="urn:adsk.eagle:package:8798217/1">
+<attribute name="STOCK" value="1"/>
+</part>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -23188,7 +23833,13 @@ Based on the following sources:
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
-<part name="IC6" library="atmel" library_urn="urn:adsk.eagle:library:105" deviceset="MEGA8" device="-AI" package3d_urn="urn:adsk.eagle:package:4313/2"/>
+<part name="IC6" library="atmel" library_urn="urn:adsk.eagle:library:105" deviceset="MEGA8" device="-AI" package3d_urn="urn:adsk.eagle:package:4313/2">
+<attribute name="CONRAD" value="155196 - 62"/>
+<attribute name="MOUSER" value="556-ATMEGA328-AU"/>
+<attribute name="OC_FARNELL" value=""/>
+<attribute name="OC_NEWARK" value=""/>
+<attribute name="STOCK" value="1"/>
+</part>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="+3V315" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -23216,70 +23867,252 @@ Based on the following sources:
 <part name="+3V310" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="+3V37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
 <part name="+3V34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585269 - 62"/>
+<attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
+<attribute name="STOCK" value="5"/>
+</part>
 <part name="+3V316" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="IC7" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="D" package3d_urn="urn:adsk.eagle:package:1010/2" value="74HCT04"/>
+<part name="IC7" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="D" package3d_urn="urn:adsk.eagle:package:1010/2" value="74HCT04">
+<attribute name="CONRAD" value="144614 - 62"/>
+<attribute name="MOUSER" value="771-74HCT04D"/>
+<attribute name="STOCK" value="1"/>
+</part>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1" value="7805"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1" value="7805">
+<attribute name="CONRAD" value="179205 - 62"/>
+<attribute name="MOUSER" value="511-L7805CV"/>
+<attribute name="STOCK" value="1"/>
+</part>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="4.7µ"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="4.7µ 10V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1280266 - 62"/>
+<attribute name="MOUSER" value="710-865230642008"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
-<part name="C63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="J8" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="JST-XH4" device="" package3d_urn="urn:adsk.eagle:package:8804333/6" value="DISPLAY"/>
-<part name="J7" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="JST-XH4" device="" package3d_urn="urn:adsk.eagle:package:8804333/6" value="ENCODER"/>
+<part name="C63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="457901 - 62"/>
+<attribute name="MOUSER" value="710-885012206071"/>
+<attribute name="STOCK" value="24"/>
+</part>
+<part name="J8" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="JST-XH4" device="" package3d_urn="urn:adsk.eagle:package:8804333/6" value="DISPLAY">
+<attribute name="CONRAD" value="741206 - 62"/>
+<attribute name="MOUSER" value="538-35312-0260"/>
+<attribute name="STOCK" value="1"/>
+</part>
+<part name="J7" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="JST-XH4" device="" package3d_urn="urn:adsk.eagle:package:8804333/6" value="ENCODER">
+<attribute name="CONRAD" value="741206 - 62"/>
+<attribute name="MOUSER" value="538-35312-0260"/>
+<attribute name="STOCK" value="1"/>
+</part>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="KK2" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HEATSINK-SK95" device="" package3d_urn="urn:adsk.eagle:package:8801920/2"/>
-<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2" value="SERIAL"/>
+<part name="KK2" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HEATSINK-SK95" device="" package3d_urn="urn:adsk.eagle:package:8801920/2">
+<attribute name="CONRAD" value="188158 - 62"/>
+<attribute name="MOUSER" value="490-HSE-B2111-038"/>
+<attribute name="STOCK" value="1"/>
+</part>
+<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2" value="SERIAL">
+<attribute name="CONRAD" value="1560647 - 62"/>
+<attribute name="MOUSER" value="649-68001-204HLF"/>
+<attribute name="STOCK" value="0"/>
+</part>
 <part name="SUPPLY35" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2" value="EXPANSION"/>
+<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2" value="EXPANSION">
+<attribute name="CONRAD" value="1390113 - 62"/>
+<attribute name="MOUSER" value="710-61300611121"/>
+<attribute name="STOCK" value="0"/>
+</part>
 <part name="SUPPLY36" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
-<part name="J9" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="USB" device="" package3d_urn="urn:adsk.eagle:package:6728531/2"/>
+<part name="J9" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="USB" device="" package3d_urn="urn:adsk.eagle:package:6728531/2">
+<attribute name="CONRAD" value="1311468 - 62"/>
+<attribute name="MOUSER" value="523-GSB19110KEU"/>
+<attribute name="STOCK" value="0"/>
+</part>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="PE3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="PE" device=""/>
-<part name="U$1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HEATSINK-PENTIUM" device="" package3d_urn="urn:adsk.eagle:package:8803895/4"/>
-<part name="J10" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="JST-XH2" device="" package3d_urn="urn:adsk.eagle:package:8813493/2" value="JST-XH2"/>
+<part name="U$1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HEATSINK-PENTIUM" device="" package3d_urn="urn:adsk.eagle:package:8803895/4">
+<attribute name="STOCK" value="1"/>
+</part>
+<part name="J10" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="JST-XH2" device="" package3d_urn="urn:adsk.eagle:package:8813493/2" value="JST-XH2">
+<attribute name="CONRAD" value="741161 - 62"/>
+<attribute name="MOUSER" value="575-3191010200006000"/>
+<attribute name="STOCK" value="2"/>
+</part>
 <part name="T3" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC817-16" value="BC817">
 <attribute name="CONRAD" value="1112873 - 62"/>
+<attribute name="MOUSER" value="863-BC817-16LT3G"/>
+<attribute name="STOCK" value="6"/>
 </part>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="D10" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148"/>
+<part name="D10" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148">
+<attribute name="CONRAD" value="1582023 - 62"/>
+<attribute name="MOUSER" value="512-1N4148WS"/>
+<attribute name="STOCK" value="4"/>
+</part>
 <part name="SUPPLY38" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="K1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="RELAY-F40.52" device="" package3d_urn="urn:adsk.eagle:package:8807752/2" value="12V 8A">
 <attribute name="CONRAD" value="629528 - 62"/>
+<attribute name="MOUSER" value="655-RT424012"/>
 <attribute name="SPEC" value="Hongfa HF115F/012-2ZS4A"/>
+<attribute name="STOCK" value="0"/>
 </part>
 <part name="K2" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="RELAY-F40.52" device="" package3d_urn="urn:adsk.eagle:package:8807752/2" value="12V 8A">
 <attribute name="CONRAD" value="629528 - 62"/>
+<attribute name="MOUSER" value="655-RT424012"/>
 <attribute name="SPEC" value="Hongfa HF115F/012-2ZS4A"/>
+<attribute name="STOCK" value="0"/>
 </part>
-<part name="X3" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="CONN-IDC-6" device="" package3d_urn="urn:adsk.eagle:package:8808929/2" value="ICSP"/>
+<part name="X3" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="CONN-IDC-6" device="" package3d_urn="urn:adsk.eagle:package:8808929/2" value="ICSP">
+<attribute name="CONRAD" value="1560967 - 62"/>
+<attribute name="MOUSER" value="200-TSW10307TD"/>
+<attribute name="STOCK" value="1"/>
+</part>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="X2" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="JST-XH2" device="" package3d_urn="urn:adsk.eagle:package:8813493/2"/>
+<part name="X2" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="JST-XH2" device="" package3d_urn="urn:adsk.eagle:package:8813493/2">
+<attribute name="CONRAD" value="741161 - 62"/>
+<attribute name="MOUSER" value="575-3191010200006000"/>
+<attribute name="STOCK" value="2"/>
+</part>
 <part name="SUPPLY39" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4k7"/>
-<part name="R52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4k7"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4k7">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585263 - 62"/>
+<attribute name="MOUSER" value="603-AC0603JR-134K7L"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="R52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4k7">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="CONRAD" value="1585263 - 62"/>
+<attribute name="MOUSER" value="603-AC0603JR-134K7L"/>
+<attribute name="STOCK" value="2"/>
+</part>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="T4" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC817-16" value="BC817">
 <attribute name="CONRAD" value="1112873 - 62"/>
+<attribute name="MOUSER" value="863-BC817-16LT3G"/>
+<attribute name="STOCK" value="6"/>
 </part>
-<part name="D9" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148"/>
+<part name="D9" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148">
+<attribute name="CONRAD" value="1582023 - 62"/>
+<attribute name="MOUSER" value="512-1N4148WS"/>
+<attribute name="STOCK" value="4"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -23392,27 +24225,43 @@ Mounting</text>
 <text x="447.04" y="220.98" size="2.54" layer="97" align="center">I2C-Pullups</text>
 <text x="365.76" y="50.8" size="1.778" layer="97" align="center">DC COUPLE L</text>
 <text x="365.76" y="124.46" size="1.778" layer="97" align="center">DC COUPLE R</text>
+<text x="132.08" y="154.94" size="1.778" layer="97">Input: 160VA
+Load: 8 Ohms
+Imax = sqrt(160W / 8Ohm) = 4.5A
+Vripple =(Imax * (1 * 100Hz)) / 20mF = 2,25V</text>
 </plain>
 <instances>
-<instance part="U8" gate="G1" x="236.22" y="17.78" smashed="yes"/>
-<instance part="U8" gate="R1" x="287.02" y="106.68" smashed="yes" rot="MR180">
-<attribute name="NAME" x="287.0581" y="109.4232" size="1.778" layer="95" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="287.0581" y="102.6668" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="U8" gate="G1" x="236.22" y="17.78" smashed="yes">
+<attribute name="CONRAD" x="236.22" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="236.22" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="236.22" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U8" gate="R2" x="287.02" y="96.52" smashed="yes">
-<attribute name="NAME" x="287.0581" y="100.5332" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="287.0581" y="93.7768" size="1.778" layer="96" align="top-center"/>
+<instance part="U8" gate="R1" x="287.02" y="96.52" smashed="yes" rot="MR0">
+<attribute name="NAME" x="286.9819" y="93.7768" size="1.778" layer="95" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="286.9819" y="100.5332" size="1.778" layer="96" rot="MR180" align="top-center"/>
 </instance>
-<instance part="U7" gate="G1" x="236.22" y="40.64" smashed="yes"/>
-<instance part="U7" gate="R1" x="287.02" y="53.34" smashed="yes" rot="MR180">
-<attribute name="NAME" x="282.2321" y="55.8292" size="1.778" layer="95" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="287.0581" y="51.6128" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="U8" gate="R2" x="287.02" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="286.9819" y="102.6668" size="1.778" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="286.9819" y="109.4232" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
-<instance part="U7" gate="R2" x="287.02" y="43.18" smashed="yes">
-<attribute name="NAME" x="281.9781" y="39.5732" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="287.0581" y="44.7548" size="1.778" layer="96" rot="R180" align="top-center"/>
+<instance part="U7" gate="G1" x="236.22" y="40.64" smashed="yes">
+<attribute name="CONRAD" x="236.22" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="236.22" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="236.22" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U5" gate="G1" x="236.22" y="63.5" smashed="yes"/>
+<instance part="U7" gate="R1" x="287.02" y="43.18" smashed="yes" rot="MR0">
+<attribute name="NAME" x="291.8079" y="40.6908" size="1.778" layer="95" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="286.9819" y="44.9072" size="1.778" layer="96" rot="MR180" align="top-center"/>
+</instance>
+<instance part="U7" gate="R2" x="287.02" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="292.0619" y="56.9468" size="1.778" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="286.9819" y="51.7652" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="U5" gate="G1" x="236.22" y="63.5" smashed="yes">
+<attribute name="CONRAD" x="236.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="236.22" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="236.22" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U5" gate="R1" x="398.78" y="109.22" smashed="yes">
 <attribute name="NAME" x="398.8181" y="110.6932" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="401.3581" y="106.4768" size="1.778" layer="96" align="top-center"/>
@@ -23421,7 +24270,11 @@ Mounting</text>
 <attribute name="NAME" x="398.8181" y="37.0332" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="401.3581" y="32.8168" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U4" gate="G1" x="236.22" y="86.36" smashed="yes"/>
+<instance part="U4" gate="G1" x="236.22" y="86.36" smashed="yes">
+<attribute name="CONRAD" x="236.22" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="236.22" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="236.22" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U4" gate="R1" x="398.78" y="121.92" smashed="yes">
 <attribute name="NAME" x="398.8181" y="123.3932" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="401.3581" y="119.1768" size="1.778" layer="96" align="top-center"/>
@@ -23430,7 +24283,11 @@ Mounting</text>
 <attribute name="NAME" x="398.8181" y="49.7332" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="401.3581" y="45.5168" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U3" gate="G1" x="236.22" y="109.22" smashed="yes"/>
+<instance part="U3" gate="G1" x="236.22" y="109.22" smashed="yes">
+<attribute name="CONRAD" x="236.22" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="236.22" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="236.22" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U3" gate="R1" x="398.78" y="139.7" smashed="yes">
 <attribute name="NAME" x="398.8181" y="141.1732" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="401.3581" y="136.9568" size="1.778" layer="96" align="top-center"/>
@@ -23439,7 +24296,11 @@ Mounting</text>
 <attribute name="NAME" x="398.8181" y="68.3768" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="401.3581" y="63.2968" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U2" gate="G1" x="236.22" y="132.08" smashed="yes"/>
+<instance part="U2" gate="G1" x="236.22" y="132.08" smashed="yes">
+<attribute name="CONRAD" x="236.22" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="236.22" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="236.22" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U2" gate="R1" x="469.9" y="96.52" smashed="yes" rot="MR180">
 <attribute name="NAME" x="475.0181" y="100.1268" size="1.778" layer="95" rot="MR0" align="top-center"/>
 <attribute name="VALUE" x="467.3981" y="95.0468" size="1.778" layer="96" rot="MR0" align="top-center"/>
@@ -23453,12 +24314,16 @@ Mounting</text>
 <attribute name="VALUE" x="411.5562" y="114.681" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="411.48" y="116.84" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="SPEC" x="411.48" y="116.84" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="411.48" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="411.48" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C25" gate="G$1" x="414.02" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="411.4038" y="96.901" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="414.0962" y="96.901" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="414.02" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="SPEC" x="414.02" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="414.02" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="414.02" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND6" gate="VR1" x="375.92" y="93.98" smashed="yes">
 <attribute name="VALUE" x="375.92" y="93.218" size="1.778" layer="96" align="top-center"/>
@@ -23468,18 +24333,24 @@ Mounting</text>
 <attribute name="VALUE" x="414.02" y="120.777" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="414.02" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="414.02" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="414.02" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="414.02" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="414.02" y="139.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="414.02" y="140.843" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="414.02" y="138.557" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="414.02" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="414.02" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="414.02" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="414.02" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="429.26" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="428.117" y="129.54" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="430.403" y="129.54" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="429.26" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="429.26" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="429.26" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="429.26" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND17" gate="VR1" x="375.92" y="17.78" smashed="yes">
 <attribute name="VALUE" x="375.92" y="17.018" size="1.778" layer="96" align="top-center"/>
@@ -23487,6 +24358,8 @@ Mounting</text>
 <instance part="IC5" gate="A" x="439.42" y="96.52" smashed="yes" rot="MR180">
 <attribute name="NAME" x="441.96" y="93.345" size="1.778" layer="95" rot="MR180"/>
 <attribute name="CONRAD" x="439.42" y="96.52" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MOUSER" x="439.42" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="439.42" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC5" gate="B" x="436.88" y="20.32" smashed="yes" rot="MR180">
 <attribute name="NAME" x="439.42" y="17.145" size="1.778" layer="95" rot="MR180"/>
@@ -23500,83 +24373,128 @@ Mounting</text>
 <attribute name="VALUE" x="429.26" y="88.138" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="D2" gate="G$1" x="30.48" y="193.04" smashed="yes">
-<attribute name="NAME" x="30.48" y="194.564" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="33.02" y="190.7286" size="1.778" layer="96"/>
+<attribute name="NAME" x="29.083" y="194.564" size="1.778" layer="95"/>
+<attribute name="VALUE" x="29.083" y="191.516" size="1.778" layer="96" align="top-left"/>
 <attribute name="MOUSER" x="30.48" y="193.04" size="1.778" layer="96" display="off"/>
 <attribute name="SPEC" x="30.48" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="CONRAD" x="30.48" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="30.48" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D6" gate="G$1" x="30.48" y="177.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.48" y="179.324" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="27.94" y="180.1114" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="29.083" y="179.324" size="1.778" layer="95"/>
+<attribute name="VALUE" x="29.083" y="176.276" size="1.778" layer="96" align="top-left"/>
 <attribute name="MOUSER" x="30.48" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="30.48" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="CONRAD" x="30.48" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="30.48" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C3" gate="G$1" x="88.9" y="190.5" smashed="yes">
-<attribute name="NAME" x="86.868" y="190.2968" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="90.932" y="187.7568" size="1.778" layer="96" rot="R180" align="top-right"/>
+<instance part="C3" gate="G$1" x="91.44" y="190.5" smashed="yes">
+<attribute name="NAME" x="89.408" y="190.7032" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="89.408" y="187.7568" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="91.44" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="91.44" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="91.44" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C15" gate="G$1" x="88.9" y="182.88" smashed="yes">
-<attribute name="NAME" x="86.868" y="182.6768" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="90.932" y="180.1368" size="1.778" layer="96" rot="R180" align="top-right"/>
+<instance part="C15" gate="G$1" x="91.44" y="182.88" smashed="yes">
+<attribute name="NAME" x="89.408" y="183.0832" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="89.408" y="180.1368" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="91.44" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="91.44" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="91.44" y="182.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C14" gate="G$1" x="58.42" y="182.88" smashed="yes">
-<attribute name="NAME" x="56.388" y="180.1368" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="60.452" y="180.1368" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="NAME" x="56.388" y="183.0832" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="56.388" y="180.1368" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="58.42" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="58.42" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="58.42" y="182.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="58.42" y="190.5" smashed="yes">
-<attribute name="NAME" x="56.388" y="187.7568" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="60.452" y="187.7568" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="NAME" x="56.388" y="190.7032" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="56.388" y="187.7568" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="58.42" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="58.42" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="58.42" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="43.18" y="182.88" smashed="yes">
-<attribute name="NAME" x="41.529" y="180.213" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="44.831" y="180.213" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="NAME" x="41.529" y="180.086" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="41.529" y="183.261" size="1.778" layer="96" rot="R180" align="top-left"/>
+<attribute name="CONRAD" x="43.18" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="43.18" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="43.18" y="182.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="43.18" y="190.5" smashed="yes">
-<attribute name="NAME" x="41.529" y="187.833" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="44.831" y="187.833" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="NAME" x="41.529" y="190.754" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="41.529" y="187.833" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="43.18" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="43.18" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="43.18" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D7" gate="G$1" x="76.2" y="172.72" smashed="yes">
 <attribute name="NAME" x="78.74" y="173.2026" size="1.778" layer="95"/>
 <attribute name="MOUSER" x="76.2" y="172.72" size="1.778" layer="96" display="off"/>
 <attribute name="SPEC" x="76.2" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="CONRAD" x="76.2" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="76.2" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="76.2" y="198.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="73.66" y="197.6374" size="1.778" layer="95" rot="R180"/>
 <attribute name="MOUSER" x="76.2" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="76.2" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="CONRAD" x="76.2" y="198.12" size="1.778" layer="96"/>
+<attribute name="STOCK" x="76.2" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC3" gate="1" x="76.2" y="177.8" smashed="yes">
 <attribute name="NAME" x="81.28" y="173.99" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.216" y="183.388" size="1.778" layer="96"/>
+<attribute name="CONRAD" x="76.2" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="76.2" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="76.2" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC1" gate="1" x="76.2" y="193.04" smashed="yes">
 <attribute name="NAME" x="81.28" y="195.58" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.216" y="185.674" size="1.778" layer="96"/>
+<attribute name="CONRAD" x="76.2" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="76.2" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="76.2" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C21" gate="G$1" x="444.5" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="444.4238" y="104.521" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="447.1162" y="104.521" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="444.5" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="444.5" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="444.5" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="20.32" y="182.88" smashed="yes">
 <attribute name="VALUE" x="17.78" y="180.34" size="1.778" layer="96"/>
 </instance>
-<instance part="C16" gate="G$1" x="101.6" y="182.88" smashed="yes">
-<attribute name="NAME" x="99.949" y="182.753" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="103.251" y="182.753" size="1.778" layer="96" rot="R180" align="top-right"/>
+<instance part="C16" gate="G$1" x="104.14" y="182.88" smashed="yes">
+<attribute name="NAME" x="102.489" y="183.134" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="102.489" y="180.213" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="104.14" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="104.14" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="104.14" y="182.88" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="101.6" y="190.5" smashed="yes">
-<attribute name="NAME" x="99.949" y="190.373" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="103.251" y="190.373" size="1.778" layer="96" rot="R180" align="top-right"/>
+<instance part="C4" gate="G$1" x="104.14" y="190.5" smashed="yes">
+<attribute name="NAME" x="102.489" y="190.754" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="102.489" y="187.833" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="104.14" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="104.14" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="104.14" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D5" gate="G$1" x="111.76" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="110.363" y="180.34" size="1.778" layer="95" align="center-right"/>
 <attribute name="MOUSER" x="111.76" y="180.34" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="111.76" y="180.34" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CONRAD" x="111.76" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="111.76" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D3" gate="G$1" x="111.76" y="190.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="111.125" y="188.214" size="1.778" layer="95" align="center-right"/>
+<attribute name="NAME" x="110.363" y="190.5" size="1.778" layer="95" align="center-right"/>
 <attribute name="MOUSER" x="111.76" y="190.5" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="111.76" y="190.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CONRAD" x="111.76" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="111.76" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P-3" gate="1" x="116.84" y="167.64" smashed="yes">
 <attribute name="VALUE" x="116.84" y="166.116" size="1.778" layer="96" align="top-center"/>
@@ -23587,10 +24505,25 @@ Mounting</text>
 <instance part="R3" gate="G$1" x="116.84" y="185.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="115.697" y="185.42" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="117.983" y="185.42" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="116.84" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="116.84" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="116.84" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J1" gate="G$1" x="10.16" y="193.04" smashed="yes"/>
-<instance part="J2" gate="G$1" x="10.16" y="185.42" smashed="yes"/>
-<instance part="J3" gate="G$1" x="10.16" y="177.8" smashed="yes"/>
+<instance part="J1" gate="G$1" x="10.16" y="193.04" smashed="yes">
+<attribute name="CONRAD" x="10.16" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="10.16" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="10.16" y="193.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J2" gate="G$1" x="10.16" y="185.42" smashed="yes">
+<attribute name="CONRAD" x="10.16" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="10.16" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="10.16" y="185.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J3" gate="G$1" x="10.16" y="177.8" smashed="yes">
+<attribute name="CONRAD" x="10.16" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="10.16" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="10.16" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+9" gate="1" x="439.42" y="111.76" smashed="yes">
 <attribute name="VALUE" x="439.42" y="113.284" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -23603,6 +24536,9 @@ Mounting</text>
 <instance part="C34" gate="G$1" x="444.5" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="444.4238" y="84.201" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="447.1162" y="84.201" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="444.5" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="444.5" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="444.5" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND12" gate="VR1" x="452.12" y="81.28" smashed="yes">
 <attribute name="VALUE" x="452.12" y="80.518" size="1.778" layer="96" align="top-center"/>
@@ -23616,34 +24552,58 @@ Mounting</text>
 <instance part="R48" gate="G$1" x="548.64" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="547.497" y="180.34" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="549.783" y="180.34" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="548.64" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="548.64" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="548.64" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C66" gate="G$1" x="541.02" y="187.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="540.9438" y="185.801" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="543.6362" y="185.801" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="541.02" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="541.02" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="541.02" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R51" gate="G$1" x="553.72" y="165.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="552.577" y="165.1" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="554.863" y="165.1" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="553.72" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="553.72" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="553.72" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R49" gate="G$1" x="561.34" y="172.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="561.34" y="173.863" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="561.34" y="171.577" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="561.34" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="561.34" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="561.34" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C67" gate="G$1" x="579.12" y="172.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="577.088" y="172.5168" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="578.612" y="169.9768" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="579.12" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="579.12" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="579.12" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R50" gate="G$1" x="586.74" y="172.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="585.597" y="172.72" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="587.883" y="172.72" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="586.74" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="586.74" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="586.74" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R46" gate="G$1" x="591.82" y="185.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="591.82" y="186.563" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="591.82" y="184.277" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="591.82" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="591.82" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="591.82" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="VR1" gate="R?" x="589.28" y="203.2" smashed="yes">
 <attribute name="NAME" x="587.756" y="205.74" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="590.804" y="205.74" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="CONRAD" x="589.28" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="589.28" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="589.28" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V321" gate="G$1" x="589.28" y="215.9" smashed="yes">
 <attribute name="VALUE" x="589.28" y="216.154" size="1.778" layer="96" align="bottom-center"/>
@@ -23651,14 +24611,23 @@ Mounting</text>
 <instance part="R45" gate="G$1" x="619.76" y="187.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="624.84" y="189.103" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="619.76" y="186.817" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="619.76" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="619.76" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="619.76" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R43" gate="G$1" x="632.46" y="203.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="631.317" y="203.2" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="633.603" y="203.2" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="632.46" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="632.46" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="632.46" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC8" gate="A" x="523.24" y="200.66" smashed="yes">
 <attribute name="NAME" x="525.78" y="203.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="525.78" y="195.58" size="1.778" layer="96"/>
+<attribute name="CONRAD" x="523.24" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="523.24" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="523.24" y="200.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC8" gate="B" x="523.24" y="175.26" smashed="yes">
 <attribute name="NAME" x="525.78" y="178.435" size="1.778" layer="95"/>
@@ -23668,6 +24637,9 @@ Mounting</text>
 <instance part="IC9" gate="A" x="561.34" y="185.42" smashed="yes">
 <attribute name="NAME" x="563.88" y="188.595" size="1.778" layer="95"/>
 <attribute name="VALUE" x="563.88" y="180.34" size="1.778" layer="96"/>
+<attribute name="CONRAD" x="561.34" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="561.34" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="561.34" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC9" gate="B" x="604.52" y="187.96" smashed="yes">
 <attribute name="NAME" x="607.06" y="191.135" size="1.778" layer="95"/>
@@ -23677,10 +24649,16 @@ Mounting</text>
 <instance part="R44" gate="G$1" x="535.94" y="195.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="534.797" y="195.58" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="537.083" y="195.58" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="535.94" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="535.94" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="535.94" y="195.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R47" gate="G$1" x="535.94" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="534.797" y="180.34" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="537.083" y="180.34" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="535.94" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="535.94" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="535.94" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V322" gate="G$1" x="604.52" y="203.2" smashed="yes">
 <attribute name="VALUE" x="604.52" y="203.454" size="1.778" layer="96" align="bottom-center"/>
@@ -23688,6 +24666,9 @@ Mounting</text>
 <instance part="C65" gate="G$1" x="609.6" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="609.5238" y="195.961" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="612.2162" y="195.961" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="609.6" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="609.6" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="609.6" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V320" gate="G$1" x="523.24" y="215.9" smashed="yes">
 <attribute name="VALUE" x="523.24" y="216.154" size="1.778" layer="96" align="bottom-center"/>
@@ -23695,19 +24676,31 @@ Mounting</text>
 <instance part="C64" gate="G$1" x="528.32" y="210.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="528.2438" y="208.661" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="530.9362" y="208.661" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="528.32" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="528.32" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="528.32" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X1" gate="A" x="274.32" y="101.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="272.542" y="101.6" size="1.778" layer="95" rot="MR90" align="top-center"/>
 <attribute name="VALUE" x="271.78" y="96.52" size="1.778" layer="96" rot="MR0"/>
+<attribute name="CONRAD" x="274.32" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="274.32" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="274.32" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X1" gate="B" x="274.32" y="48.26" smashed="yes" rot="MR0">
 <attribute name="NAME" x="272.542" y="48.26" size="1.778" layer="95" rot="MR90" align="top-center"/>
 <attribute name="VALUE" x="271.78" y="43.18" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="IC4" gate="P" x="345.44" y="109.22" smashed="yes"/>
+<instance part="IC4" gate="P" x="345.44" y="109.22" smashed="yes">
+<attribute name="MOUSER" x="345.44" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="345.44" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C18" gate="G$1" x="350.52" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="350.4438" y="117.221" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="353.1362" y="117.221" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="350.52" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="350.52" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="350.52" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+8" gate="1" x="345.44" y="124.46" smashed="yes">
 <attribute name="VALUE" x="345.44" y="125.984" size="1.778" layer="96" align="bottom-center"/>
@@ -23718,16 +24711,15 @@ Mounting</text>
 <instance part="C24" gate="G$1" x="350.52" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="350.4438" y="96.901" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="353.1362" y="96.901" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="350.52" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="350.52" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="350.52" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND5" gate="VR1" x="358.14" y="93.98" smashed="yes">
 <attribute name="VALUE" x="355.6" y="91.44" size="1.778" layer="96"/>
 </instance>
 <instance part="AGND2" gate="VR1" x="358.14" y="114.3" smashed="yes">
 <attribute name="VALUE" x="355.6" y="111.76" size="1.778" layer="96"/>
-</instance>
-<instance part="IC4" gate="A" x="345.44" y="109.22" smashed="yes">
-<attribute name="NAME" x="347.98" y="104.775" size="1.778" layer="95"/>
-<attribute name="CONRAD" x="345.44" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC4" gate="B" x="345.44" y="35.56" smashed="yes">
 <attribute name="NAME" x="347.98" y="38.735" size="1.778" layer="95"/>
@@ -23744,22 +24736,31 @@ Mounting</text>
 <attribute name="VALUE" x="191.135" y="190.881" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="198.12" y="190.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPEC" x="198.12" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="198.12" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="198.12" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D4" gate="G$1" x="142.24" y="195.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="140.843" y="198.3232" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="140.843" y="192.8368" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="142.24" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="142.24" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="142.24" y="195.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="B1" gate="G$1" x="172.72" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="170.18" y="193.04" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="176.53" y="193.04" size="1.778" layer="96" rot="R90"/>
 <attribute name="CONRAD" x="172.72" y="190.5" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="172.72" y="190.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="172.72" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="172.72" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="R1" x="185.42" y="187.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="184.277" y="187.96" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="186.563" y="187.96" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="185.42" y="187.96" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="SPEC" x="185.42" y="187.96" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="185.42" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="185.42" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+6" gate="1" x="20.32" y="200.66" smashed="yes">
 <attribute name="VALUE" x="20.32" y="201.041" size="1.778" layer="96" align="bottom-center"/>
@@ -23784,34 +24785,50 @@ Mounting</text>
 <attribute name="VALUE" x="199.263" y="185.293" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="205.74" y="190.5" size="1.778" layer="96" display="off"/>
 <attribute name="SPEC" x="205.74" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="205.74" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="205.74" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="H2" gate="G$1" x="685.8" y="193.04" smashed="yes">
 <attribute name="NAME" x="688.594" y="193.6242" size="1.778" layer="95"/>
 <attribute name="VALUE" x="688.594" y="190.5762" size="1.778" layer="96"/>
+<attribute name="STOCK" x="685.8" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="H4" gate="G$1" x="685.8" y="185.42" smashed="yes">
 <attribute name="NAME" x="688.594" y="186.0042" size="1.778" layer="95"/>
 <attribute name="VALUE" x="688.594" y="182.9562" size="1.778" layer="96"/>
+<attribute name="STOCK" x="685.8" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="H1" gate="G$1" x="675.64" y="193.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="672.846" y="192.4558" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="672.846" y="195.5038" size="1.778" layer="96" rot="R180"/>
+<attribute name="STOCK" x="675.64" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="H3" gate="G$1" x="675.64" y="185.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="672.846" y="184.8358" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="672.846" y="187.8838" size="1.778" layer="96" rot="R180"/>
+<attribute name="STOCK" x="675.64" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PE1" gate="M" x="680.72" y="180.34" smashed="yes">
 <attribute name="VALUE" x="680.72" y="178.562" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J4" gate="G$1" x="680.72" y="200.66" smashed="yes"/>
+<instance part="J4" gate="G$1" x="680.72" y="200.66" smashed="yes">
+<attribute name="CONRAD" x="680.72" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="680.72" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="680.72" y="200.66" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="KK1" gate="G$1" x="76.2" y="205.74" smashed="yes">
 <attribute name="NAME" x="81.915" y="208.915" size="1.778" layer="95"/>
 <attribute name="VALUE" x="81.915" y="206.375" size="1.778" layer="96"/>
+<attribute name="CONRAD" x="76.2" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="76.2" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="76.2" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="KK4" gate="G$1" x="76.2" y="167.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="70.485" y="164.465" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="70.485" y="167.005" size="1.778" layer="96" rot="R180"/>
+<attribute name="CONRAD" x="76.2" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="76.2" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="76.2" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="83.82" y="167.64" smashed="yes">
 <attribute name="VALUE" x="83.82" y="167.386" size="1.778" layer="96" align="top-center"/>
@@ -23822,21 +24839,32 @@ Mounting</text>
 <instance part="U1" gate="G$1" x="281.94" y="193.04" smashed="yes">
 <attribute name="NAME" x="274.32" y="196.85" size="1.27" layer="95"/>
 <attribute name="VALUE" x="281.94" y="196.85" size="1.27" layer="96"/>
+<attribute name="CONRAD" x="281.94" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="281.94" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="281.94" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="297.18" y="190.5" smashed="yes">
-<attribute name="NAME" x="295.783" y="191.135" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="298.069" y="185.547" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="NAME" x="295.529" y="190.754" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="295.529" y="187.833" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="297.18" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="297.18" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="297.18" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V31" gate="G$1" x="297.18" y="203.2" smashed="yes">
 <attribute name="VALUE" x="297.18" y="203.454" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C10" gate="G$1" x="304.8" y="190.5" smashed="yes">
-<attribute name="NAME" x="303.784" y="190.8048" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="305.816" y="185.7248" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="NAME" x="302.768" y="190.7032" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="302.768" y="187.7568" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="304.8" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="304.8" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="304.8" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U6" gate="G$1" x="551.18" y="55.88" smashed="yes">
 <attribute name="NAME" x="550.926" y="101.346" size="1.778" layer="95" align="top-center"/>
 <attribute name="VALUE" x="551.18" y="5.08" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="MOUSER" x="551.18" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="551.18" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PE2" gate="M" x="571.5" y="2.54" smashed="yes">
 <attribute name="VALUE" x="571.5" y="0.762" size="1.778" layer="96" align="top-center"/>
@@ -23850,70 +24878,101 @@ Mounting</text>
 <instance part="C49" gate="G$1" x="525.78" y="53.34" smashed="yes">
 <attribute name="NAME" x="523.748" y="50.5968" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="527.812" y="50.5968" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="525.78" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="525.78" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="525.78" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R27" gate="G$1" x="502.92" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="501.777" y="60.96" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="504.063" y="60.96" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="502.92" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="502.92" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="STOCK" x="502.92" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C52" gate="G$1" x="525.78" y="43.18" smashed="yes">
 <attribute name="NAME" x="523.748" y="40.4368" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="527.812" y="40.4368" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="525.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="525.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="525.78" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C58" gate="G$1" x="505.46" y="25.4" smashed="yes">
 <attribute name="NAME" x="505.206" y="20.8788" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="507.492" y="22.6568" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="505.46" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="505.46" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="505.46" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R41" gate="G$1" x="497.84" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="496.697" y="22.86" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="498.983" y="22.86" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="497.84" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="497.84" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="497.84" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C22" gate="G$1" x="523.24" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="523.1638" y="99.441" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="525.8562" y="99.441" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="523.24" y="101.6" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="523.24" y="101.6" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="523.24" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="523.24" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C32" gate="G$1" x="518.16" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="516.128" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="516.636" y="93.599" size="1.778" layer="96" rot="R180"/>
 <attribute name="CONRAD" x="518.16" y="88.9" size="1.27" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="518.16" y="88.9" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="518.16" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="518.16" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C37" gate="G$1" x="523.24" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="523.1638" y="79.121" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="525.8562" y="79.121" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="523.24" y="81.28" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="523.24" y="81.28" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="523.24" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="523.24" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C40" gate="G$1" x="518.16" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="516.128" y="68.3768" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="518.922" y="66.5988" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="518.16" y="68.58" size="1.27" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="518.16" y="68.58" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="518.16" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="518.16" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C41" gate="G$1" x="528.32" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="526.288" y="68.3768" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="530.352" y="68.3768" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="528.32" y="68.58" size="1.27" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="528.32" y="68.58" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="528.32" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="528.32" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C27" gate="G$1" x="523.24" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="523.1638" y="94.361" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="525.8562" y="94.361" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="523.24" y="96.52" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="523.24" y="96.52" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="523.24" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="523.24" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C33" gate="G$1" x="528.32" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="526.288" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="529.082" y="86.741" size="1.778" layer="96"/>
 <attribute name="CONRAD" x="528.32" y="88.9" size="1.27" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="528.32" y="88.9" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="528.32" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="528.32" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C39" gate="G$1" x="523.24" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="523.1638" y="74.041" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="525.8562" y="74.041" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="523.24" y="76.2" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="523.24" y="76.2" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="523.24" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="523.24" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND14" gate="VR1" x="518.16" y="63.5" smashed="yes">
 <attribute name="VALUE" x="518.16" y="62.738" size="1.778" layer="96" align="top-center"/>
@@ -23924,6 +24983,9 @@ Mounting</text>
 <instance part="C62" gate="G$1" x="523.24" y="10.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="520.6238" y="8.001" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="523.3162" y="8.001" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="523.24" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="523.24" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="523.24" y="10.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V319" gate="G$1" x="513.08" y="15.24" smashed="yes">
 <attribute name="VALUE" x="513.08" y="15.494" size="1.778" layer="96" align="bottom-center"/>
@@ -23934,100 +24996,136 @@ Mounting</text>
 <instance part="C60" gate="G$1" x="576.58" y="12.7" smashed="yes">
 <attribute name="NAME" x="574.929" y="10.033" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="578.231" y="7.493" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="576.58" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="576.58" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="576.58" y="12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C61" gate="G$1" x="586.74" y="12.7" smashed="yes">
 <attribute name="NAME" x="585.089" y="10.033" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="588.391" y="7.493" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="586.74" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="586.74" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="586.74" y="12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C53" gate="G$1" x="574.04" y="38.1" smashed="yes">
 <attribute name="NAME" x="572.008" y="35.3568" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="576.072" y="37.8968" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="574.04" y="38.1" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="574.04" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="574.04" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="574.04" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C55" gate="G$1" x="594.36" y="38.1" smashed="yes">
 <attribute name="NAME" x="592.328" y="35.3568" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="596.392" y="37.8968" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="594.36" y="38.1" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="594.36" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="594.36" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="594.36" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C54" gate="G$1" x="584.2" y="38.1" smashed="yes">
 <attribute name="NAME" x="582.168" y="35.3568" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="586.232" y="32.8168" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="584.2" y="38.1" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="584.2" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="584.2" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="584.2" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C56" gate="G$1" x="604.52" y="38.1" smashed="yes">
 <attribute name="NAME" x="602.488" y="35.3568" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="606.552" y="32.8168" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="604.52" y="38.1" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="604.52" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="604.52" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="604.52" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C38" gate="G$1" x="576.58" y="81.28" smashed="yes">
 <attribute name="NAME" x="574.548" y="78.5368" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="577.342" y="82.0928" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="576.58" y="81.28" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="576.58" y="81.28" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="576.58" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="576.58" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C35" gate="G$1" x="596.9" y="86.36" smashed="yes">
 <attribute name="NAME" x="594.868" y="83.6168" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="598.932" y="83.6168" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="596.9" y="86.36" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="596.9" y="86.36" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="596.9" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="596.9" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C30" gate="G$1" x="614.68" y="91.44" smashed="yes">
 <attribute name="NAME" x="612.648" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="616.712" y="88.6968" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="614.68" y="91.44" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="614.68" y="91.44" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="614.68" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="614.68" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C36" gate="G$1" x="614.68" y="83.82" smashed="yes">
 <attribute name="NAME" x="612.648" y="81.0768" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="616.712" y="81.0768" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="614.68" y="83.82" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="614.68" y="83.82" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="614.68" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="614.68" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C26" gate="G$1" x="642.62" y="99.06" smashed="yes">
 <attribute name="NAME" x="640.588" y="96.3168" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="644.652" y="96.3168" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="642.62" y="99.06" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="642.62" y="99.06" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="642.62" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="642.62" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C31" gate="G$1" x="642.62" y="91.44" smashed="yes">
 <attribute name="NAME" x="640.588" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="643.636" y="86.9188" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="642.62" y="91.44" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="642.62" y="91.44" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="642.62" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="642.62" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="576.58" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="575.437" y="91.44" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="577.723" y="91.44" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="576.58" y="91.44" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="576.58" y="91.44" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="576.58" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="576.58" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R22" gate="G$1" x="642.62" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="641.477" y="81.28" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="643.763" y="81.28" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="642.62" y="81.28" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="642.62" y="81.28" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="642.62" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="642.62" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="642.62" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="641.477" y="106.68" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="643.763" y="106.68" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="642.62" y="106.68" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="642.62" y="106.68" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="642.62" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="642.62" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="586.74" y="96.52" smashed="yes">
 <attribute name="NAME" x="582.93" y="98.806" size="1.778" layer="95"/>
 <attribute name="VALUE" x="582.803" y="93.472" size="1.778" layer="96"/>
 <attribute name="CONRAD" x="586.74" y="96.52" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="586.74" y="96.52" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="586.74" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="586.74" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L2" gate="G$1" x="586.74" y="76.2" smashed="yes">
 <attribute name="NAME" x="586.74" y="80.137" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="586.74" y="78.105" size="1.778" layer="96" align="bottom-center"/>
 <attribute name="CONRAD" x="586.74" y="76.2" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="586.74" y="76.2" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="586.74" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="586.74" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND9" gate="VR1" x="652.78" y="91.44" smashed="yes">
 <attribute name="VALUE" x="652.78" y="90.678" size="1.778" layer="96" align="top-center"/>
@@ -24043,66 +25141,88 @@ Mounting</text>
 <attribute name="VALUE" x="578.612" y="58.2168" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="576.58" y="58.42" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="576.58" y="58.42" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="576.58" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="576.58" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C44" gate="G$1" x="596.9" y="63.5" smashed="yes">
 <attribute name="NAME" x="594.868" y="60.7568" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="598.932" y="60.7568" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="596.9" y="63.5" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="596.9" y="63.5" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="596.9" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="596.9" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C42" gate="G$1" x="614.68" y="68.58" smashed="yes">
 <attribute name="NAME" x="612.648" y="65.8368" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="616.712" y="65.8368" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="614.68" y="68.58" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="614.68" y="68.58" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="614.68" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="614.68" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C45" gate="G$1" x="614.68" y="60.96" smashed="yes">
 <attribute name="NAME" x="612.648" y="58.2168" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="616.712" y="58.2168" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="614.68" y="60.96" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="614.68" y="60.96" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="614.68" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="614.68" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C46" gate="G$1" x="642.62" y="60.96" smashed="yes">
 <attribute name="NAME" x="640.588" y="58.2168" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="644.652" y="58.2168" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="642.62" y="60.96" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="642.62" y="60.96" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="642.62" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="642.62" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C50" gate="G$1" x="642.62" y="53.34" smashed="yes">
 <attribute name="NAME" x="640.588" y="50.5968" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="643.128" y="48.8188" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="642.62" y="53.34" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="642.62" y="53.34" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="642.62" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="642.62" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R23" gate="G$1" x="576.58" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="575.437" y="68.58" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="577.723" y="68.58" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="576.58" y="68.58" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="576.58" y="68.58" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="576.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="576.58" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R34" gate="G$1" x="642.62" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="641.477" y="43.18" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="643.763" y="43.18" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="642.62" y="43.18" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="642.62" y="43.18" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="642.62" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="642.62" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="642.62" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="641.477" y="68.58" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="643.763" y="68.58" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="642.62" y="68.58" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="642.62" y="68.58" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="642.62" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="642.62" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L3" gate="G$1" x="586.74" y="73.66" smashed="yes">
 <attribute name="NAME" x="586.74" y="72.644" size="1.778" layer="95" align="top-center"/>
 <attribute name="VALUE" x="586.74" y="70.612" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="586.74" y="73.66" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="586.74" y="73.66" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="586.74" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="586.74" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L4" gate="G$1" x="586.74" y="53.34" smashed="yes">
 <attribute name="NAME" x="582.93" y="55.626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="582.803" y="50.292" size="1.778" layer="96"/>
 <attribute name="CONRAD" x="586.74" y="53.34" size="1.27" layer="96" display="off"/>
 <attribute name="SPEC" x="586.74" y="53.34" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="586.74" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="586.74" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND15" gate="VR1" x="652.78" y="53.34" smashed="yes">
 <attribute name="VALUE" x="652.78" y="52.578" size="1.778" layer="96" align="top-center"/>
@@ -24112,224 +25232,311 @@ Mounting</text>
 <attribute name="VALUE" x="383.54" y="138.557" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="383.54" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="383.54" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="383.54" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="383.54" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="383.54" y="109.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="383.54" y="110.363" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="383.54" y="108.077" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="383.54" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="383.54" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="383.54" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="383.54" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="414.02" y="109.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="414.02" y="110.363" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="414.02" y="108.077" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="414.02" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="414.02" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="414.02" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="414.02" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R26" gate="G$1" x="414.02" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="414.02" y="67.183" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="414.02" y="64.897" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="414.02" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="414.02" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="414.02" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="414.02" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R25" gate="G$1" x="383.54" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="383.54" y="67.183" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="383.54" y="64.897" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="383.54" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="383.54" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="383.54" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="383.54" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R37" gate="G$1" x="383.54" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="383.54" y="36.703" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="383.54" y="34.417" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="383.54" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="383.54" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="383.54" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="383.54" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R38" gate="G$1" x="414.02" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="414.02" y="36.703" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="414.02" y="34.417" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="414.02" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="414.02" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="414.02" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="414.02" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="414.02" y="129.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="414.02" y="130.683" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="414.02" y="128.397" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="414.02" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="414.02" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="414.02" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="414.02" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="383.54" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="383.54" y="123.063" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="383.54" y="120.777" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="383.54" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="383.54" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="383.54" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="383.54" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="383.54" y="129.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="383.54" y="130.683" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="383.54" y="128.397" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="383.54" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="383.54" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="383.54" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="383.54" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R32" gate="G$1" x="383.54" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="383.54" y="49.403" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="383.54" y="47.117" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="383.54" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="383.54" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="383.54" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="383.54" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R29" gate="G$1" x="383.54" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="383.54" y="57.023" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="383.54" y="54.737" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="383.54" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="383.54" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="383.54" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="383.54" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R30" gate="G$1" x="414.02" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="414.02" y="57.023" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="414.02" y="54.737" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="414.02" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="414.02" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="414.02" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="414.02" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R33" gate="G$1" x="414.02" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="414.02" y="49.403" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="414.02" y="47.117" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="414.02" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="414.02" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="414.02" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="414.02" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="429.26" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="428.117" y="111.76" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="430.403" y="111.76" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="429.26" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="429.26" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="429.26" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="429.26" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="375.92" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="374.777" y="104.14" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="377.063" y="104.14" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="375.92" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="375.92" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="375.92" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="375.92" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R31" gate="G$1" x="426.72" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="425.577" y="55.88" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="427.863" y="55.88" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="426.72" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="426.72" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="426.72" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="426.72" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R36" gate="G$1" x="426.72" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="425.577" y="38.1" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="427.863" y="38.1" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="426.72" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="426.72" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="426.72" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="426.72" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R39" gate="G$1" x="375.92" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="374.777" y="27.94" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="377.063" y="27.94" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="375.92" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="375.92" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="375.92" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="375.92" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R42" gate="G$1" x="347.98" y="15.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="347.98" y="16.383" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="347.98" y="14.097" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="347.98" y="15.24" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="347.98" y="15.24" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="347.98" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="347.98" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R40" gate="G$1" x="337.82" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="336.677" y="25.4" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="338.963" y="25.4" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="337.82" y="25.4" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="SPEC" x="337.82" y="25.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="337.82" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="337.82" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="350.52" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="350.52" y="90.043" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="350.52" y="87.757" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="350.52" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="SPEC" x="350.52" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="350.52" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="350.52" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="337.82" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="336.677" y="99.06" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="338.963" y="99.06" size="1.778" layer="96" rot="R90" align="top-center"/>
 <attribute name="CONRAD" x="337.82" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="SPEC" x="337.82" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="337.82" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="337.82" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C20" gate="G$1" x="368.3" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="368.2238" y="107.061" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="370.9162" y="107.061" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="368.3" y="109.22" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="368.3" y="109.22" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="368.3" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="368.3" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C57" gate="G$1" x="368.3" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="368.2238" y="33.401" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="370.9162" y="33.401" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="368.3" y="35.56" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="368.3" y="35.56" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="368.3" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="368.3" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C17" gate="G$1" x="396.24" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="396.1638" y="127.381" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="398.8562" y="127.381" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="396.24" y="129.54" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="396.24" y="129.54" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="396.24" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="396.24" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C48" gate="G$1" x="396.24" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="396.1638" y="53.721" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="398.8562" y="53.721" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="396.24" y="55.88" size="1.27" layer="96" rot="R90" display="off"/>
 <attribute name="SPEC" x="396.24" y="55.88" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="396.24" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="396.24" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C51" gate="G$1" x="411.48" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="408.8638" y="41.021" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="411.5562" y="41.021" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="411.48" y="43.18" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="SPEC" x="411.48" y="43.18" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="411.48" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="411.48" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C59" gate="G$1" x="411.48" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="408.8638" y="20.701" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="411.5562" y="20.701" size="1.778" layer="96" rot="R180" align="top-right"/>
 <attribute name="CONRAD" x="411.48" y="22.86" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="SPEC" x="411.48" y="22.86" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="411.48" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="411.48" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP2" gate="A" x="368.3" y="119.38" smashed="yes">
 <attribute name="NAME" x="367.03" y="119.38" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="374.015" y="119.38" size="1.778" layer="96" rot="R90"/>
+<attribute name="CONRAD" x="368.3" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="368.3" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="368.3" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP3" gate="A" x="368.3" y="45.72" smashed="yes">
 <attribute name="NAME" x="367.03" y="45.72" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="374.015" y="45.72" size="1.778" layer="96" rot="R90"/>
+<attribute name="CONRAD" x="368.3" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="368.3" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="368.3" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="302.26" y="111.76" smashed="yes">
 <attribute name="NAME" x="302.26" y="112.903" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="302.26" y="110.617" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="302.26" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="SPEC" x="302.26" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="302.26" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="302.26" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="302.26" y="91.44" smashed="yes">
 <attribute name="NAME" x="302.26" y="92.583" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="302.26" y="90.297" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="302.26" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="SPEC" x="302.26" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="302.26" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="302.26" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="302.26" y="58.42" smashed="yes">
 <attribute name="NAME" x="302.26" y="59.563" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="302.26" y="57.277" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="302.26" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="SPEC" x="302.26" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="302.26" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="302.26" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R35" gate="G$1" x="302.26" y="38.1" smashed="yes">
 <attribute name="NAME" x="302.26" y="39.243" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="302.26" y="36.957" size="1.778" layer="96" align="top-center"/>
 <attribute name="CONRAD" x="302.26" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="SPEC" x="302.26" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="302.26" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="302.26" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D8" gate="G$1" x="678.18" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="676.783" y="35.7632" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="676.783" y="30.2768" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="678.18" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="678.18" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="678.18" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J5" gate="G$1" x="688.34" y="104.14" smashed="yes"/>
+<instance part="J5" gate="G$1" x="688.34" y="104.14" smashed="yes">
+<attribute name="CONRAD" x="688.34" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="688.34" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="688.34" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J5" gate="G$2" x="688.34" y="99.06" smashed="yes"/>
-<instance part="J6" gate="G$1" x="688.34" y="66.04" smashed="yes"/>
+<instance part="J6" gate="G$1" x="688.34" y="66.04" smashed="yes">
+<attribute name="CONRAD" x="688.34" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="688.34" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="688.34" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J6" gate="G$2" x="688.34" y="60.96" smashed="yes"/>
 <instance part="T1" gate="G$1" x="147.32" y="180.34" smashed="yes">
 <attribute name="NAME" x="149.9362" y="183.0832" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="149.9362" y="177.5968" size="1.778" layer="96" align="top-right"/>
 <attribute name="CONRAD" x="147.32" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="147.32" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="147.32" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T2" gate="G$1" x="683.26" y="17.78" smashed="yes">
 <attribute name="NAME" x="685.8762" y="20.5232" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="685.8762" y="15.0368" size="1.778" layer="96" align="top-right"/>
 <attribute name="CONRAD" x="683.26" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="683.26" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="683.26" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="149.86" y="170.18" smashed="yes">
 <attribute name="VALUE" x="149.86" y="168.656" size="1.778" layer="96" align="top-center"/>
@@ -24343,7 +25550,9 @@ Mounting</text>
 <instance part="SUPPLY23" gate="G$1" x="685.8" y="7.62" smashed="yes">
 <attribute name="VALUE" x="685.8" y="6.096" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="JP1" gate="G$1" x="411.48" y="187.96" smashed="yes"/>
+<instance part="JP1" gate="G$1" x="411.48" y="187.96" smashed="yes">
+<attribute name="STOCK" x="411.48" y="187.96" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY8" gate="G$1" x="424.18" y="180.34" smashed="yes">
 <attribute name="VALUE" x="424.18" y="178.816" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -24380,6 +25589,9 @@ Mounting</text>
 <instance part="IC6" gate="G$1" x="55.88" y="76.2" smashed="yes">
 <attribute name="NAME" x="38.1" y="38.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="105.41" size="1.778" layer="96"/>
+<attribute name="CONRAD" x="55.88" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="55.88" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="55.88" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY26" gate="G$1" x="254" y="10.16" smashed="yes">
 <attribute name="VALUE" x="254" y="8.636" size="1.778" layer="96" align="top-center"/>
@@ -24465,18 +25677,30 @@ Mounting</text>
 <instance part="C43" gate="G$1" x="25.4" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.368" y="65.8368" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="27.432" y="65.8368" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="25.4" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="25.4" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="25.4" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C29" gate="G$1" x="20.32" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.812" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="20.574" y="88.6968" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="20.32" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="20.32" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="20.32" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C28" gate="G$1" x="30.48" y="93.98" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.8638" y="91.821" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="27.2542" y="89.535" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="30.48" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="30.48" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="30.48" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C23" gate="G$1" x="20.32" y="99.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.288" y="98.8568" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="22.352" y="98.8568" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="20.32" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="20.32" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="20.32" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V34" gate="G$1" x="27.94" y="119.38" smashed="yes">
 <attribute name="VALUE" x="27.94" y="119.634" size="1.778" layer="96" align="bottom-center"/>
@@ -24484,6 +25708,9 @@ Mounting</text>
 <instance part="R13" gate="G$1" x="27.94" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.797" y="109.22" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="29.083" y="109.22" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="27.94" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="27.94" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="27.94" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V316" gate="G$1" x="91.44" y="40.64" smashed="yes">
 <attribute name="VALUE" x="91.44" y="40.894" size="1.778" layer="96" align="bottom-center"/>
@@ -24500,6 +25727,9 @@ Mounting</text>
 <instance part="IC7" gate="A" x="154.94" y="106.68" smashed="yes">
 <attribute name="NAME" x="157.48" y="109.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="157.48" y="101.6" size="1.778" layer="96"/>
+<attribute name="CONRAD" x="154.94" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="154.94" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="154.94" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC7" gate="B" x="154.94" y="119.38" smashed="yes">
 <attribute name="NAME" x="157.48" y="122.555" size="1.778" layer="95"/>
@@ -24525,30 +25755,45 @@ Mounting</text>
 <attribute name="VALUE" x="266.7" y="204.724" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C8" gate="G$1" x="266.7" y="190.5" smashed="yes">
-<attribute name="NAME" x="264.668" y="187.7568" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="268.732" y="187.7568" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="NAME" x="264.668" y="190.7032" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="264.668" y="187.7568" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="266.7" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="266.7" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="266.7" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC2" gate="1" x="236.22" y="193.04" smashed="yes">
-<attribute name="NAME" x="238.76" y="185.42" size="1.778" layer="95"/>
-<attribute name="VALUE" x="238.76" y="182.88" size="1.778" layer="96"/>
+<attribute name="NAME" x="236.22" y="197.9422" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="236.22" y="195.9102" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="CONRAD" x="236.22" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="236.22" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="236.22" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+3" gate="1" x="226.06" y="203.2" smashed="yes">
 <attribute name="VALUE" x="226.06" y="204.724" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C5" gate="G$1" x="226.06" y="190.5" smashed="yes">
-<attribute name="NAME" x="224.028" y="187.7568" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="228.092" y="185.2168" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="NAME" x="224.028" y="190.7032" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="224.028" y="187.7568" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="226.06" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="226.06" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="226.06" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="1" x="246.38" y="203.2" smashed="yes">
 <attribute name="VALUE" x="246.38" y="203.454" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C6" gate="G$1" x="246.38" y="190.5" smashed="yes">
-<attribute name="NAME" x="245.491" y="190.881" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="247.015" y="185.801" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="NAME" x="244.729" y="190.754" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="244.729" y="187.833" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="246.38" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="246.38" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="246.38" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="254" y="190.5" smashed="yes">
-<attribute name="NAME" x="253.238" y="190.2968" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="254.508" y="186.2328" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="NAME" x="251.968" y="190.7032" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="251.968" y="187.7568" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="254" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="254" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="254" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="236.22" y="177.8" smashed="yes">
 <attribute name="VALUE" x="236.22" y="176.276" size="1.778" layer="96" align="top-center"/>
@@ -24563,14 +25808,23 @@ Mounting</text>
 <instance part="C63" gate="G$1" x="175.26" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="173.736" y="68.199" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="177.292" y="68.3768" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="175.26" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="175.26" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="175.26" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J8" gate="G$1" x="187.96" y="81.28" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="193.04" y="73.66" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="193.04" y="89.662" size="1.778" layer="95" rot="MR0"/>
+<attribute name="CONRAD" x="187.96" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="187.96" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="187.96" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J7" gate="G$1" x="116.84" y="53.34" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="121.92" y="45.72" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="121.92" y="61.722" size="1.778" layer="95" rot="MR0"/>
+<attribute name="CONRAD" x="116.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="116.84" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="116.84" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY18" gate="G$1" x="109.22" y="43.18" smashed="yes">
 <attribute name="VALUE" x="109.22" y="41.656" size="1.778" layer="96" align="top-center"/>
@@ -24578,13 +25832,19 @@ Mounting</text>
 <instance part="P+11" gate="1" x="154.94" y="86.36" smashed="yes">
 <attribute name="VALUE" x="154.94" y="86.614" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="KK2" gate="G$1" x="236.22" y="198.12" smashed="yes">
-<attribute name="NAME" x="241.935" y="201.295" size="1.778" layer="95"/>
-<attribute name="VALUE" x="241.935" y="198.755" size="1.778" layer="96"/>
+<instance part="KK2" gate="G$1" x="236.22" y="200.66" smashed="yes">
+<attribute name="NAME" x="241.935" y="203.835" size="1.778" layer="95"/>
+<attribute name="VALUE" x="241.935" y="201.295" size="1.778" layer="96" display="off"/>
+<attribute name="CONRAD" x="236.22" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="236.22" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="236.22" y="200.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP4" gate="A" x="119.38" y="73.66" smashed="yes" rot="MR180">
 <attribute name="NAME" x="113.03" y="65.405" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="113.03" y="81.28" size="1.778" layer="96" rot="MR180"/>
+<attribute name="CONRAD" x="119.38" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="119.38" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="119.38" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY35" gate="G$1" x="104.14" y="66.04" smashed="yes">
 <attribute name="VALUE" x="104.14" y="64.516" size="1.778" layer="96" align="top-center"/>
@@ -24595,6 +25855,9 @@ Mounting</text>
 <instance part="JP5" gate="A" x="119.38" y="96.52" smashed="yes" rot="MR180">
 <attribute name="NAME" x="113.03" y="85.725" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="113.03" y="106.68" size="1.778" layer="96" rot="MR180"/>
+<attribute name="CONRAD" x="119.38" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="119.38" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="119.38" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY36" gate="G$1" x="109.22" y="86.36" smashed="yes">
 <attribute name="VALUE" x="109.22" y="84.836" size="1.778" layer="96" align="top-center"/>
@@ -24602,6 +25865,9 @@ Mounting</text>
 <instance part="J9" gate="G$1" x="335.28" y="190.5" smashed="yes">
 <attribute name="NAME" x="330.2" y="198.374" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="330.2" y="185.166" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="CONRAD" x="335.28" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="335.28" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="335.28" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+12" gate="1" x="325.12" y="200.66" smashed="yes">
 <attribute name="VALUE" x="325.12" y="200.914" size="1.778" layer="96" align="bottom-center"/>
@@ -24615,15 +25881,21 @@ Mounting</text>
 <instance part="U$1" gate="G$1" x="551.18" y="104.14" smashed="yes">
 <attribute name="NAME" x="556.895" y="107.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="556.895" y="104.775" size="1.778" layer="96"/>
+<attribute name="STOCK" x="551.18" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J10" gate="G$1" x="177.8" y="22.86" smashed="yes" rot="R180">
 <attribute name="VALUE" x="180.34" y="27.686" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="180.34" y="17.272" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="CONRAD" x="177.8" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="177.8" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="177.8" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T3" gate="G$1" x="160.02" y="30.48" smashed="yes">
 <attribute name="NAME" x="162.6362" y="33.2232" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="162.6362" y="27.7368" size="1.778" layer="96" align="top-right"/>
 <attribute name="CONRAD" x="160.02" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="160.02" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="160.02" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+13" gate="1" x="162.56" y="40.64" smashed="yes">
 <attribute name="VALUE" x="162.56" y="42.164" size="1.778" layer="96" align="bottom-center"/>
@@ -24631,12 +25903,17 @@ Mounting</text>
 <instance part="D10" gate="G$1" x="162.56" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="161.163" y="23.0632" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="161.163" y="17.5768" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="162.56" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="162.56" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="162.56" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY38" gate="G$1" x="162.56" y="10.16" smashed="yes">
 <attribute name="VALUE" x="162.56" y="8.636" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="K1" gate="SW2" x="190.5" y="200.66" smashed="yes" rot="R90">
 <attribute name="PART" x="190.5" y="203.2" size="1.778" layer="95" rot="R90"/>
+<attribute name="MOUSER" x="190.5" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="190.5" y="200.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="K1" gate="K1" x="149.86" y="195.58" smashed="yes">
 <attribute name="VALUE" x="151.13" y="198.501" size="1.778" layer="96"/>
@@ -24648,7 +25925,9 @@ Mounting</text>
 <attribute name="PART" x="190.5" y="177.8" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="K2" gate="SW2" x="670.56" y="106.68" smashed="yes">
-<attribute name="PART" x="673.1" y="106.68" size="1.778" layer="95"/>
+<attribute name="PART" x="673.1" y="106.68" size="1.778" layer="95" display="off"/>
+<attribute name="MOUSER" x="670.56" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="670.56" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="K2" gate="K1" x="685.8" y="33.02" smashed="yes">
 <attribute name="VALUE" x="687.07" y="35.941" size="1.778" layer="96"/>
@@ -24661,6 +25940,9 @@ Mounting</text>
 </instance>
 <instance part="X3" gate="1" x="101.6" y="45.72" smashed="yes">
 <attribute name="NAME" x="102.616" y="44.958" size="1.524" layer="95"/>
+<attribute name="CONRAD" x="101.6" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="101.6" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="101.6" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X3" gate="2" x="101.6" y="35.56" smashed="yes">
 <attribute name="NAME" x="102.616" y="34.798" size="1.524" layer="95"/>
@@ -24683,6 +25965,9 @@ Mounting</text>
 <instance part="X2" gate="G$1" x="370.84" y="190.5" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="381" y="185.42" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="378.46" y="196.342" size="1.778" layer="95" rot="MR0"/>
+<attribute name="CONRAD" x="370.84" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="370.84" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="370.84" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY39" gate="G$1" x="363.22" y="185.42" smashed="yes">
 <attribute name="VALUE" x="363.22" y="183.896" size="1.778" layer="96" align="top-center"/>
@@ -24690,10 +25975,16 @@ Mounting</text>
 <instance part="R2" gate="G$1" x="444.5" y="185.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="443.357" y="185.42" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="445.643" y="185.42" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="444.5" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="444.5" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="444.5" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R52" gate="G$1" x="454.66" y="185.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="453.517" y="185.42" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="455.803" y="185.42" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="454.66" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="454.66" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="454.66" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V3" gate="G$1" x="449.58" y="198.12" smashed="yes">
 <attribute name="VALUE" x="449.58" y="198.374" size="1.778" layer="96" align="bottom-center"/>
@@ -24702,10 +25993,19 @@ Mounting</text>
 <attribute name="NAME" x="632.5362" y="190.7032" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="632.5362" y="185.2168" size="1.778" layer="96" align="top-right"/>
 <attribute name="CONRAD" x="629.92" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="629.92" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="629.92" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D9" gate="G$1" x="574.04" y="185.42" smashed="yes">
 <attribute name="NAME" x="574.04" y="186.944" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="574.04" y="183.896" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="574.04" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="574.04" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="574.04" y="185.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IC4" gate="A" x="345.44" y="109.22" smashed="yes">
+<attribute name="NAME" x="347.98" y="112.395" size="1.778" layer="95"/>
+<attribute name="VALUE" x="347.98" y="104.14" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -24715,13 +26015,13 @@ Mounting</text>
 <segment>
 <pinref part="C13" gate="G$1" pin="+"/>
 <pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="88.9" y1="185.42" x2="76.2" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="185.42" x2="76.2" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <junction x="58.42" y="185.42"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<junction x="88.9" y="185.42"/>
+<junction x="91.44" y="185.42"/>
 <wire x1="76.2" y1="185.42" x2="58.42" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="185.42" x2="58.42" y2="185.42" width="0.1524" layer="91"/>
 <junction x="43.18" y="185.42"/>
@@ -24732,13 +26032,13 @@ Mounting</text>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="C16" gate="G$1" pin="+"/>
 <pinref part="C4" gate="G$1" pin="-"/>
-<wire x1="88.9" y1="185.42" x2="101.6" y2="185.42" width="0.1524" layer="91"/>
-<junction x="101.6" y="185.42"/>
+<wire x1="91.44" y1="185.42" x2="104.14" y2="185.42" width="0.1524" layer="91"/>
+<junction x="104.14" y="185.42"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="111.76" y1="187.96" x2="111.76" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="185.42" x2="111.76" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="185.42" x2="111.76" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="185.42" x2="111.76" y2="185.42" width="0.1524" layer="91"/>
 <junction x="111.76" y="185.42"/>
 <pinref part="J2" gate="G$1" pin="P$1"/>
 <wire x1="20.32" y1="185.42" x2="10.16" y2="185.42" width="0.1524" layer="91"/>
@@ -25043,16 +26343,16 @@ Mounting</text>
 <wire x1="116.84" y1="200.66" x2="116.84" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="78.74" y1="198.12" x2="88.9" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="198.12" x2="88.9" y2="193.04" width="0.1524" layer="91"/>
-<junction x="88.9" y="193.04"/>
-<wire x1="88.9" y1="193.04" x2="101.6" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="198.12" x2="91.44" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="198.12" x2="91.44" y2="193.04" width="0.1524" layer="91"/>
+<junction x="91.44" y="193.04"/>
+<wire x1="91.44" y1="193.04" x2="104.14" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="1" pin="OUT"/>
-<wire x1="101.6" y1="193.04" x2="111.76" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="193.04" x2="111.76" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="193.04" x2="116.84" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="193.04" x2="83.82" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="193.04" x2="83.82" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="+"/>
-<junction x="101.6" y="193.04"/>
+<junction x="104.14" y="193.04"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <junction x="111.76" y="193.04"/>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -25125,16 +26425,16 @@ Mounting</text>
 <wire x1="116.84" y1="170.18" x2="116.84" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="D7" gate="G$1" pin="C"/>
-<wire x1="78.74" y1="172.72" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="172.72" x2="88.9" y2="177.8" width="0.1524" layer="91"/>
-<junction x="88.9" y="177.8"/>
-<wire x1="88.9" y1="177.8" x2="101.6" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="172.72" x2="91.44" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="172.72" x2="91.44" y2="177.8" width="0.1524" layer="91"/>
+<junction x="91.44" y="177.8"/>
+<wire x1="91.44" y1="177.8" x2="104.14" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="1" pin="OUT"/>
-<wire x1="101.6" y1="177.8" x2="111.76" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="177.8" x2="111.76" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="177.8" x2="116.84" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="177.8" x2="83.82" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="177.8" x2="83.82" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="-"/>
-<junction x="101.6" y="177.8"/>
+<junction x="104.14" y="177.8"/>
 <pinref part="D5" gate="G$1" pin="A"/>
 <junction x="111.76" y="177.8"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -25564,65 +26864,9 @@ Mounting</text>
 <pinref part="R28" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="A" pin="+IN"/>
 <wire x1="337.82" y1="111.76" x2="335.28" y2="111.76" width="0.1524" layer="91"/>
 <label x="335.28" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<wire x1="287.02" y1="111.76" x2="297.18" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U8" gate="R1" pin="W"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<wire x1="297.18" y1="91.44" x2="287.02" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U8" gate="R2" pin="W"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<wire x1="287.02" y1="38.1" x2="297.18" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U7" gate="R2" pin="W"/>
-<pinref part="R35" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<wire x1="287.02" y1="58.42" x2="297.18" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U7" gate="R1" pin="W"/>
-<pinref part="R28" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="X1" gate="B" pin="T2"/>
-<wire x1="279.4" y1="53.34" x2="281.94" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U7" gate="R1" pin="A"/>
-</segment>
-</net>
-<net name="N$47" class="0">
-<segment>
-<pinref part="X1" gate="A" pin="T2"/>
-<wire x1="281.94" y1="106.68" x2="279.4" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U8" gate="R1" pin="A"/>
-</segment>
-</net>
-<net name="N$48" class="0">
-<segment>
-<pinref part="X1" gate="A" pin="T1"/>
-<wire x1="281.94" y1="96.52" x2="279.4" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U8" gate="R2" pin="A"/>
-</segment>
-</net>
-<net name="N$49" class="0">
-<segment>
-<pinref part="X1" gate="B" pin="T1"/>
-<wire x1="281.94" y1="43.18" x2="279.4" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U7" gate="R2" pin="A"/>
+<pinref part="IC4" gate="A" pin="+IN"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -25669,16 +26913,15 @@ Mounting</text>
 </net>
 <net name="N$52" class="0">
 <segment>
-<pinref part="IC4" gate="A" pin="-IN"/>
 <wire x1="337.82" y1="104.14" x2="337.82" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="IC4" gate="A" pin="-IN"/>
 </segment>
 </net>
 <net name="MIX_AMP_R" class="0">
 <segment>
 <wire x1="355.6" y1="88.9" x2="363.22" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="88.9" x2="363.22" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="OUT"/>
 <wire x1="363.22" y1="109.22" x2="353.06" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="109.22" x2="365.76" y2="109.22" width="0.1524" layer="91"/>
 <junction x="363.22" y="109.22"/>
@@ -25687,6 +26930,7 @@ Mounting</text>
 <wire x1="363.22" y1="109.22" x2="363.22" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="1"/>
 <wire x1="363.22" y1="116.84" x2="368.3" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="A" pin="OUT"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -26640,27 +27884,23 @@ Mounting</text>
 <wire x1="279.4" y1="101.6" x2="294.64" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="101.6" x2="299.72" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="99.06" x2="299.72" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="96.52" x2="294.64" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="96.52" x2="294.64" y2="101.6" width="0.1524" layer="91"/>
 <junction x="294.64" y="101.6"/>
-<wire x1="292.1" y1="106.68" x2="294.64" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="106.68" x2="294.64" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U8" gate="R2" pin="B"/>
-<pinref part="U8" gate="R1" pin="B"/>
 <pinref part="AGND4" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="X1" gate="B" pin="S"/>
 <wire x1="279.4" y1="48.26" x2="294.64" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="48.26" x2="299.72" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="53.34" x2="294.64" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="53.34" x2="294.64" y2="48.26" width="0.1524" layer="91"/>
 <junction x="294.64" y="48.26"/>
-<wire x1="292.1" y1="43.18" x2="294.64" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="43.18" x2="294.64" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U7" gate="R1" pin="B"/>
-<pinref part="U7" gate="R2" pin="B"/>
 <pinref part="AGND16" gate="VR1" pin="AGND"/>
+<pinref part="U7" gate="R2" pin="A"/>
+<wire x1="292.1" y1="53.34" x2="294.64" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U7" gate="R1" pin="A"/>
+<wire x1="292.1" y1="43.18" x2="294.64" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="345.44" y1="88.9" x2="337.82" y2="88.9" width="0.1524" layer="91"/>
@@ -27037,6 +28277,34 @@ Mounting</text>
 <pinref part="X2" gate="G$1" pin="2"/>
 <wire x1="365.76" y1="193.04" x2="363.22" y2="193.04" width="0.1524" layer="91"/>
 <label x="363.22" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="X1" gate="B" pin="T2"/>
+<pinref part="U7" gate="R2" pin="B"/>
+<wire x1="279.4" y1="53.34" x2="281.94" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="X1" gate="B" pin="T1"/>
+<pinref part="U7" gate="R1" pin="B"/>
+<wire x1="279.4" y1="43.18" x2="281.94" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="U7" gate="R1" pin="W"/>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="287.02" y1="38.1" x2="297.18" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="U7" gate="R2" pin="W"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="287.02" y1="58.42" x2="297.18" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
