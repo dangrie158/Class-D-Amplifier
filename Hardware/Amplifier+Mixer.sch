@@ -22600,6 +22600,68 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SOT23-3">
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MCP9700">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.286" y="-1.524" size="1.778" layer="95">GND</text>
+<text x="-7.62" y="5.588" size="1.778" layer="95">&gt;Name</text>
+<text x="2.54" y="5.588" size="1.778" layer="96">&gt;Value</text>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<pin name="VCC" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="VO" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MCP9700">
+<description>Analog-output temperature sensor</description>
+<gates>
+<gate name="G$1" symbol="MCP9700" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="SMD" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VO" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-08917" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24388,7 +24450,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="PE3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="PE" device=""/>
-<part name="U$1" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HEATSINK-PENTIUM" device="" package3d_urn="urn:adsk.eagle:package:8803895/4">
+<part name="KK3" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="HEATSINK-PENTIUM" device="" package3d_urn="urn:adsk.eagle:package:8803895/4">
 <attribute name="STOCK" value="1"/>
 </part>
 <part name="J10" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="JST-XH2" device="" package3d_urn="urn:adsk.eagle:package:8813493/2" value="JST-XH2">
@@ -24499,6 +24561,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP9" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="JP10" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value="PEGND"/>
 <part name="PE4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="PE" device=""/>
+<part name="U9" library="SparkFun-Sensors" deviceset="MCP9700" device="SMD"/>
+<part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24515,10 +24580,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="236.22" y="78.74" size="1.778" layer="97" align="bottom-center">EQ Mids</text>
 <text x="236.22" y="101.6" size="1.778" layer="97" align="bottom-center">EQ Base</text>
 <text x="236.22" y="124.46" size="1.778" layer="97" align="bottom-center">Master Volume</text>
-<wire x1="487.68" y1="152.4" x2="487.68" y2="223.52" width="0.1524" layer="97" style="longdash"/>
-<wire x1="487.68" y1="223.52" x2="657.86" y2="223.52" width="0.1524" layer="97" style="longdash"/>
+<wire x1="502.92" y1="152.4" x2="502.92" y2="223.52" width="0.1524" layer="97" style="longdash"/>
+<wire x1="502.92" y1="223.52" x2="657.86" y2="223.52" width="0.1524" layer="97" style="longdash"/>
 <wire x1="657.86" y1="223.52" x2="657.86" y2="152.4" width="0.1524" layer="97" style="longdash"/>
-<wire x1="657.86" y1="152.4" x2="487.68" y2="152.4" width="0.1524" layer="97" style="longdash"/>
+<wire x1="657.86" y1="152.4" x2="502.92" y2="152.4" width="0.1524" layer="97" style="longdash"/>
 <wire x1="325.12" y1="0" x2="325.12" y2="149.86" width="0.1524" layer="97" style="longdash"/>
 <wire x1="325.12" y1="149.86" x2="459.74" y2="149.86" width="0.1524" layer="97" style="longdash"/>
 <wire x1="459.74" y1="149.86" x2="459.74" y2="0" width="0.1524" layer="97" style="longdash"/>
@@ -24620,6 +24685,10 @@ Vripple =(Imax * (1 * 100Hz)) / 20mF = 2,25V</text>
 
 R = 60k (from Datasheet)
 fcut = 1/(2π1µ60k) = 2,6Hz</text>
+<wire x1="462.28" y1="152.4" x2="462.28" y2="223.52" width="0.1524" layer="97" style="longdash"/>
+<wire x1="462.28" y1="223.52" x2="500.38" y2="223.52" width="0.1524" layer="97" style="longdash"/>
+<wire x1="500.38" y1="223.52" x2="500.38" y2="152.4" width="0.1524" layer="97" style="longdash"/>
+<wire x1="500.38" y1="152.4" x2="462.28" y2="152.4" width="0.1524" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="U8" gate="G1" x="236.22" y="17.78" smashed="yes">
@@ -26253,7 +26322,7 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <instance part="PE3" gate="M" x="342.9" y="187.96" smashed="yes">
 <attribute name="VALUE" x="342.9" y="186.182" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$1" gate="G$1" x="551.18" y="104.14" smashed="yes">
+<instance part="KK3" gate="G$1" x="551.18" y="104.14" smashed="yes">
 <attribute name="NAME" x="556.895" y="107.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="556.895" y="104.775" size="1.778" layer="96"/>
 <attribute name="STOCK" x="551.18" y="104.14" size="1.778" layer="96" display="off"/>
@@ -26426,6 +26495,16 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 </instance>
 <instance part="PE4" gate="M" x="424.18" y="160.02" smashed="yes">
 <attribute name="VALUE" x="424.18" y="158.242" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="U9" gate="G$1" x="474.98" y="185.42" smashed="yes">
+<attribute name="NAME" x="467.36" y="191.008" size="1.778" layer="95"/>
+<attribute name="VALUE" x="477.52" y="191.008" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V2" gate="G$1" x="464.82" y="198.12" smashed="yes">
+<attribute name="VALUE" x="464.82" y="198.374" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="474.98" y="175.26" smashed="yes">
+<attribute name="VALUE" x="474.98" y="173.736" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -27208,6 +27287,11 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <wire x1="515.62" y1="22.86" x2="513.08" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="513.08" y1="22.86" x2="513.08" y2="25.4" width="0.1524" layer="91"/>
 <junction x="513.08" y="25.4"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="VCC"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="464.82" y1="187.96" x2="464.82" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -28191,6 +28275,11 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <wire x1="365.76" y1="190.5" x2="363.22" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="190.5" x2="363.22" y2="187.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY5" gate="G$1" pin="DGND"/>
+<wire x1="474.98" y1="180.34" x2="474.98" y2="177.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="AGND" class="0">
 <segment>
@@ -28850,6 +28939,18 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <wire x1="469.9" y1="104.14" x2="469.9" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="492.76" y1="96.52" x2="492.76" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="A" pin="2"/>
+</segment>
+</net>
+<net name="T_SENSE" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="VO"/>
+<wire x1="485.14" y1="187.96" x2="487.68" y2="187.96" width="0.1524" layer="91"/>
+<label x="487.68" y="187.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="PC1(ADC1)"/>
+<wire x1="81.28" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91" style="longdash"/>
+<label x="83.82" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
