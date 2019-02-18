@@ -19230,6 +19230,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="DGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="VPP" urn="urn:adsk.eagle:symbol:27000/1" library_version="2">
+<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
+<text x="-1.905" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VPP" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+18V" urn="urn:adsk.eagle:component:27031/1" prefix="SUPPLY" library_version="2">
@@ -19262,6 +19267,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VPP" urn="urn:adsk.eagle:component:27050/1" prefix="SUPPLY" library_version="2">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="VPP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -24343,7 +24361,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
 <attribute name="STOCK" value="5"/>
 </part>
-<part name="+3V316" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -24564,6 +24581,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U9" library="SparkFun-Sensors" deviceset="MCP9700" device="SMD"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
+<part name="SUPPLY36" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VPP" device=""/>
+<part name="D11" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148">
+<attribute name="CONRAD" value="1582023 - 62"/>
+<attribute name="MOUSER" value="512-1N4148WS"/>
+<attribute name="STOCK" value="4"/>
+</part>
+<part name="D12" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148">
+<attribute name="CONRAD" value="1582023 - 62"/>
+<attribute name="MOUSER" value="512-1N4148WS"/>
+<attribute name="STOCK" value="4"/>
+</part>
+<part name="SUPPLY40" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VPP" device=""/>
+<part name="X4" library="Class D Amp" library_urn="urn:adsk.eagle:library:8719353" deviceset="JST-XH2" device="" package3d_urn="urn:adsk.eagle:package:8813493/2">
+<attribute name="CONRAD" value="741161 - 62"/>
+<attribute name="MOUSER" value="575-3191010200006000"/>
+<attribute name="STOCK" value="2"/>
+</part>
+<part name="SUPPLY41" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26166,9 +26201,6 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <attribute name="MOUSER" x="27.94" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="27.94" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+3V316" gate="G$1" x="91.44" y="40.64" smashed="yes">
-<attribute name="VALUE" x="91.44" y="40.894" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY21" gate="G$1" x="91.44" y="27.94" smashed="yes">
 <attribute name="VALUE" x="91.44" y="26.416" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -26403,15 +26435,15 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <instance part="X3" gate="6" x="101.6" y="33.02" smashed="yes">
 <attribute name="NAME" x="102.616" y="32.258" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate="G$1" x="370.84" y="190.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="381" y="185.42" size="1.778" layer="96" rot="MR0"/>
-<attribute name="NAME" x="378.46" y="196.342" size="1.778" layer="95" rot="MR0"/>
-<attribute name="CONRAD" x="370.84" y="190.5" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="370.84" y="190.5" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="370.84" y="190.5" size="1.778" layer="96" display="off"/>
+<instance part="X2" gate="G$1" x="375.92" y="190.5" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="386.08" y="185.42" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="383.54" y="196.342" size="1.778" layer="95" rot="MR0"/>
+<attribute name="CONRAD" x="375.92" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="375.92" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="375.92" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY39" gate="G$1" x="363.22" y="185.42" smashed="yes">
-<attribute name="VALUE" x="363.22" y="183.896" size="1.778" layer="96" align="top-center"/>
+<instance part="SUPPLY39" gate="G$1" x="368.3" y="185.42" smashed="yes">
+<attribute name="VALUE" x="368.3" y="183.896" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="R2" gate="G$1" x="444.5" y="185.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="443.357" y="185.42" size="1.778" layer="95" rot="R90" align="bottom-center"/>
@@ -26505,6 +26537,36 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="474.98" y="175.26" smashed="yes">
 <attribute name="VALUE" x="474.98" y="173.736" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY36" gate="G$1" x="91.44" y="40.64" smashed="yes">
+<attribute name="VALUE" x="89.535" y="43.815" size="1.778" layer="96"/>
+</instance>
+<instance part="D11" gate="G$1" x="264.16" y="195.58" smashed="yes" rot="R270">
+<attribute name="NAME" x="265.557" y="195.3768" size="1.778" layer="95" rot="R180" align="bottom-right"/>
+<attribute name="VALUE" x="263.017" y="198.3232" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="264.16" y="195.58" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="264.16" y="195.58" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="STOCK" x="264.16" y="195.58" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="D12" gate="G$1" x="256.54" y="195.58" smashed="yes" rot="R270">
+<attribute name="NAME" x="257.937" y="195.3768" size="1.778" layer="95" rot="R180" align="bottom-right"/>
+<attribute name="VALUE" x="252.857" y="198.3232" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="256.54" y="195.58" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="256.54" y="195.58" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="STOCK" x="256.54" y="195.58" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="SUPPLY40" gate="G$1" x="256.54" y="201.168" smashed="yes">
+<attribute name="VALUE" x="256.54" y="204.724" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="X4" gate="G$1" x="375.92" y="170.18" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="386.08" y="165.1" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="383.54" y="176.022" size="1.778" layer="95" rot="MR0"/>
+<attribute name="CONRAD" x="375.92" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="375.92" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="375.92" y="170.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SUPPLY41" gate="G$1" x="368.3" y="165.1" smashed="yes">
+<attribute name="VALUE" x="368.3" y="163.576" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -26919,14 +26981,6 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <pinref part="K1" gate="K1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="IN"/>
-<pinref part="P+5" gate="1" pin="+12V"/>
-<wire x1="267.97" y1="193.04" x2="264.16" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="193.04" x2="264.16" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<junction x="264.16" y="193.04"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="1" pin="IN"/>
 <pinref part="P+3" gate="1" pin="+12V"/>
 <wire x1="226.06" y1="193.04" x2="223.52" y2="193.04" width="0.1524" layer="91"/>
@@ -26938,6 +26992,11 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <pinref part="T3" gate="G$1" pin="C"/>
 <pinref part="P+13" gate="1" pin="+12V"/>
 <wire x1="162.56" y1="35.56" x2="162.56" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+5" gate="1" pin="+12V"/>
+<pinref part="D11" gate="G$1" pin="A"/>
+<wire x1="264.16" y1="200.66" x2="264.16" y2="198.12" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
 <net name="-12V" class="0">
@@ -27258,12 +27317,6 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <pinref part="+3V34" gate="G$1" pin="+3V3"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="114.3" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V316" gate="G$1" pin="+3V3"/>
-<wire x1="96.52" y1="35.56" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="35.56" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="X3" gate="2" pin="S"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="2"/>
@@ -28272,13 +28325,19 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="X2" gate="G$1" pin="1"/>
 <pinref part="SUPPLY39" gate="G$1" pin="DGND"/>
-<wire x1="365.76" y1="190.5" x2="363.22" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="190.5" x2="363.22" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="190.5" x2="368.3" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="190.5" x2="368.3" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY5" gate="G$1" pin="DGND"/>
 <wire x1="474.98" y1="180.34" x2="474.98" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X4" gate="G$1" pin="1"/>
+<wire x1="370.84" y1="170.18" x2="368.3" y2="170.18" width="0.1524" layer="91" style="longdash"/>
+<pinref part="SUPPLY41" gate="G$1" pin="DGND"/>
+<wire x1="368.3" y1="170.18" x2="368.3" y2="167.64" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -28767,8 +28826,8 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="2"/>
-<wire x1="365.76" y1="193.04" x2="363.22" y2="193.04" width="0.1524" layer="91"/>
-<label x="363.22" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="370.84" y1="193.04" x2="368.3" y2="193.04" width="0.1524" layer="91"/>
+<label x="368.3" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -28951,6 +29010,42 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <pinref part="IC6" gate="G$1" pin="PC1(ADC1)"/>
 <wire x1="81.28" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91" style="longdash"/>
 <label x="83.82" y="99.06" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VPP" class="0">
+<segment>
+<pinref part="X3" gate="2" pin="S"/>
+<wire x1="96.52" y1="35.56" x2="91.44" y2="35.56" width="0.1524" layer="91" style="longdash"/>
+<pinref part="SUPPLY36" gate="G$1" pin="VPP"/>
+<wire x1="91.44" y1="35.56" x2="91.44" y2="38.1" width="0.1524" layer="91" style="longdash"/>
+</segment>
+<segment>
+<pinref part="D12" gate="G$1" pin="A"/>
+<pinref part="SUPPLY40" gate="G$1" pin="VPP"/>
+<wire x1="256.54" y1="198.628" x2="256.54" y2="198.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$57" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="267.97" y1="193.04" x2="264.16" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="D11" gate="G$1" pin="C"/>
+<junction x="264.16" y="193.04"/>
+<pinref part="D12" gate="G$1" pin="C"/>
+<wire x1="264.16" y1="193.04" x2="256.54" y2="193.04" width="0.1524" layer="91" style="longdash"/>
+</segment>
+</net>
+<net name="POWER_LED" class="0">
+<segment>
+<pinref part="X4" gate="G$1" pin="2"/>
+<wire x1="370.84" y1="172.72" x2="368.3" y2="172.72" width="0.1524" layer="91" style="longdash"/>
+<label x="368.3" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="PC2(ADC2)"/>
+<wire x1="81.28" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91" style="longdash"/>
+<label x="83.82" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
