@@ -400,6 +400,20 @@ REF</text>
 <wire x1="132.5" y1="6.75" x2="123.5" y2="6.75" width="0.1524" layer="22"/>
 <text x="32" y="92.25" size="1.016" layer="21" ratio="14" align="bottom-center">POWER
 LED</text>
+<text x="1.75" y="96" size="1.016" layer="25" ratio="14" rot="R90" align="bottom-center">AUDIO DETECT</text>
+<wire x1="2.5" y1="96.5" x2="2.5" y2="99.5" width="0.1524" layer="25"/>
+<wire x1="2.5" y1="99.5" x2="3" y2="100" width="0.1524" layer="25"/>
+<wire x1="3" y1="100" x2="5" y2="100" width="0.1524" layer="25"/>
+<wire x1="5" y1="100" x2="5.25" y2="100.25" width="0.1524" layer="25"/>
+<wire x1="5.25" y1="100.25" x2="5" y2="100.25" width="0.1524" layer="25"/>
+<wire x1="5" y1="100.25" x2="5.25" y2="100" width="0.1524" layer="25"/>
+<wire x1="5.25" y1="100" x2="5.25" y2="100.25" width="0.1524" layer="25"/>
+<wire x1="2" y1="90.5" x2="0.5" y2="90.5" width="0.1524" layer="25"/>
+<wire x1="0.5" y1="90.5" x2="0.5" y2="101.5" width="0.1524" layer="25"/>
+<wire x1="0.5" y1="101.5" x2="2" y2="101.5" width="0.1524" layer="25"/>
+<wire x1="2" y1="101.5" x2="2" y2="96" width="0.1524" layer="25"/>
+<wire x1="2" y1="96" x2="2" y2="90.5" width="0.1524" layer="25"/>
+<wire x1="2" y1="96" x2="2.5" y2="96.5" width="0.1524" layer="25"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -3126,6 +3140,39 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="led" urn="urn:adsk.eagle:library:259">
+<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
+Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
+<packages>
+<package name="CHIP-LED0603" urn="urn:adsk.eagle:footprint:15671/1" library_version="4">
+<description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
+LB Q993&lt;br&gt;
+Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
+<wire x1="-0.4" y1="0.45" x2="-0.4" y2="-0.45" width="0.1016" layer="51"/>
+<wire x1="0.4" y1="0.45" x2="0.4" y2="-0.45" width="0.1016" layer="51"/>
+<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
+<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
+<text x="-0.635" y="-0.635" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.905" y="-0.635" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.45" y1="0.45" x2="0.45" y2="0.85" layer="51"/>
+<rectangle x1="-0.45" y1="-0.85" x2="0.45" y2="-0.45" layer="51"/>
+<rectangle x1="-0.45" y1="0" x2="-0.3" y2="0.3" layer="21"/>
+<rectangle x1="0.3" y1="0" x2="0.45" y2="0.3" layer="21"/>
+<rectangle x1="-0.15" y1="0" x2="0.15" y2="0.3" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="CHIP-LED0603" urn="urn:adsk.eagle:package:15819/3" type="model" library_version="4">
+<description>Hyper CHIPLED Hyper-Bright LED
+LB Q993
+Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
+<packageinstances>
+<packageinstance name="CHIP-LED0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3830,7 +3877,7 @@ Created according to the specification at https://jlcpcb.com/capabilities/Capabi
 <element name="C63" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="22" y="121" smashed="yes">
 <attribute name="CONRAD" value="457901 - 62" x="22" y="121" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER" value="710-885012206071" x="22" y="121" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.6254" y="121" size="1.016" layer="25" ratio="14" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="22" y="119.8646" size="1.016" layer="25" ratio="14" align="top-center"/>
 <attribute name="SPICEPREFIX" value="C" x="52.48" y="-37.75" size="1.778" layer="27" display="off"/>
 <attribute name="STOCK" value="24" x="22" y="121" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="20.3746" y="119.9916" size="1.016" layer="27" ratio="14" rot="R270" align="top-right"/>
@@ -4810,6 +4857,18 @@ Created according to the specification at https://jlcpcb.com/capabilities/Capabi
 <attribute name="STOCK" value="2" x="32" y="91.75" size="1.016" layer="27" ratio="14" display="off"/>
 <attribute name="VALUE" x="33" y="95.75" size="0.4064" layer="27"/>
 </element>
+<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="" x="7" y="101" smashed="yes" rot="R270">
+<attribute name="NAME" x="5.6" y="101" size="1.016" layer="25" ratio="14" align="center-right"/>
+<attribute name="VALUE" x="6.365" y="99.095" size="1.27" layer="27"/>
+</element>
+<element name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k" x="7" y="99" smashed="yes" rot="R180">
+<attribute name="CONRAD" value="1585255 - 62" x="7" y="99" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="MOUSER" value="603-RC0603FR-071KL" x="7" y="99" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="NAME" x="5.2516" y="99" size="1.016" layer="25" ratio="14" align="center-right"/>
+<attribute name="SPICEPREFIX" value="R" x="7" y="99" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="STOCK" value="3" x="7" y="99" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="VALUE" x="7.635" y="100.905" size="1.27" layer="27" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -5594,6 +5653,18 @@ Created according to the specification at https://jlcpcb.com/capabilities/Capabi
 <via x="81.25" y="58.5" extent="1-16" drill="0.35" shape="octagon"/>
 <wire x1="81.25" y1="58.5" x2="81.8" y2="59.05" width="0.4064" layer="1"/>
 <wire x1="81.8" y1="59.05" x2="82.25" y2="59.05" width="0.4064" layer="1"/>
+<contactref element="U4" pad="11"/>
+<contactref element="U5" pad="11"/>
+<contactref element="U3" pad="11"/>
+<contactref element="U2" pad="11"/>
+<contactref element="U7" pad="11"/>
+<contactref element="U8" pad="11"/>
+<wire x1="115.05" y1="123.8866" x2="117" y2="123.8866" width="0" layer="19" extent="1-1"/>
+<wire x1="115.8866" y1="90" x2="115.8866" y2="90.65" width="0" layer="19" extent="1-1"/>
+<wire x1="101" y1="42.1134" x2="101.65" y2="42.1134" width="0" layer="19" extent="1-1"/>
+<wire x1="115.8866" y1="79" x2="115.8866" y2="80.3" width="0" layer="19" extent="1-1"/>
+<wire x1="115.8866" y1="68" x2="115.8866" y2="69.3" width="0" layer="19" extent="1-1"/>
+<wire x1="99" y1="123.8866" x2="97.05" y2="123.8866" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AUDIO_DETECT">
 <contactref element="IC6" pad="32"/>
@@ -5611,6 +5682,10 @@ Created according to the specification at https://jlcpcb.com/capabilities/Capabi
 <wire x1="13.85" y1="104" x2="13.85" y2="103.85" width="0.1524" layer="1"/>
 <wire x1="13.85" y1="103.85" x2="11.365" y2="101.365" width="0.1524" layer="1"/>
 <wire x1="11.365" y1="101.365" x2="11.365" y2="100.6" width="0.1524" layer="1"/>
+<contactref element="R43" pad="1"/>
+<wire x1="11.365" y1="100.6" x2="11.365" y2="99.115" width="0.1524" layer="1"/>
+<wire x1="11.365" y1="99.115" x2="11.25" y2="99" width="0.1524" layer="1"/>
+<wire x1="11.25" y1="99" x2="7.85" y2="99" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$38">
 <contactref element="IC8" pad="7"/>
@@ -6713,6 +6788,8 @@ Created according to the specification at https://jlcpcb.com/capabilities/Capabi
 <contactref element="J8" pad="1"/>
 <via x="11" y="104" extent="1-16" drill="0.35" shape="octagon"/>
 <via x="9.25" y="106" extent="1-16" drill="0.35" shape="octagon"/>
+<contactref element="LED1" pad="C"/>
+<wire x1="7.75" y1="101" x2="9" y2="101" width="0.1524" layer="1"/>
 </signal>
 <signal name="AGND">
 <contactref element="JP1" pad="2"/>
@@ -7441,6 +7518,12 @@ Created according to the specification at https://jlcpcb.com/capabilities/Capabi
 <wire x1="21" y1="99.25" x2="21" y2="93" width="0.1524" layer="16"/>
 <wire x1="33.27" y1="91.2" x2="31.97" y2="92.5" width="0.1524" layer="16"/>
 <wire x1="31.97" y1="92.5" x2="21.5" y2="92.5" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$37">
+<contactref element="R43" pad="2"/>
+<contactref element="LED1" pad="A"/>
+<wire x1="6.15" y1="99" x2="6.25" y2="99.1" width="0.1524" layer="1"/>
+<wire x1="6.25" y1="99.1" x2="6.25" y2="101" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
