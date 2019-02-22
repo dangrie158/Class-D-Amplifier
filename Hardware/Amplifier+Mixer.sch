@@ -27748,8 +27748,8 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <attribute name="MOUSER" x="116.84" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="116.84" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY18" gate="G$1" x="109.22" y="43.18" smashed="yes">
-<attribute name="VALUE" x="109.22" y="41.656" size="1.778" layer="96" align="top-center"/>
+<instance part="SUPPLY18" gate="G$1" x="111.76" y="43.18" smashed="yes">
+<attribute name="VALUE" x="111.76" y="41.656" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="KK2" gate="G$1" x="233.68" y="200.66" smashed="yes">
 <attribute name="NAME" x="239.395" y="203.835" size="1.778" layer="95"/>
@@ -29722,8 +29722,7 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="J7" gate="G$1" pin="1"/>
 <pinref part="SUPPLY18" gate="G$1" pin="DGND"/>
-<wire x1="111.76" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="50.8" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="50.8" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="1"/>
@@ -30182,15 +30181,6 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <junction x="96.52" y="48.26"/>
 </segment>
 </net>
-<net name="N$45" class="0">
-<segment>
-<pinref part="J7" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="53.34" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="PB2(SS/OC1B)"/>
-<wire x1="93.98" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$76" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="PB1(OC1A)"/>
@@ -30440,15 +30430,31 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <label x="368.3" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="PC2(ADC2)"/>
-<wire x1="81.28" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91" style="longdash"/>
-<label x="83.82" y="96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC6" gate="G$1" pin="PB2(SS/OC1B)"/>
+<wire x1="93.98" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
+<label x="96.52" y="53.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="93.98" y1="50.8" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="R43" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="ENC_BTN" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="53.34" x2="109.22" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
+<label x="106.68" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="PC2(ADC2)"/>
+<wire x1="81.28" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91" style="longdash"/>
+<label x="83.82" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
