@@ -30,6 +30,18 @@
 #define MCP4641_TCON 0x04
 #define MCP4641_STATUS 0x05
 
+//MCP9701 constants from datasheet
+#define MCP9701_OFFSET 0.4f    // Vout @ 0°C
+#define MCP9701_COEFF 0.0195f // V / °C
+#define ARDUINO_VREF 5.0f     //vref volts
+#define ARDUINO_ADC_RES 1024  //resolution of the internal ADC
+
+// constants used for fan control
+#define FAN_START_TEMP 40 // temperature where the fan will start spinning
+#define FAN_MAX_TEMP 80 // temperature where the fan reaches max-speed
+#define FAN_MIN_SPEED 64 // minimum PWM duty cycle for lowest fan speed
+#define FAN_MAX_SPEED 256 // full-on duty cycle value
+
 // neccecary functiun prototypes
 void setGain(Setting *level);
 void setPot(Setting *level);
@@ -344,6 +356,9 @@ void powerOff()
   digitalWrite(AMP_MUTE, LOW);
   digitalWrite(AMP_STANDBY, LOW);
 
+  //make sure the fan is off
+  digitalWrite(FAN_CTRL, LOW);
+
   // print a message on the display
   lcd.clear();
   lcd.setCursor(4, 0);
@@ -421,6 +436,14 @@ void powerButtonISR()
 
   // reenable interrupts
   attachInterrupt(digitalPinToInterrupt(POWER_BTN), powerButtonISR, FALLING);
+}
+
+float getHeatsinkTemp()
+{
+  float currentTemperature = (analogRead(T_SENSE) * ARDUINO_VREF) / ARDUINO_ADC_RES;
+  currentTemperature -= MCP9701_OFFSET;
+  currentTemperature /= MCP9701_COEFF;
+  return currentTemperature;
 }
 
 void setup()
@@ -594,5 +617,29 @@ void loop()
       resetTimers();
       menuTimer = MENU_RESET_TIME;
     }
+
+    // handle the fan controller depending on the current heatsink temerature
+
+    // debounce the serial report of temp and fan setting
+    // a lower value increases the report interval (reports more often)
+    static uint8_t tempVerbosity = 127;
+    static uint8_t tempVerbosityCounter = 0;
+    float currentTemperature = getHeatsinkTemp();
+    long fanSpeed = map(currentTemperature, FAN_START_TEMP, FAN_MAX_TEMP, FAN_MIN_SPEED, FAN_MAX_SPEED);
+    // constrain the maximum speed to full PWM value
+    fanSpeed = min(fanSpeed, FAN_MAX_SPEED);
+    // check if we're 
+    if(fanSpeed < FAN_MIN_SPEED){
+      fanSpeed = 0;
+    }
+
+    if(tempVerbosityCounter % tempVerbosity == 0){
+      Serial.print("Current heatsink temperature: ");
+      Serial.print(String(currentTemperature, 1));
+      Serial.print(" °C. Fan is at speed: ");
+      Serial.println(fanSpeed);
+    }
+    tempVerbosityCounter++;
+    analogWrite(FAN_CTRL, fanSpeed);
   }
 }
