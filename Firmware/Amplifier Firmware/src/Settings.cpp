@@ -28,11 +28,14 @@ void drawBargraph(LiquidCrystal_I2C &lcd, uint8_t x, uint8_t y, uint8_t width, u
         lcd.print(char(5));
         filledSegments -= 5;
     }
+
+    if(filledSegments > 0){
     // print the last segment
-    lcd.print(char(filledSegments));
+        lcd.print(char(filledSegments));
+    }
 
     // print the empty segments
-    while (emptySegments > 5)
+    while (emptySegments >= 5)
     {
         lcd.print(char(0));
         emptySegments -= 5;
@@ -41,8 +44,25 @@ void drawBargraph(LiquidCrystal_I2C &lcd, uint8_t x, uint8_t y, uint8_t width, u
     // print the end character
     lcd.print(char(7));
 }
-Setting::Setting(String name, String unit, uint8_t address) : name(name), unit(unit), addressEEPROM(address) {}
-Setting::~Setting() {}
+
+void Setting::increment(int8_t steps)
+{
+    this->set(this->value + steps);
+}
+
+void Setting::decrement(int8_t steps)
+{
+    this->set(this->value - steps);
+}
+
+void Setting::set(uint16_t value)
+{
+    if (value >= this->minValue && value <= this->maxValue)
+    {
+        this->value = value;
+        this->setCallback(this);
+    }
+}
 
 void ValueSetting::draw(LiquidCrystal_I2C &lcd, bool active)
 {
@@ -116,30 +136,6 @@ void ValueSetting::draw(LiquidCrystal_I2C &lcd, bool active)
     lcd.print(valueText);
 }
 
-void ValueSetting::increment(uint8_t steps)
-{
-    if (this->value + steps <= this->maxValue)
-    {
-        this->value += steps;
-    }
-}
-
-void ValueSetting::decrement(uint8_t steps)
-{
-    if (this->value - steps >= this->minValue)
-    {
-        this->value -= steps;
-    }
-}
-
-void ValueSetting::set(uint16_t value)
-{
-    if (value >= this->minValue && value <= this->maxValue)
-    {
-        this->value = value;
-    }
-}
-
 template <typename T>
 void ChoiceSetting<T>::draw(LiquidCrystal_I2C &lcd, bool active)
 {
@@ -166,35 +162,8 @@ void ChoiceSetting<T>::draw(LiquidCrystal_I2C &lcd, bool active)
     }
 
     // create the value string
-    String valueText = String(this->choices[this->choice], 1) + this->unit;
+    String valueText = String(this->choices[this->value], 1) + this->unit;
 
     // draw the value
     lcd.print(valueText);
-}
-
-template <typename T>
-void ChoiceSetting<T>::increment(uint8_t steps)
-{
-    if (this->choice + steps < this->numChoices)
-    {
-        this->choice += steps;
-    }
-}
-
-template <typename T>
-void ChoiceSetting<T>::decrement(uint8_t steps)
-{
-    if (this->choice - steps >= 0)
-    {
-        this->choice -= steps;
-    }
-}
-
-template <typename T>
-void ChoiceSetting<T>::set(uint16_t value)
-{
-    if (value >= 0 && value < this->numChoices)
-    {
-        this->choice = value;
-    }
 }
