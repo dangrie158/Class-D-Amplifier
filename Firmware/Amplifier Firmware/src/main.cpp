@@ -22,18 +22,24 @@
 #define T_SENSE A1
 #define ENC_BTN A2
 
-// MCP4641 register addresses
-#define MCP4641_VWA 0x00
-#define MCP4641_VWB 0x01
-#define MCP4641_NVWA 0x02
-#define MCP4641_NVWB 0x03
-#define MCP4641_TCON 0x04
-#define MCP4641_STATUS 0x05
+// MCP46X1 register addresses
+// bits 4-8 in the command byte
+#define MCP46X1_VWA (0x00 << 4)
+#define MCP46X1_VWB (0x01 << 4)
+#define MCP46X1_NVWA (0x02 << 4)
+#define MCP46X1_NVWB (0x03 << 4)
+#define MCP46X1_TCON (0x04 << 4)
+#define MCP46X1_STATUS (0x05 << 4)
+
+// MCP46X1 commands (read / write data)
+// bit 2 - 3 in command byte
+#define MCP46X1_WRITE_COMMAND (0b00 << 2)
+#define MCP46X1_READ_COMMAND (0b11 << 2)
 
 //MCP9701 constants from datasheet
 #define MCP9701_OFFSET 0.4f    // Vout @ 0°C
 #define MCP9701_COEFF 0.0195f // V / °C
-#define ARDUINO_VREF 5.0f     //vref volts
+#define ARDUINO_VREF 3.3f     //vref volts
 #define ARDUINO_ADC_RES 1024  //resolution of the internal ADC
 
 // constants used for fan control
@@ -71,12 +77,12 @@ const uint8_t barChars[8][8] = {
 const String nameMain = "Master Volume";
 const String nameMainMuted = "(Muted)";
 Setting *settings[NUM_SETTINGS] = {
-    new ValueSetting(nameMain, "dB", 0x5A, 0, 128, 0, 128, &loadPot, &setPot, &persistPot),
-    new ValueSetting("EQ: Bass", "dB", 0x58, 0, 128, 0, 64, &loadPot, &setPot, &persistPot),
-    new ValueSetting("EQ: Mids", "dB", 0x56, 0, 128, 0, 64, &loadPot, &setPot, &persistPot),
-    new ValueSetting("EQ: Treble", "dB", 0x54, 0, 128, 0, 64, &loadPot, &setPot, &persistPot),
-    new ValueSetting("Mixer: CH A Att", "dB", 0x50, 0, 128, 0, 128, &loadPot, &setPot, &persistPot),
-    new ValueSetting("Mixer: CH B Att", "dB", 0x52, 0, 128, 0, 128, &loadPot, &setPot, &persistPot),
+    new ValueSetting(nameMain, "dB", 0x2D, 0, 255, 0, 255, &loadPot, &setPot, &persistPot),
+    new ValueSetting("EQ: Bass", "dB", 0x2C, 0, 128, 0, 64, &loadPot, &setPot, &persistPot),
+    new ValueSetting("EQ: Mids", "dB", 0x2B, 0, 128, 0, 64, &loadPot, &setPot, &persistPot),
+    new ValueSetting("EQ: Treble", "dB", 0x2A, 0, 128, 0, 64, &loadPot, &setPot, &persistPot),
+    new ValueSetting("Mixer: CH A Att", "dB", 0x28, 0, 128, 0, 128, &loadPot, &setPot, &persistPot),
+    new ValueSetting("Mixer: CH B Att", "dB", 0x29, 0, 128, 0, 128, &loadPot, &setPot, &persistPot),
     new ChoiceSetting<float>("Gain Setting", "dB", 0x00, (float[]){25.6f, 31.6f, 35.6f, 37.6f}, 0, 4, &loadSetting, &setGain, &persistSetting),
     new ValueSetting("Standby Timer", "sec", 0x02, 0, 999, 300, 0, &loadSetting, [](Setting *setting) {}, &persistSetting),
     new ValueSetting("Mute Timer", "sec", 0x04, 0, 999, 60, 0, &loadSetting, [](Setting *setting) {}, &persistSetting),
@@ -181,7 +187,7 @@ void loadSetting(Setting *setting)
 }
 
 /**
- * @brief Set the wiper position of both wipers of a MCP4641
+ * @brief Set the wiper position of both wipers of a MCP46X1
  * 
  * @param setting the ValueSetting object for the pot. address is the I2C address of the POT and value is the wiper position
  */
@@ -193,20 +199,21 @@ void setPot(Setting *setting)
   Serial.println(String(setting->value, HEX));
   // copy the value to the pot's ram (volatile register)
   //Wiper A
+  uint8_t commandByte = setting->address;
   Wire.beginTransmission(setting->address);
-  Wire.write(MCP4641_VWA);
+  Wire.write(MCP46X1_VWA | MCP46X1_WRITE_COMMAND);
   Wire.write(setting->value);
   Wire.endTransmission();
-
+delay(100);
   // Wiper B
   Wire.beginTransmission(setting->address);
-  Wire.write(MCP4641_VWB);
+  Wire.write(MCP46X1_VWB | MCP46X1_WRITE_COMMAND);
   Wire.write(setting->value);
   Wire.endTransmission();
 }
 
 /**
- * @brief save the wiper position of a MCP4641 to its EEPROM
+ * @brief save the wiper position of a MCP46X1 to its EEPROM
  * 
  * @param setting ValueSetting object containing the address and value of the pot
  */
@@ -220,19 +227,19 @@ void persistPot(Setting *setting)
   // copy the value to the pot's EEPROM (non-volatile register)
   //Wiper A
   Wire.beginTransmission(setting->address);
-  Wire.write(MCP4641_NVWA);
+  Wire.write(MCP46X1_NVWA | MCP46X1_WRITE_COMMAND);
   Wire.write(setting->value);
   Wire.endTransmission();
 
   // Wiper B
   Wire.beginTransmission(setting->address);
-  Wire.write(MCP4641_NVWB);
+  Wire.write(MCP46X1_NVWB | MCP46X1_WRITE_COMMAND);
   Wire.write(setting->value);
   Wire.endTransmission();
 }
 
 /**
- * @brief load the persistent wiper position of a MCP4641
+ * @brief load the persistent wiper position of a MCP46X1
  * 
  * This only loads the first wiper register and saves the value into *value* of 
  * the passed settings object. This works because both wipers are always set to the same tap
@@ -242,9 +249,9 @@ void persistPot(Setting *setting)
 void loadPot(Setting *setting)
 {
   Wire.beginTransmission(setting->address);
-  Wire.write(MCP4641_NVWA);
-  Wire.requestFrom(setting->address, (uint8_t)8);
-  setting->set(Wire.read());
+  Wire.write(MCP46X1_NVWA | MCP46X1_READ_COMMAND);
+  Wire.requestFrom(setting->address, (uint8_t)2);
+  setting->set((((uint16_t)Wire.read()) << 8) | Wire.read());
 }
 
 /**
@@ -254,9 +261,10 @@ void loadSettings()
 {
   for (Setting *setting : settings)
   {
-    setting->load();
-    Serial.print("Initialized value for ");
+
+    Serial.print("Initializing value for ");
     Serial.print(setting->name);
+    setting->load();
     Serial.print(" to value ");
     Serial.println(setting->value);
   }
@@ -281,8 +289,8 @@ void powerOn()
   //switch on LCD backlight
   lcd.clear();
   lcd.backlight();
-  lcd.setCursor(2, 0);
-  lcd.print("Powering on");
+    lcd.setCursor(2, 0);
+    lcd.print("Powering on");
 
   uint32_t processStart = millis();
 
@@ -423,13 +431,16 @@ void powerButtonISR()
   // disable interrupt on first ISR call to debounce button
   detachInterrupt(digitalPinToInterrupt(POWER_BTN));
 
-  if (powerState == POWER_STANDBY)
+  if (powerState != POWER_ON)
   {
-    targetPowerState = POWER_ON;
     resetTimers();
+    targetPowerState = POWER_ON;
+    menuTimer = MENU_RESET_TIME;
   }
   else
   {
+    muteTimer = 0;
+    standbyTimer = 0;
     targetPowerState = POWER_STANDBY;
     menuTimer = MENU_RESET_TIME;
   }
@@ -450,7 +461,9 @@ void setup()
 {
   // setup and start the hardware UART
   Serial.begin(9600);
+  Serial.println("Starting up...");
 
+  
   // setup GPIO data direction for all pins
   pinMode(AUDIO_DETECT, INPUT);
   pinMode(POWER_BTN, INPUT_PULLUP);
@@ -491,10 +504,12 @@ void setup()
   attachInterrupt(digitalPinToInterrupt(AUDIO_DETECT), audioDetectISR, CHANGE);
 
   targetPowerState = POWER_ON;
+  
 }
 
 void loop()
 {
+  
   //decrement the timers by the time passed since the last loop
   static uint32_t lastLoop = millis();
   uint32_t timePassed = millis() - lastLoop;
