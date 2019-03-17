@@ -24269,9 +24269,8 @@ Source: www.kingbright.com</description>
 <attribute name="STOCK" value="0"/>
 </part>
 <part name="AGND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="IC5" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM358" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" value="OPA134PA">
-<attribute name="CONRAD" value="1011117 - 62"/>
-<attribute name="MOUSER" value="595-OPA134PA"/>
+<part name="IC5" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM358" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" value="LME49720NA">
+<attribute name="CONRAD" value="1010937 - 62"/>
 <attribute name="STOCK" value="0"/>
 </part>
 <part name="AGND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
@@ -24634,9 +24633,8 @@ Source: www.kingbright.com</description>
 <attribute name="MOUSER" value="806-KLP42X-61-WWRR"/>
 <attribute name="STOCK" value="1"/>
 </part>
-<part name="IC4" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM358" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" value="OPA134PA">
-<attribute name="CONRAD" value="1011117 - 62"/>
-<attribute name="MOUSER" value="595-OPA134PA"/>
+<part name="IC4" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM358" device="N" package3d_urn="urn:adsk.eagle:package:16409/2" value="LME49720NA">
+<attribute name="CONRAD" value="1010937 - 62"/>
 <attribute name="STOCK" value="0"/>
 </part>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
@@ -26040,7 +26038,7 @@ Source: www.kingbright.com</description>
 <part name="JP9" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="JP10" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value="PEGND"/>
 <part name="PE4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="PE" device=""/>
-<part name="U9" library="SparkFun-Sensors" deviceset="MCP9700" device="SMD"/>
+<part name="U9" library="SparkFun-Sensors" deviceset="MCP9700" device="SMD" value="MCP9701SMD"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="SUPPLY36" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VPP" device=""/>
@@ -26097,26 +26095,26 @@ Source: www.kingbright.com</description>
 <wire x1="502.92" y1="223.52" x2="657.86" y2="223.52" width="0.1524" layer="97" style="longdash"/>
 <wire x1="657.86" y1="223.52" x2="657.86" y2="152.4" width="0.1524" layer="97" style="longdash"/>
 <wire x1="657.86" y1="152.4" x2="502.92" y2="152.4" width="0.1524" layer="97" style="longdash"/>
-<wire x1="325.12" y1="0" x2="325.12" y2="149.86" width="0.1524" layer="97" style="longdash"/>
-<wire x1="325.12" y1="149.86" x2="459.74" y2="149.86" width="0.1524" layer="97" style="longdash"/>
-<wire x1="459.74" y1="149.86" x2="459.74" y2="0" width="0.1524" layer="97" style="longdash"/>
-<wire x1="459.74" y1="0" x2="325.12" y2="0" width="0.1524" layer="97" style="longdash"/>
-<wire x1="462.28" y1="149.86" x2="462.28" y2="0" width="0.1524" layer="97" style="longdash"/>
-<wire x1="462.28" y1="0" x2="485.14" y2="0" width="0.1524" layer="97" style="longdash"/>
-<wire x1="485.14" y1="0" x2="485.14" y2="149.86" width="0.1524" layer="97" style="longdash"/>
-<wire x1="485.14" y1="149.86" x2="462.28" y2="149.86" width="0.1524" layer="97" style="longdash"/>
+<wire x1="350.52" y1="0" x2="350.52" y2="149.86" width="0.1524" layer="97" style="longdash"/>
+<wire x1="350.52" y1="149.86" x2="485.14" y2="149.86" width="0.1524" layer="97" style="longdash"/>
+<wire x1="485.14" y1="149.86" x2="485.14" y2="0" width="0.1524" layer="97" style="longdash"/>
+<wire x1="485.14" y1="0" x2="350.52" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="487.68" y1="149.86" x2="487.68" y2="0" width="0.1524" layer="97" style="longdash"/>
-<wire x1="487.68" y1="0" x2="657.86" y2="0" width="0.1524" layer="97" style="longdash"/>
-<wire x1="657.86" y1="0" x2="657.86" y2="149.86" width="0.1524" layer="97" style="longdash"/>
-<wire x1="657.86" y1="149.86" x2="487.68" y2="149.86" width="0.1524" layer="97" style="longdash"/>
-<wire x1="660.4" y1="149.86" x2="660.4" y2="0" width="0.1524" layer="97" style="longdash"/>
-<wire x1="660.4" y1="0" x2="698.5" y2="0" width="0.1524" layer="97" style="longdash"/>
+<wire x1="487.68" y1="0" x2="500.38" y2="0" width="0.1524" layer="97" style="longdash"/>
+<wire x1="500.38" y1="0" x2="500.38" y2="149.86" width="0.1524" layer="97" style="longdash"/>
+<wire x1="500.38" y1="149.86" x2="487.68" y2="149.86" width="0.1524" layer="97" style="longdash"/>
+<wire x1="502.92" y1="149.86" x2="502.92" y2="0" width="0.1524" layer="97" style="longdash"/>
+<wire x1="502.92" y1="0" x2="673.1" y2="0" width="0.1524" layer="97" style="longdash"/>
+<wire x1="673.1" y1="0" x2="673.1" y2="149.86" width="0.1524" layer="97" style="longdash"/>
+<wire x1="673.1" y1="149.86" x2="502.92" y2="149.86" width="0.1524" layer="97" style="longdash"/>
+<wire x1="675.64" y1="149.86" x2="675.64" y2="0" width="0.1524" layer="97" style="longdash"/>
+<wire x1="675.64" y1="0" x2="698.5" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="698.5" y1="0" x2="698.5" y2="149.86" width="0.1524" layer="97" style="longdash"/>
-<wire x1="698.5" y1="149.86" x2="660.4" y2="149.86" width="0.1524" layer="97" style="longdash"/>
-<wire x1="322.58" y1="149.86" x2="322.58" y2="0" width="0.1524" layer="97" style="longdash"/>
-<wire x1="322.58" y1="0" x2="266.7" y2="0" width="0.1524" layer="97" style="longdash"/>
+<wire x1="698.5" y1="149.86" x2="675.64" y2="149.86" width="0.1524" layer="97" style="longdash"/>
+<wire x1="347.98" y1="149.86" x2="347.98" y2="0" width="0.1524" layer="97" style="longdash"/>
+<wire x1="347.98" y1="0" x2="266.7" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="266.7" y1="0" x2="266.7" y2="149.86" width="0.1524" layer="97" style="longdash"/>
-<wire x1="266.7" y1="149.86" x2="322.58" y2="149.86" width="0.1524" layer="97" style="longdash"/>
+<wire x1="266.7" y1="149.86" x2="347.98" y2="149.86" width="0.1524" layer="97" style="longdash"/>
 <wire x1="129.54" y1="152.4" x2="129.54" y2="223.52" width="0.1524" layer="97" style="longdash"/>
 <wire x1="129.54" y1="223.52" x2="213.36" y2="223.52" width="0.1524" layer="97" style="longdash"/>
 <wire x1="213.36" y1="223.52" x2="213.36" y2="152.4" width="0.1524" layer="97" style="longdash"/>
@@ -26157,13 +26155,13 @@ Source: www.kingbright.com</description>
 <wire x1="127" y1="149.86" x2="127" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="127" y1="0" x2="0" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="0" y1="0" x2="0" y2="149.86" width="0.1524" layer="97" style="longdash"/>
-<text x="581.66" y="144.78" size="2.54" layer="97" align="center">Amplifier</text>
-<text x="678.18" y="144.78" size="2.54" layer="97" align="center">Speaker
+<text x="596.9" y="144.78" size="2.54" layer="97" align="center">Amplifier</text>
+<text x="688.34" y="144.78" size="2.54" layer="97" align="center">Speaker
 Protect</text>
-<text x="474.98" y="144.78" size="2.54" layer="97" align="center">Main
+<text x="494.284" y="144.78" size="2.54" layer="97" align="center">Main
 Volume</text>
-<text x="398.78" y="147.32" size="2.54" layer="97" align="center">Equalizer</text>
-<text x="294.64" y="147.32" size="2.54" layer="97" align="center">Input Mixer</text>
+<text x="424.18" y="147.32" size="2.54" layer="97" align="center">Equalizer</text>
+<text x="320.04" y="147.32" size="2.54" layer="97" align="center">Input Mixer</text>
 <text x="236.22" y="147.32" size="2.54" layer="97" align="center">Digital Pots</text>
 <text x="170.18" y="144.78" size="2.54" layer="97" align="center">Display Connector</text>
 <text x="167.64" y="45.72" size="2.54" layer="97" align="center">Fan Controller</text>
@@ -26186,13 +26184,13 @@ Mounting</text>
 <wire x1="459.74" y1="223.52" x2="459.74" y2="152.4" width="0.1524" layer="97" style="longdash"/>
 <wire x1="459.74" y1="152.4" x2="434.34" y2="152.4" width="0.1524" layer="97" style="longdash"/>
 <text x="447.04" y="220.98" size="2.54" layer="97" align="center">I2C-Pullups</text>
-<text x="365.76" y="50.8" size="1.778" layer="97" align="center">DC COUPLE L</text>
-<text x="365.76" y="124.46" size="1.778" layer="97" align="center">DC COUPLE R</text>
+<text x="391.16" y="50.8" size="1.778" layer="97" align="center">DC COUPLE L</text>
+<text x="391.16" y="124.46" size="1.778" layer="97" align="center">DC COUPLE R</text>
 <text x="132.08" y="154.94" size="1.778" layer="97">Input: 160VA
 Load: 8 Ohms
 Imax = sqrt(160W / 8Ohm) = 4.5A
 Vripple =(Imax * (1 * 100Hz)) / 20mF = 2,25V</text>
-<text x="513.08" y="106.68" size="1.778" layer="97">AC coupling cut-off:
+<text x="528.32" y="106.68" size="1.778" layer="97">AC coupling cut-off:
 1/(2πCR)
 
 R = 60k (from Datasheet)
@@ -26208,141 +26206,140 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <attribute name="MOUSER" x="236.22" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="236.22" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U8" gate="R1" x="287.02" y="96.52" smashed="yes" rot="MR0">
-<attribute name="NAME" x="286.9819" y="93.7768" size="1.778" layer="95" rot="MR180" align="bottom-center"/>
-<attribute name="VALUE" x="286.9819" y="100.5332" size="1.778" layer="96" rot="MR180" align="top-center"/>
+<instance part="U8" gate="R1" x="307.34" y="96.52" smashed="yes" rot="MR0">
+<attribute name="NAME" x="307.3019" y="93.7768" size="1.778" layer="95" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="307.3019" y="100.5332" size="1.778" layer="96" rot="MR180" align="top-center"/>
 </instance>
-<instance part="U8" gate="R2" x="287.02" y="106.68" smashed="yes" rot="R180">
-<attribute name="NAME" x="286.9819" y="102.6668" size="1.778" layer="95" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="286.9819" y="109.4232" size="1.778" layer="96" rot="R180" align="top-center"/>
+<instance part="U8" gate="R2" x="307.34" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="307.3019" y="102.6668" size="1.778" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="307.3019" y="109.4232" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
 <instance part="U7" gate="G1" x="236.22" y="40.64" smashed="yes">
 <attribute name="CONRAD" x="236.22" y="40.64" size="1.778" layer="96" display="off"/>
 <attribute name="MOUSER" x="236.22" y="40.64" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="236.22" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U7" gate="R1" x="287.02" y="43.18" smashed="yes" rot="MR0">
-<attribute name="NAME" x="291.8079" y="40.6908" size="1.778" layer="95" rot="MR180" align="bottom-center"/>
-<attribute name="VALUE" x="286.9819" y="44.9072" size="1.778" layer="96" rot="MR180" align="top-center"/>
+<instance part="U7" gate="R1" x="307.34" y="43.18" smashed="yes" rot="MR0">
+<attribute name="NAME" x="312.1279" y="40.6908" size="1.778" layer="95" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="307.3019" y="44.9072" size="1.778" layer="96" rot="MR180" align="top-center"/>
 </instance>
-<instance part="U7" gate="R2" x="287.02" y="53.34" smashed="yes" rot="R180">
-<attribute name="NAME" x="292.0619" y="56.9468" size="1.778" layer="95" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="286.9819" y="51.7652" size="1.778" layer="96" align="top-center"/>
+<instance part="U7" gate="R2" x="307.34" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="312.3819" y="56.9468" size="1.778" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="307.3019" y="51.7652" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U5" gate="G1" x="236.22" y="63.5" smashed="yes">
 <attribute name="CONRAD" x="236.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MOUSER" x="236.22" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="236.22" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U5" gate="R1" x="398.78" y="109.22" smashed="yes">
-<attribute name="NAME" x="398.8181" y="110.6932" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="401.3581" y="106.4768" size="1.778" layer="96" align="top-center"/>
+<instance part="U5" gate="R1" x="424.18" y="109.22" smashed="yes">
+<attribute name="NAME" x="424.2181" y="110.6932" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="426.7581" y="106.4768" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U5" gate="R2" x="398.78" y="35.56" smashed="yes">
-<attribute name="NAME" x="398.8181" y="37.0332" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="401.3581" y="32.8168" size="1.778" layer="96" align="top-center"/>
+<instance part="U5" gate="R2" x="424.18" y="35.56" smashed="yes">
+<attribute name="NAME" x="424.2181" y="37.0332" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="426.7581" y="32.8168" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U4" gate="G1" x="236.22" y="86.36" smashed="yes">
 <attribute name="CONRAD" x="236.22" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="MOUSER" x="236.22" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="236.22" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U4" gate="R1" x="398.78" y="121.92" smashed="yes">
-<attribute name="NAME" x="398.8181" y="123.3932" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="401.3581" y="119.1768" size="1.778" layer="96" align="top-center"/>
+<instance part="U4" gate="R1" x="424.18" y="121.92" smashed="yes">
+<attribute name="NAME" x="424.2181" y="123.3932" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="426.7581" y="119.1768" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U4" gate="R2" x="398.78" y="48.26" smashed="yes">
-<attribute name="NAME" x="398.8181" y="49.7332" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="401.3581" y="45.5168" size="1.778" layer="96" align="top-center"/>
+<instance part="U4" gate="R2" x="424.18" y="48.26" smashed="yes">
+<attribute name="NAME" x="424.2181" y="49.7332" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="426.7581" y="45.5168" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U3" gate="G1" x="236.22" y="109.22" smashed="yes">
 <attribute name="CONRAD" x="236.22" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="MOUSER" x="236.22" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="236.22" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U3" gate="R1" x="398.78" y="139.7" smashed="yes">
-<attribute name="NAME" x="398.8181" y="141.1732" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="401.3581" y="136.9568" size="1.778" layer="96" align="top-center"/>
+<instance part="U3" gate="R1" x="424.18" y="139.7" smashed="yes">
+<attribute name="NAME" x="424.2181" y="141.1732" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="426.7581" y="136.9568" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U3" gate="R2" x="398.78" y="66.04" smashed="yes">
-<attribute name="NAME" x="398.8181" y="68.3768" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="401.3581" y="63.2968" size="1.778" layer="96" align="top-center"/>
+<instance part="U3" gate="R2" x="424.18" y="66.04" smashed="yes">
+<attribute name="NAME" x="424.2181" y="68.3768" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="426.7581" y="63.2968" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U2" gate="G1" x="236.22" y="132.08" smashed="yes">
 <attribute name="CONRAD" x="236.22" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="MOUSER" x="236.22" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="236.22" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U2" gate="R1" x="469.9" y="66.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="464.7819" y="69.6468" size="1.778" layer="95" align="top-center"/>
-<attribute name="VALUE" x="472.4019" y="64.5668" size="1.778" layer="96" align="top-center"/>
+<instance part="U2" gate="R1" x="492.76" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="491.1979" y="62.2808" size="1.778" layer="95" align="top-center"/>
+<attribute name="VALUE" x="495.2619" y="64.5668" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U2" gate="R2" x="469.9" y="96.52" smashed="yes" rot="R180">
-<attribute name="NAME" x="464.7819" y="100.1268" size="1.778" layer="95" align="top-center"/>
-<attribute name="VALUE" x="472.4019" y="95.0468" size="1.778" layer="96" align="top-center"/>
+<instance part="U2" gate="R2" x="492.76" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="491.1979" y="92.5068" size="1.778" layer="95" align="top-center"/>
+<attribute name="VALUE" x="495.2619" y="95.0468" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C19" gate="G$1" x="411.48" y="116.84" smashed="yes" rot="R270">
-<attribute name="NAME" x="408.8638" y="114.681" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="411.5562" y="114.681" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="411.48" y="116.84" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SPEC" x="411.48" y="116.84" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MOUSER" x="411.48" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="411.48" y="116.84" size="1.778" layer="96" display="off"/>
+<instance part="C19" gate="G$1" x="436.88" y="116.84" smashed="yes" rot="R270">
+<attribute name="NAME" x="434.2638" y="114.681" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="436.9562" y="114.681" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="436.88" y="116.84" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SPEC" x="436.88" y="116.84" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="436.88" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="436.88" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C25" gate="G$1" x="414.02" y="99.06" smashed="yes" rot="R270">
-<attribute name="NAME" x="411.4038" y="96.901" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="414.0962" y="96.901" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="414.02" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SPEC" x="414.02" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MOUSER" x="414.02" y="99.06" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="414.02" y="99.06" size="1.778" layer="96" display="off"/>
+<instance part="C25" gate="G$1" x="439.42" y="99.06" smashed="yes" rot="R270">
+<attribute name="NAME" x="436.8038" y="96.901" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="439.4962" y="96.901" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="439.42" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SPEC" x="439.42" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="439.42" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="439.42" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="AGND6" gate="VR1" x="375.92" y="93.98" smashed="yes">
-<attribute name="VALUE" x="375.92" y="93.218" size="1.778" layer="96" align="top-center"/>
+<instance part="AGND6" gate="VR1" x="401.32" y="93.98" smashed="yes">
+<attribute name="VALUE" x="401.32" y="93.218" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="414.02" y="121.92" smashed="yes" rot="R180">
-<attribute name="NAME" x="414.02" y="123.063" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="414.02" y="120.777" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="414.02" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="414.02" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="414.02" y="121.92" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="414.02" y="121.92" size="1.778" layer="96" display="off"/>
+<instance part="R10" gate="G$1" x="439.42" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="439.42" y="123.063" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="439.42" y="120.777" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="439.42" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="439.42" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="439.42" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="439.42" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R5" gate="G$1" x="414.02" y="139.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="414.02" y="140.843" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="414.02" y="138.557" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="414.02" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="414.02" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="414.02" y="139.7" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="414.02" y="139.7" size="1.778" layer="96" display="off"/>
+<instance part="R5" gate="G$1" x="439.42" y="139.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="439.42" y="140.843" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="439.42" y="138.557" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="439.42" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="439.42" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="439.42" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="439.42" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R8" gate="G$1" x="429.26" y="129.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="428.117" y="129.54" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="430.403" y="129.54" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="429.26" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="429.26" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="429.26" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="429.26" y="129.54" size="1.778" layer="96" display="off"/>
+<instance part="R8" gate="G$1" x="454.66" y="129.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="453.517" y="129.54" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="455.803" y="129.54" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="454.66" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="454.66" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="454.66" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="454.66" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="AGND17" gate="VR1" x="375.92" y="17.78" smashed="yes">
-<attribute name="VALUE" x="375.92" y="17.018" size="1.778" layer="96" align="top-center"/>
+<instance part="AGND17" gate="VR1" x="401.32" y="17.78" smashed="yes">
+<attribute name="VALUE" x="401.32" y="17.018" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="IC5" gate="A" x="439.42" y="96.52" smashed="yes" rot="MR180">
-<attribute name="NAME" x="441.96" y="93.345" size="1.778" layer="95" rot="MR180"/>
-<attribute name="CONRAD" x="439.42" y="96.52" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MOUSER" x="439.42" y="96.52" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="439.42" y="96.52" size="1.778" layer="96" display="off"/>
+<instance part="IC5" gate="A" x="464.82" y="96.52" smashed="yes" rot="MR180">
+<attribute name="NAME" x="467.36" y="93.345" size="1.778" layer="95" rot="MR180"/>
+<attribute name="CONRAD" x="464.82" y="96.52" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="STOCK" x="464.82" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="IC5" gate="B" x="436.88" y="20.32" smashed="yes" rot="MR180">
-<attribute name="NAME" x="439.42" y="17.145" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="439.42" y="25.4" size="1.778" layer="96" rot="MR180"/>
+<instance part="IC5" gate="B" x="462.28" y="20.32" smashed="yes" rot="MR180">
+<attribute name="NAME" x="464.82" y="17.145" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="464.82" y="25.4" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="IC5" gate="P" x="439.42" y="96.52" smashed="yes"/>
-<instance part="AGND18" gate="VR1" x="424.18" y="15.24" smashed="yes">
-<attribute name="VALUE" x="424.18" y="14.478" size="1.778" layer="96" align="top-center"/>
+<instance part="IC5" gate="P" x="464.82" y="96.52" smashed="yes"/>
+<instance part="AGND18" gate="VR1" x="449.58" y="15.24" smashed="yes">
+<attribute name="VALUE" x="449.58" y="14.478" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="AGND8" gate="VR1" x="429.26" y="88.9" smashed="yes">
-<attribute name="VALUE" x="429.26" y="88.138" size="1.778" layer="96" align="top-center"/>
+<instance part="AGND8" gate="VR1" x="454.66" y="88.9" smashed="yes">
+<attribute name="VALUE" x="454.66" y="88.138" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="D2" gate="G$1" x="25.4" y="193.04" smashed="yes">
 <attribute name="NAME" x="24.003" y="194.564" size="1.778" layer="95"/>
@@ -26430,12 +26427,12 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <attribute name="MOUSER" x="71.12" y="193.04" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="71.12" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C21" gate="G$1" x="444.5" y="106.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="444.4238" y="104.521" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="447.1162" y="104.521" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="444.5" y="106.68" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="444.5" y="106.68" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="444.5" y="106.68" size="1.778" layer="96" display="off"/>
+<instance part="C21" gate="G$1" x="469.9" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="469.8238" y="104.521" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="472.5162" y="104.521" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="469.9" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="469.9" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="469.9" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="15.24" y="182.88" smashed="yes">
 <attribute name="VALUE" x="12.7" y="180.34" size="1.778" layer="96"/>
@@ -26496,30 +26493,30 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <attribute name="MOUSER" x="5.08" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="5.08" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="P+9" gate="1" x="439.42" y="111.76" smashed="yes">
-<attribute name="VALUE" x="439.42" y="113.284" size="1.778" layer="96" align="bottom-center"/>
+<instance part="P+9" gate="1" x="464.82" y="111.76" smashed="yes">
+<attribute name="VALUE" x="464.82" y="113.284" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P-5" gate="1" x="439.42" y="81.28" smashed="yes">
-<attribute name="VALUE" x="439.42" y="79.756" size="1.778" layer="96" align="top-center"/>
+<instance part="P-5" gate="1" x="464.82" y="81.28" smashed="yes">
+<attribute name="VALUE" x="464.82" y="79.756" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="AGND3" gate="VR1" x="452.12" y="101.6" smashed="yes">
-<attribute name="VALUE" x="452.12" y="100.838" size="1.778" layer="96" align="top-center"/>
+<instance part="AGND3" gate="VR1" x="477.52" y="101.6" smashed="yes">
+<attribute name="VALUE" x="477.52" y="100.838" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C34" gate="G$1" x="444.5" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="444.4238" y="84.201" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="447.1162" y="84.201" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="444.5" y="86.36" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="444.5" y="86.36" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="444.5" y="86.36" size="1.778" layer="96" display="off"/>
+<instance part="C34" gate="G$1" x="469.9" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="469.8238" y="84.201" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="472.5162" y="84.201" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="469.9" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="469.9" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="469.9" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="AGND12" gate="VR1" x="452.12" y="81.28" smashed="yes">
-<attribute name="VALUE" x="452.12" y="80.518" size="1.778" layer="96" align="top-center"/>
+<instance part="AGND12" gate="VR1" x="477.52" y="81.28" smashed="yes">
+<attribute name="VALUE" x="477.52" y="80.518" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="AGND7" gate="VR1" x="474.98" y="91.44" smashed="yes">
-<attribute name="VALUE" x="474.98" y="90.678" size="1.778" layer="96" align="top-center"/>
+<instance part="AGND7" gate="VR1" x="497.84" y="91.44" smashed="yes">
+<attribute name="VALUE" x="497.84" y="90.678" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="AGND13" gate="VR1" x="474.98" y="60.96" smashed="yes">
-<attribute name="VALUE" x="474.98" y="60.198" size="1.778" layer="96" align="top-center"/>
+<instance part="AGND13" gate="VR1" x="497.84" y="60.96" smashed="yes">
+<attribute name="VALUE" x="497.84" y="60.198" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="R48" gate="G$1" x="548.64" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="547.497" y="180.34" size="1.778" layer="95" rot="R90" align="bottom-center"/>
@@ -26645,56 +26642,55 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <attribute name="MOUSER" x="528.32" y="210.82" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="528.32" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="X1" gate="A" x="274.32" y="101.6" smashed="yes" rot="MR0">
-<attribute name="NAME" x="272.542" y="101.6" size="1.778" layer="95" rot="MR90" align="top-center"/>
-<attribute name="VALUE" x="271.78" y="96.52" size="1.778" layer="96" rot="MR0"/>
-<attribute name="CONRAD" x="274.32" y="101.6" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="274.32" y="101.6" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="274.32" y="101.6" size="1.778" layer="96" display="off"/>
+<instance part="X1" gate="A" x="294.64" y="101.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="292.862" y="101.6" size="1.778" layer="95" rot="MR90" align="top-center"/>
+<attribute name="VALUE" x="292.1" y="96.52" size="1.778" layer="96" rot="MR0"/>
+<attribute name="CONRAD" x="294.64" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="294.64" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="294.64" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="X1" gate="B" x="274.32" y="48.26" smashed="yes" rot="MR0">
-<attribute name="NAME" x="272.542" y="48.26" size="1.778" layer="95" rot="MR90" align="top-center"/>
-<attribute name="VALUE" x="271.78" y="43.18" size="1.778" layer="96" rot="MR0"/>
+<instance part="X1" gate="B" x="294.64" y="48.26" smashed="yes" rot="MR0">
+<attribute name="NAME" x="292.862" y="48.26" size="1.778" layer="95" rot="MR90" align="top-center"/>
+<attribute name="VALUE" x="292.1" y="43.18" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="IC4" gate="P" x="345.44" y="109.22" smashed="yes">
-<attribute name="MOUSER" x="345.44" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="345.44" y="109.22" size="1.778" layer="96" display="off"/>
+<instance part="IC4" gate="P" x="370.84" y="109.22" smashed="yes">
+<attribute name="STOCK" x="370.84" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C18" gate="G$1" x="350.52" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="350.4438" y="117.221" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="353.1362" y="117.221" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="350.52" y="119.38" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="350.52" y="119.38" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="350.52" y="119.38" size="1.778" layer="96" display="off"/>
+<instance part="C18" gate="G$1" x="375.92" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="375.8438" y="117.221" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="378.5362" y="117.221" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="375.92" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="375.92" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="375.92" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="P+8" gate="1" x="345.44" y="124.46" smashed="yes">
-<attribute name="VALUE" x="345.44" y="125.984" size="1.778" layer="96" align="bottom-center"/>
+<instance part="P+8" gate="1" x="370.84" y="124.46" smashed="yes">
+<attribute name="VALUE" x="370.84" y="125.984" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P-4" gate="1" x="345.44" y="93.98" smashed="yes">
-<attribute name="VALUE" x="345.44" y="92.456" size="1.778" layer="96" align="top-center"/>
+<instance part="P-4" gate="1" x="370.84" y="93.98" smashed="yes">
+<attribute name="VALUE" x="370.84" y="92.456" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C24" gate="G$1" x="350.52" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="350.4438" y="96.901" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="353.1362" y="96.901" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="350.52" y="99.06" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="350.52" y="99.06" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="350.52" y="99.06" size="1.778" layer="96" display="off"/>
+<instance part="C24" gate="G$1" x="375.92" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="375.8438" y="96.901" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="378.5362" y="96.901" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="375.92" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="375.92" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="375.92" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="AGND5" gate="VR1" x="358.14" y="93.98" smashed="yes">
-<attribute name="VALUE" x="355.6" y="91.44" size="1.778" layer="96"/>
+<instance part="AGND5" gate="VR1" x="383.54" y="93.98" smashed="yes">
+<attribute name="VALUE" x="381" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="AGND2" gate="VR1" x="358.14" y="114.3" smashed="yes">
-<attribute name="VALUE" x="355.6" y="111.76" size="1.778" layer="96"/>
+<instance part="AGND2" gate="VR1" x="383.54" y="114.3" smashed="yes">
+<attribute name="VALUE" x="381" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="IC4" gate="B" x="345.44" y="35.56" smashed="yes">
-<attribute name="NAME" x="347.98" y="38.735" size="1.778" layer="95"/>
-<attribute name="VALUE" x="347.98" y="30.48" size="1.778" layer="96"/>
+<instance part="IC4" gate="B" x="370.84" y="35.56" smashed="yes">
+<attribute name="NAME" x="373.38" y="38.735" size="1.778" layer="95"/>
+<attribute name="VALUE" x="373.38" y="30.48" size="1.778" layer="96"/>
 </instance>
-<instance part="AGND19" gate="VR1" x="337.82" y="10.16" smashed="yes">
-<attribute name="VALUE" x="337.82" y="9.398" size="1.778" layer="96" align="top-center"/>
+<instance part="AGND19" gate="VR1" x="363.22" y="10.16" smashed="yes">
+<attribute name="VALUE" x="363.22" y="9.398" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="AGND10" gate="VR1" x="337.82" y="83.82" smashed="yes">
-<attribute name="VALUE" x="337.82" y="83.058" size="1.778" layer="96" align="top-center"/>
+<instance part="AGND10" gate="VR1" x="363.22" y="83.82" smashed="yes">
+<attribute name="VALUE" x="363.22" y="83.058" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="C11" gate="G$1" x="198.12" y="190.5" smashed="yes">
 <attribute name="NAME" x="196.469" y="187.833" size="1.778" layer="95" rot="R180" align="top-left"/>
@@ -26825,651 +26821,651 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <attribute name="MOUSER" x="302.26" y="190.5" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="302.26" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U6" gate="G$1" x="551.18" y="55.88" smashed="yes">
-<attribute name="NAME" x="550.926" y="101.346" size="1.778" layer="95" align="top-center"/>
-<attribute name="VALUE" x="551.18" y="5.08" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="MOUSER" x="551.18" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="551.18" y="55.88" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="PE2" gate="M" x="571.5" y="2.54" smashed="yes">
-<attribute name="VALUE" x="571.5" y="0.762" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="+3V312" gate="G$1" x="502.92" y="71.12" smashed="yes">
-<attribute name="VALUE" x="502.92" y="71.374" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="C49" gate="G$1" x="525.78" y="53.34" smashed="yes">
-<attribute name="NAME" x="523.748" y="50.5968" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="527.812" y="50.5968" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="525.78" y="53.34" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="525.78" y="53.34" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="525.78" y="53.34" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R27" gate="G$1" x="502.92" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="501.777" y="60.96" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="504.063" y="60.96" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="502.92" y="60.96" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="502.92" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="STOCK" x="502.92" y="60.96" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C52" gate="G$1" x="525.78" y="43.18" smashed="yes">
-<attribute name="NAME" x="523.748" y="40.4368" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="527.812" y="40.4368" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="525.78" y="43.18" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="525.78" y="43.18" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="525.78" y="43.18" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C58" gate="G$1" x="505.46" y="25.4" smashed="yes">
-<attribute name="NAME" x="505.206" y="20.8788" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="507.492" y="22.6568" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="505.46" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="505.46" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="505.46" y="25.4" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R41" gate="G$1" x="497.84" y="22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="496.697" y="22.86" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="498.983" y="22.86" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="497.84" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="497.84" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="497.84" y="22.86" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C22" gate="G$1" x="523.24" y="101.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="523.1638" y="99.441" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="525.8562" y="99.441" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="523.24" y="101.6" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="523.24" y="101.6" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="523.24" y="101.6" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="523.24" y="101.6" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C32" gate="G$1" x="518.16" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="516.128" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="516.636" y="93.599" size="1.778" layer="96" rot="R180"/>
-<attribute name="CONRAD" x="518.16" y="88.9" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="518.16" y="88.9" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="518.16" y="88.9" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="518.16" y="88.9" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C37" gate="G$1" x="523.24" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="523.1638" y="79.121" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="525.8562" y="79.121" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="523.24" y="81.28" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="523.24" y="81.28" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="523.24" y="81.28" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="523.24" y="81.28" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C40" gate="G$1" x="518.16" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="516.128" y="68.3768" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="518.922" y="66.5988" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="518.16" y="68.58" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="518.16" y="68.58" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="518.16" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="518.16" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C41" gate="G$1" x="528.32" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="526.288" y="68.3768" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="530.352" y="68.3768" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="528.32" y="68.58" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="528.32" y="68.58" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="528.32" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="528.32" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C27" gate="G$1" x="523.24" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="523.1638" y="94.361" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="525.8562" y="94.361" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="523.24" y="96.52" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="523.24" y="96.52" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="523.24" y="96.52" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="523.24" y="96.52" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C33" gate="G$1" x="528.32" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="526.288" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="529.082" y="86.741" size="1.778" layer="96"/>
-<attribute name="CONRAD" x="528.32" y="88.9" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="528.32" y="88.9" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="528.32" y="88.9" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="528.32" y="88.9" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C39" gate="G$1" x="523.24" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="523.1638" y="74.041" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="525.8562" y="74.041" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="523.24" y="76.2" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="523.24" y="76.2" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="523.24" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="523.24" y="76.2" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="AGND14" gate="VR1" x="518.16" y="63.5" smashed="yes">
-<attribute name="VALUE" x="518.16" y="62.738" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="AGND11" gate="VR1" x="518.16" y="83.82" smashed="yes">
-<attribute name="VALUE" x="518.16" y="83.058" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="C62" gate="G$1" x="523.24" y="10.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="520.6238" y="8.001" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="523.3162" y="8.001" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="523.24" y="10.16" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="523.24" y="10.16" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="523.24" y="10.16" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="+3V319" gate="G$1" x="492.76" y="15.24" smashed="yes">
-<attribute name="VALUE" x="492.76" y="15.494" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="AGND20" gate="VR1" x="581.66" y="2.54" smashed="yes">
-<attribute name="VALUE" x="581.66" y="1.778" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="C60" gate="G$1" x="576.58" y="12.7" smashed="yes">
-<attribute name="NAME" x="574.929" y="10.033" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="578.231" y="7.493" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="576.58" y="12.7" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="576.58" y="12.7" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="576.58" y="12.7" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C61" gate="G$1" x="586.74" y="12.7" smashed="yes">
-<attribute name="NAME" x="585.089" y="10.033" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="588.391" y="7.493" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="586.74" y="12.7" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="586.74" y="12.7" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="586.74" y="12.7" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C53" gate="G$1" x="574.04" y="38.1" smashed="yes">
-<attribute name="NAME" x="572.008" y="35.3568" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="576.072" y="37.8968" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="574.04" y="38.1" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="574.04" y="38.1" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="574.04" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="574.04" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C55" gate="G$1" x="594.36" y="38.1" smashed="yes">
-<attribute name="NAME" x="592.328" y="35.3568" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="596.392" y="37.8968" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="594.36" y="38.1" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="594.36" y="38.1" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="594.36" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="594.36" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C54" gate="G$1" x="584.2" y="38.1" smashed="yes">
-<attribute name="NAME" x="582.168" y="35.3568" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="586.232" y="32.8168" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="584.2" y="38.1" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="584.2" y="38.1" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="584.2" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="584.2" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C56" gate="G$1" x="604.52" y="38.1" smashed="yes">
-<attribute name="NAME" x="602.488" y="35.3568" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="606.552" y="32.8168" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="604.52" y="38.1" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="604.52" y="38.1" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="604.52" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="604.52" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C38" gate="G$1" x="576.58" y="81.28" smashed="yes">
-<attribute name="NAME" x="574.548" y="78.5368" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="577.342" y="82.0928" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="576.58" y="81.28" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="576.58" y="81.28" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="576.58" y="81.28" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="576.58" y="81.28" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C35" gate="G$1" x="596.9" y="86.36" smashed="yes">
-<attribute name="NAME" x="594.868" y="83.6168" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="598.932" y="83.6168" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="596.9" y="86.36" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="596.9" y="86.36" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="596.9" y="86.36" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="596.9" y="86.36" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C30" gate="G$1" x="614.68" y="91.44" smashed="yes">
-<attribute name="NAME" x="612.648" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="616.712" y="88.6968" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="614.68" y="91.44" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="614.68" y="91.44" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="614.68" y="91.44" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="614.68" y="91.44" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C36" gate="G$1" x="614.68" y="83.82" smashed="yes">
-<attribute name="NAME" x="612.648" y="81.0768" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="616.712" y="81.0768" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="614.68" y="83.82" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="614.68" y="83.82" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="614.68" y="83.82" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="614.68" y="83.82" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C26" gate="G$1" x="642.62" y="99.06" smashed="yes">
-<attribute name="NAME" x="640.588" y="96.3168" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="644.652" y="96.3168" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="642.62" y="99.06" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="642.62" y="99.06" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="642.62" y="99.06" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="642.62" y="99.06" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C31" gate="G$1" x="642.62" y="91.44" smashed="yes">
-<attribute name="NAME" x="640.588" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="643.636" y="86.9188" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="642.62" y="91.44" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="642.62" y="91.44" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="642.62" y="91.44" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="642.62" y="91.44" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R20" gate="G$1" x="576.58" y="91.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="575.437" y="91.44" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="577.723" y="91.44" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="576.58" y="91.44" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="576.58" y="91.44" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="576.58" y="91.44" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="576.58" y="91.44" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R22" gate="G$1" x="642.62" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="641.477" y="81.28" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="643.763" y="81.28" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="642.62" y="81.28" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="642.62" y="81.28" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="642.62" y="81.28" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="642.62" y="81.28" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R16" gate="G$1" x="642.62" y="106.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="641.477" y="106.68" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="643.763" y="106.68" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="642.62" y="106.68" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="642.62" y="106.68" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="642.62" y="106.68" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="642.62" y="106.68" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="L1" gate="G$1" x="586.74" y="96.52" smashed="yes">
-<attribute name="NAME" x="582.93" y="98.806" size="1.778" layer="95"/>
-<attribute name="VALUE" x="582.803" y="93.472" size="1.778" layer="96"/>
-<attribute name="CONRAD" x="586.74" y="96.52" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="586.74" y="96.52" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="586.74" y="96.52" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="586.74" y="96.52" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="L2" gate="G$1" x="586.74" y="76.2" smashed="yes">
-<attribute name="NAME" x="586.74" y="80.137" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="586.74" y="78.105" size="1.778" layer="96" align="bottom-center"/>
-<attribute name="CONRAD" x="586.74" y="76.2" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="586.74" y="76.2" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="586.74" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="586.74" y="76.2" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="AGND9" gate="VR1" x="652.78" y="91.44" smashed="yes">
-<attribute name="VALUE" x="652.78" y="90.678" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY17" gate="+18V" x="609.6" y="48.26" smashed="yes" rot="R270">
-<attribute name="VALUE" x="610.87" y="49.784" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY22" gate="G$1" x="609.6" y="27.94" smashed="yes" rot="R90">
-<attribute name="VALUE" x="610.87" y="26.416" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="C47" gate="G$1" x="576.58" y="58.42" smashed="yes">
-<attribute name="NAME" x="574.548" y="55.6768" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="578.612" y="58.2168" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="576.58" y="58.42" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="576.58" y="58.42" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="576.58" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="576.58" y="58.42" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C44" gate="G$1" x="596.9" y="63.5" smashed="yes">
-<attribute name="NAME" x="594.868" y="60.7568" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="598.932" y="60.7568" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="596.9" y="63.5" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="596.9" y="63.5" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="596.9" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="596.9" y="63.5" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C42" gate="G$1" x="614.68" y="68.58" smashed="yes">
-<attribute name="NAME" x="612.648" y="65.8368" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="616.712" y="65.8368" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="614.68" y="68.58" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="614.68" y="68.58" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="614.68" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="614.68" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C45" gate="G$1" x="614.68" y="60.96" smashed="yes">
-<attribute name="NAME" x="612.648" y="58.2168" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="616.712" y="58.2168" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="614.68" y="60.96" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="614.68" y="60.96" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="614.68" y="60.96" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="614.68" y="60.96" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C46" gate="G$1" x="642.62" y="60.96" smashed="yes">
-<attribute name="NAME" x="640.588" y="58.2168" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="644.652" y="58.2168" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="642.62" y="60.96" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="642.62" y="60.96" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="642.62" y="60.96" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="642.62" y="60.96" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C50" gate="G$1" x="642.62" y="53.34" smashed="yes">
-<attribute name="NAME" x="640.588" y="50.5968" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="643.128" y="48.8188" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="642.62" y="53.34" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="642.62" y="53.34" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="642.62" y="53.34" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="642.62" y="53.34" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R23" gate="G$1" x="576.58" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="575.437" y="68.58" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="577.723" y="68.58" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="576.58" y="68.58" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="576.58" y="68.58" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="576.58" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="576.58" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R34" gate="G$1" x="642.62" y="43.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="641.477" y="43.18" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="643.763" y="43.18" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="642.62" y="43.18" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="642.62" y="43.18" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="642.62" y="43.18" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="642.62" y="43.18" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R24" gate="G$1" x="642.62" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="641.477" y="68.58" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="643.763" y="68.58" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="642.62" y="68.58" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="642.62" y="68.58" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="642.62" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="642.62" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="L3" gate="G$1" x="586.74" y="73.66" smashed="yes">
-<attribute name="NAME" x="586.74" y="72.644" size="1.778" layer="95" align="top-center"/>
-<attribute name="VALUE" x="586.74" y="70.612" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="586.74" y="73.66" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="586.74" y="73.66" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="586.74" y="73.66" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="586.74" y="73.66" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="L4" gate="G$1" x="586.74" y="53.34" smashed="yes">
-<attribute name="NAME" x="582.93" y="55.626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="582.803" y="50.292" size="1.778" layer="96"/>
-<attribute name="CONRAD" x="586.74" y="53.34" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="586.74" y="53.34" size="1.27" layer="96" display="off"/>
-<attribute name="MOUSER" x="586.74" y="53.34" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="586.74" y="53.34" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="AGND15" gate="VR1" x="652.78" y="53.34" smashed="yes">
-<attribute name="VALUE" x="652.78" y="52.578" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="R4" gate="G$1" x="383.54" y="139.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="383.54" y="140.843" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="383.54" y="138.557" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="383.54" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="383.54" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="383.54" y="139.7" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="383.54" y="139.7" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R14" gate="G$1" x="383.54" y="109.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="383.54" y="110.363" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="383.54" y="108.077" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="383.54" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="383.54" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="383.54" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="383.54" y="109.22" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R15" gate="G$1" x="414.02" y="109.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="414.02" y="110.363" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="414.02" y="108.077" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="414.02" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="414.02" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="414.02" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="414.02" y="109.22" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R26" gate="G$1" x="414.02" y="66.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="414.02" y="67.183" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="414.02" y="64.897" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="414.02" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="414.02" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="414.02" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="414.02" y="66.04" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R25" gate="G$1" x="383.54" y="66.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="383.54" y="67.183" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="383.54" y="64.897" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="383.54" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="383.54" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="383.54" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="383.54" y="66.04" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R37" gate="G$1" x="383.54" y="35.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="383.54" y="36.703" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="383.54" y="34.417" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="383.54" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="383.54" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="383.54" y="35.56" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="383.54" y="35.56" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R38" gate="G$1" x="414.02" y="35.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="414.02" y="36.703" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="414.02" y="34.417" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="414.02" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="414.02" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="414.02" y="35.56" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="414.02" y="35.56" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R7" gate="G$1" x="414.02" y="129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="414.02" y="130.683" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="414.02" y="128.397" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="414.02" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="414.02" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="414.02" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="414.02" y="129.54" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R9" gate="G$1" x="383.54" y="121.92" smashed="yes" rot="R180">
-<attribute name="NAME" x="383.54" y="123.063" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="383.54" y="120.777" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="383.54" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="383.54" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="383.54" y="121.92" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="383.54" y="121.92" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R6" gate="G$1" x="383.54" y="129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="383.54" y="130.683" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="383.54" y="128.397" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="383.54" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="383.54" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="383.54" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="383.54" y="129.54" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R32" gate="G$1" x="383.54" y="48.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="383.54" y="49.403" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="383.54" y="47.117" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="383.54" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="383.54" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="383.54" y="48.26" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="383.54" y="48.26" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R29" gate="G$1" x="383.54" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="383.54" y="57.023" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="383.54" y="54.737" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="383.54" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="383.54" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="383.54" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="383.54" y="55.88" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R30" gate="G$1" x="414.02" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="414.02" y="57.023" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="414.02" y="54.737" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="414.02" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="414.02" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="414.02" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="414.02" y="55.88" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R33" gate="G$1" x="414.02" y="48.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="414.02" y="49.403" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="414.02" y="47.117" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="414.02" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="414.02" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="414.02" y="48.26" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="414.02" y="48.26" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R12" gate="G$1" x="429.26" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="428.117" y="111.76" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="430.403" y="111.76" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="429.26" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="429.26" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="429.26" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="429.26" y="111.76" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R17" gate="G$1" x="375.92" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="374.777" y="104.14" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="377.063" y="104.14" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="375.92" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="375.92" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="375.92" y="104.14" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="375.92" y="104.14" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R31" gate="G$1" x="426.72" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="425.577" y="55.88" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="427.863" y="55.88" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="426.72" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="426.72" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="426.72" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="426.72" y="55.88" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R36" gate="G$1" x="426.72" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="425.577" y="38.1" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="427.863" y="38.1" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="426.72" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="426.72" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="426.72" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="426.72" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R39" gate="G$1" x="375.92" y="27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="374.777" y="27.94" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="377.063" y="27.94" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="375.92" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="375.92" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="375.92" y="27.94" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="375.92" y="27.94" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R42" gate="G$1" x="347.98" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="347.98" y="16.383" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="347.98" y="14.097" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="347.98" y="15.24" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="347.98" y="15.24" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="347.98" y="15.24" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="347.98" y="15.24" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R40" gate="G$1" x="337.82" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="336.677" y="25.4" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="338.963" y="25.4" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="337.82" y="25.4" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SPEC" x="337.82" y="25.4" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MOUSER" x="337.82" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="337.82" y="25.4" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R21" gate="G$1" x="350.52" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="350.52" y="90.043" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="350.52" y="87.757" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="350.52" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SPEC" x="350.52" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSER" x="350.52" y="88.9" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="350.52" y="88.9" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R18" gate="G$1" x="337.82" y="99.06" smashed="yes" rot="R270">
-<attribute name="NAME" x="336.677" y="99.06" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="338.963" y="99.06" size="1.778" layer="96" rot="R90" align="top-center"/>
-<attribute name="CONRAD" x="337.82" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SPEC" x="337.82" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MOUSER" x="337.82" y="99.06" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="337.82" y="99.06" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C20" gate="G$1" x="368.3" y="109.22" smashed="yes" rot="R90">
-<attribute name="NAME" x="368.2238" y="107.061" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="CONRAD" x="368.3" y="109.22" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="368.3" y="109.22" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="368.3" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="368.3" y="109.22" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C57" gate="G$1" x="368.3" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="368.2238" y="33.401" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="370.9162" y="33.401" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="368.3" y="35.56" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="368.3" y="35.56" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="368.3" y="35.56" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="368.3" y="35.56" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C17" gate="G$1" x="396.24" y="129.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="396.1638" y="127.381" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="398.8562" y="127.381" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="396.24" y="129.54" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="396.24" y="129.54" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="396.24" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="396.24" y="129.54" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C48" gate="G$1" x="396.24" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="396.1638" y="53.721" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="398.8562" y="53.721" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="396.24" y="55.88" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SPEC" x="396.24" y="55.88" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER" x="396.24" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="396.24" y="55.88" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C51" gate="G$1" x="411.48" y="43.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="408.8638" y="41.021" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="411.5562" y="41.021" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="411.48" y="43.18" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SPEC" x="411.48" y="43.18" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MOUSER" x="411.48" y="43.18" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="411.48" y="43.18" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C59" gate="G$1" x="411.48" y="22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="408.8638" y="20.701" size="1.778" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="411.5562" y="20.701" size="1.778" layer="96" rot="R180" align="top-right"/>
-<attribute name="CONRAD" x="411.48" y="22.86" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SPEC" x="411.48" y="22.86" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MOUSER" x="411.48" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="411.48" y="22.86" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="JP2" gate="A" x="368.3" y="119.38" smashed="yes">
-<attribute name="NAME" x="367.03" y="119.38" size="1.778" layer="95" rot="R90"/>
-<attribute name="CONRAD" x="368.3" y="119.38" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="368.3" y="119.38" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="368.3" y="119.38" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="JP3" gate="A" x="368.3" y="45.72" smashed="yes">
-<attribute name="NAME" x="367.03" y="45.72" size="1.778" layer="95" rot="R90"/>
-<attribute name="CONRAD" x="368.3" y="45.72" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="368.3" y="45.72" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="368.3" y="45.72" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R11" gate="G$1" x="302.26" y="111.76" smashed="yes">
-<attribute name="NAME" x="302.26" y="112.903" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="302.26" y="110.617" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="302.26" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="SPEC" x="302.26" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="302.26" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="302.26" y="111.76" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R19" gate="G$1" x="302.26" y="91.44" smashed="yes">
-<attribute name="NAME" x="302.26" y="92.583" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="302.26" y="90.297" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="302.26" y="91.44" size="1.778" layer="96" display="off"/>
-<attribute name="SPEC" x="302.26" y="91.44" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="302.26" y="91.44" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="302.26" y="91.44" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R28" gate="G$1" x="302.26" y="58.42" smashed="yes">
-<attribute name="NAME" x="302.26" y="59.563" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="302.26" y="57.277" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="302.26" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="SPEC" x="302.26" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="302.26" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="302.26" y="58.42" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R35" gate="G$1" x="302.26" y="38.1" smashed="yes">
-<attribute name="NAME" x="302.26" y="39.243" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="302.26" y="36.957" size="1.778" layer="96" align="top-center"/>
-<attribute name="CONRAD" x="302.26" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="SPEC" x="302.26" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="302.26" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="302.26" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="D8" gate="G$1" x="678.18" y="33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="676.783" y="35.7632" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="676.783" y="30.2768" size="1.778" layer="96" align="top-right"/>
-<attribute name="CONRAD" x="678.18" y="33.02" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="678.18" y="33.02" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="678.18" y="33.02" size="1.778" layer="96" display="off"/>
+<instance part="U6" gate="G$1" x="566.42" y="55.88" smashed="yes">
+<attribute name="NAME" x="566.166" y="101.346" size="1.778" layer="95" align="top-center"/>
+<attribute name="VALUE" x="566.42" y="5.08" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="MOUSER" x="566.42" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="566.42" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="PE2" gate="M" x="586.74" y="2.54" smashed="yes">
+<attribute name="VALUE" x="586.74" y="0.762" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="+3V312" gate="G$1" x="518.16" y="71.12" smashed="yes">
+<attribute name="VALUE" x="518.16" y="71.374" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="C49" gate="G$1" x="541.02" y="53.34" smashed="yes">
+<attribute name="NAME" x="538.988" y="50.5968" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="543.052" y="50.5968" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="541.02" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="541.02" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="541.02" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R27" gate="G$1" x="518.16" y="60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="517.017" y="60.96" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="519.303" y="60.96" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="518.16" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="518.16" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="STOCK" x="518.16" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C52" gate="G$1" x="541.02" y="43.18" smashed="yes">
+<attribute name="NAME" x="538.988" y="40.4368" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="543.052" y="40.4368" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="541.02" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="541.02" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="541.02" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C58" gate="G$1" x="520.7" y="25.4" smashed="yes">
+<attribute name="NAME" x="520.446" y="20.8788" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="522.732" y="22.6568" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="520.7" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="520.7" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="520.7" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R41" gate="G$1" x="513.08" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="511.937" y="22.86" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="514.223" y="22.86" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="513.08" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="513.08" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="513.08" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C22" gate="G$1" x="538.48" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="538.4038" y="99.441" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="541.0962" y="99.441" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="538.48" y="101.6" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="538.48" y="101.6" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="538.48" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="538.48" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C32" gate="G$1" x="533.4" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="531.368" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="531.876" y="93.599" size="1.778" layer="96" rot="R180"/>
+<attribute name="CONRAD" x="533.4" y="88.9" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="533.4" y="88.9" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="533.4" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="533.4" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C37" gate="G$1" x="538.48" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="538.4038" y="79.121" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="541.0962" y="79.121" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="538.48" y="81.28" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="538.48" y="81.28" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="538.48" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="538.48" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C40" gate="G$1" x="533.4" y="68.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="531.368" y="68.3768" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="534.162" y="66.5988" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="533.4" y="68.58" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="533.4" y="68.58" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="533.4" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="533.4" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C41" gate="G$1" x="543.56" y="68.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="541.528" y="68.3768" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="545.592" y="68.3768" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="543.56" y="68.58" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="543.56" y="68.58" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="543.56" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="543.56" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C27" gate="G$1" x="538.48" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="538.4038" y="94.361" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="541.0962" y="94.361" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="538.48" y="96.52" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="538.48" y="96.52" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="538.48" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="538.48" y="96.52" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C33" gate="G$1" x="543.56" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="541.528" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="544.322" y="86.741" size="1.778" layer="96"/>
+<attribute name="CONRAD" x="543.56" y="88.9" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="543.56" y="88.9" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="543.56" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="543.56" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C39" gate="G$1" x="538.48" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="538.4038" y="74.041" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="541.0962" y="74.041" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="538.48" y="76.2" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="538.48" y="76.2" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="538.48" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="538.48" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="AGND14" gate="VR1" x="533.4" y="63.5" smashed="yes">
+<attribute name="VALUE" x="533.4" y="62.738" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="AGND11" gate="VR1" x="533.4" y="83.82" smashed="yes">
+<attribute name="VALUE" x="533.4" y="83.058" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="C62" gate="G$1" x="538.48" y="10.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="535.8638" y="8.001" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="538.5562" y="8.001" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="538.48" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="538.48" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="538.48" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="+3V319" gate="G$1" x="508" y="15.24" smashed="yes">
+<attribute name="VALUE" x="508" y="15.494" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="AGND20" gate="VR1" x="596.9" y="2.54" smashed="yes">
+<attribute name="VALUE" x="596.9" y="1.778" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="C60" gate="G$1" x="591.82" y="12.7" smashed="yes">
+<attribute name="NAME" x="590.169" y="10.033" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="593.471" y="7.493" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="591.82" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="591.82" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="591.82" y="12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C61" gate="G$1" x="601.98" y="12.7" smashed="yes">
+<attribute name="NAME" x="600.329" y="10.033" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="603.631" y="7.493" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="601.98" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="601.98" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="601.98" y="12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C53" gate="G$1" x="589.28" y="38.1" smashed="yes">
+<attribute name="NAME" x="587.248" y="35.3568" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="591.312" y="37.8968" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="589.28" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="589.28" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="589.28" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="589.28" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C55" gate="G$1" x="609.6" y="38.1" smashed="yes">
+<attribute name="NAME" x="607.568" y="35.3568" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="611.632" y="37.8968" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="609.6" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="609.6" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="609.6" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="609.6" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C54" gate="G$1" x="599.44" y="38.1" smashed="yes">
+<attribute name="NAME" x="597.408" y="35.3568" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="601.472" y="32.8168" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="599.44" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="599.44" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="599.44" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="599.44" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C56" gate="G$1" x="619.76" y="38.1" smashed="yes">
+<attribute name="NAME" x="617.728" y="35.3568" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="621.792" y="32.8168" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="619.76" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="619.76" y="38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="619.76" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="619.76" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C38" gate="G$1" x="591.82" y="81.28" smashed="yes">
+<attribute name="NAME" x="589.788" y="78.5368" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="592.582" y="82.0928" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="591.82" y="81.28" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="591.82" y="81.28" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="591.82" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="591.82" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C35" gate="G$1" x="612.14" y="86.36" smashed="yes">
+<attribute name="NAME" x="610.108" y="83.6168" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="614.172" y="83.6168" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="612.14" y="86.36" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="612.14" y="86.36" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="612.14" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="612.14" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C30" gate="G$1" x="629.92" y="91.44" smashed="yes">
+<attribute name="NAME" x="627.888" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="631.952" y="88.6968" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="629.92" y="91.44" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="629.92" y="91.44" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="629.92" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="629.92" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C36" gate="G$1" x="629.92" y="83.82" smashed="yes">
+<attribute name="NAME" x="627.888" y="81.0768" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="631.952" y="81.0768" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="629.92" y="83.82" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="629.92" y="83.82" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="629.92" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="629.92" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C26" gate="G$1" x="657.86" y="99.06" smashed="yes">
+<attribute name="NAME" x="655.828" y="96.3168" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="659.892" y="96.3168" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="657.86" y="99.06" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="657.86" y="99.06" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="657.86" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="657.86" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C31" gate="G$1" x="657.86" y="91.44" smashed="yes">
+<attribute name="NAME" x="655.828" y="88.6968" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="658.876" y="86.9188" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="657.86" y="91.44" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="657.86" y="91.44" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="657.86" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="657.86" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R20" gate="G$1" x="591.82" y="91.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="590.677" y="91.44" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="592.963" y="91.44" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="591.82" y="91.44" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="591.82" y="91.44" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="591.82" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="591.82" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R22" gate="G$1" x="657.86" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="656.717" y="81.28" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="659.003" y="81.28" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="657.86" y="81.28" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="657.86" y="81.28" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="657.86" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="657.86" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R16" gate="G$1" x="657.86" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="656.717" y="106.68" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="659.003" y="106.68" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="657.86" y="106.68" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="657.86" y="106.68" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="657.86" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="657.86" y="106.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="L1" gate="G$1" x="601.98" y="96.52" smashed="yes">
+<attribute name="NAME" x="598.17" y="98.806" size="1.778" layer="95"/>
+<attribute name="VALUE" x="598.043" y="93.472" size="1.778" layer="96"/>
+<attribute name="CONRAD" x="601.98" y="96.52" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="601.98" y="96.52" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="601.98" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="601.98" y="96.52" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="L2" gate="G$1" x="601.98" y="76.2" smashed="yes">
+<attribute name="NAME" x="601.98" y="80.137" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="601.98" y="78.105" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="CONRAD" x="601.98" y="76.2" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="601.98" y="76.2" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="601.98" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="601.98" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="AGND9" gate="VR1" x="668.02" y="91.44" smashed="yes">
+<attribute name="VALUE" x="668.02" y="90.678" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY17" gate="+18V" x="624.84" y="48.26" smashed="yes" rot="R270">
+<attribute name="VALUE" x="626.11" y="49.784" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY22" gate="G$1" x="624.84" y="27.94" smashed="yes" rot="R90">
+<attribute name="VALUE" x="626.11" y="26.416" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="C47" gate="G$1" x="591.82" y="58.42" smashed="yes">
+<attribute name="NAME" x="589.788" y="55.6768" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="593.852" y="58.2168" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="591.82" y="58.42" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="591.82" y="58.42" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="591.82" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="591.82" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C44" gate="G$1" x="612.14" y="63.5" smashed="yes">
+<attribute name="NAME" x="610.108" y="60.7568" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="614.172" y="60.7568" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="612.14" y="63.5" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="612.14" y="63.5" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="612.14" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="612.14" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C42" gate="G$1" x="629.92" y="68.58" smashed="yes">
+<attribute name="NAME" x="627.888" y="65.8368" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="631.952" y="65.8368" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="629.92" y="68.58" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="629.92" y="68.58" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="629.92" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="629.92" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C45" gate="G$1" x="629.92" y="60.96" smashed="yes">
+<attribute name="NAME" x="627.888" y="58.2168" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="631.952" y="58.2168" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="629.92" y="60.96" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="629.92" y="60.96" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="629.92" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="629.92" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C46" gate="G$1" x="657.86" y="60.96" smashed="yes">
+<attribute name="NAME" x="655.828" y="58.2168" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="659.892" y="58.2168" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="657.86" y="60.96" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="657.86" y="60.96" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="657.86" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="657.86" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C50" gate="G$1" x="657.86" y="53.34" smashed="yes">
+<attribute name="NAME" x="655.828" y="50.5968" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="658.368" y="48.8188" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="657.86" y="53.34" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="657.86" y="53.34" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="657.86" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="657.86" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R23" gate="G$1" x="591.82" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="590.677" y="68.58" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="592.963" y="68.58" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="591.82" y="68.58" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="591.82" y="68.58" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="591.82" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="591.82" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R34" gate="G$1" x="657.86" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="656.717" y="43.18" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="659.003" y="43.18" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="657.86" y="43.18" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="657.86" y="43.18" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="657.86" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="657.86" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R24" gate="G$1" x="657.86" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="656.717" y="68.58" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="659.003" y="68.58" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="657.86" y="68.58" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="657.86" y="68.58" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="657.86" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="657.86" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="L3" gate="G$1" x="601.98" y="73.66" smashed="yes">
+<attribute name="NAME" x="601.98" y="72.644" size="1.778" layer="95" align="top-center"/>
+<attribute name="VALUE" x="601.98" y="70.612" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="601.98" y="73.66" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="601.98" y="73.66" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="601.98" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="601.98" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="L4" gate="G$1" x="601.98" y="53.34" smashed="yes">
+<attribute name="NAME" x="598.17" y="55.626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="598.043" y="50.292" size="1.778" layer="96"/>
+<attribute name="CONRAD" x="601.98" y="53.34" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="601.98" y="53.34" size="1.27" layer="96" display="off"/>
+<attribute name="MOUSER" x="601.98" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="601.98" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="AGND15" gate="VR1" x="668.02" y="53.34" smashed="yes">
+<attribute name="VALUE" x="668.02" y="52.578" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R4" gate="G$1" x="408.94" y="139.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.94" y="140.843" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="408.94" y="138.557" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="408.94" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="408.94" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="408.94" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="408.94" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R14" gate="G$1" x="408.94" y="109.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.94" y="110.363" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="408.94" y="108.077" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="408.94" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="408.94" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="408.94" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="408.94" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R15" gate="G$1" x="439.42" y="109.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="439.42" y="110.363" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="439.42" y="108.077" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="439.42" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="439.42" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="439.42" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="439.42" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R26" gate="G$1" x="439.42" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="439.42" y="67.183" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="439.42" y="64.897" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="439.42" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="439.42" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="439.42" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="439.42" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R25" gate="G$1" x="408.94" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.94" y="67.183" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="408.94" y="64.897" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="408.94" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="408.94" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="408.94" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="408.94" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R37" gate="G$1" x="408.94" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.94" y="36.703" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="408.94" y="34.417" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="408.94" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="408.94" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="408.94" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="408.94" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R38" gate="G$1" x="439.42" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="439.42" y="36.703" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="439.42" y="34.417" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="439.42" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="439.42" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="439.42" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="439.42" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R7" gate="G$1" x="439.42" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="439.42" y="130.683" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="439.42" y="128.397" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="439.42" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="439.42" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="439.42" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="439.42" y="129.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="408.94" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.94" y="123.063" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="408.94" y="120.777" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="408.94" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="408.94" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="408.94" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="408.94" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="408.94" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.94" y="130.683" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="408.94" y="128.397" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="408.94" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="408.94" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="408.94" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="408.94" y="129.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R32" gate="G$1" x="408.94" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.94" y="49.403" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="408.94" y="47.117" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="408.94" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="408.94" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="408.94" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="408.94" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R29" gate="G$1" x="408.94" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.94" y="57.023" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="408.94" y="54.737" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="408.94" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="408.94" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="408.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="408.94" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R30" gate="G$1" x="439.42" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="439.42" y="57.023" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="439.42" y="54.737" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="439.42" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="439.42" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="439.42" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="439.42" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R33" gate="G$1" x="439.42" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="439.42" y="49.403" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="439.42" y="47.117" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="439.42" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="439.42" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="439.42" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="439.42" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R12" gate="G$1" x="454.66" y="111.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="453.517" y="111.76" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="455.803" y="111.76" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="454.66" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="454.66" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="454.66" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="454.66" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R17" gate="G$1" x="401.32" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="400.177" y="104.14" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="402.463" y="104.14" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="401.32" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="401.32" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="401.32" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="401.32" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R31" gate="G$1" x="452.12" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="450.977" y="55.88" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="453.263" y="55.88" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="452.12" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="452.12" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="452.12" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="452.12" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R36" gate="G$1" x="452.12" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="450.977" y="38.1" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="453.263" y="38.1" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="452.12" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="452.12" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="452.12" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="452.12" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R39" gate="G$1" x="401.32" y="27.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="400.177" y="27.94" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="402.463" y="27.94" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="401.32" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="401.32" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="401.32" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="401.32" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R42" gate="G$1" x="373.38" y="15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="373.38" y="16.383" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="373.38" y="14.097" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="373.38" y="15.24" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="373.38" y="15.24" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="373.38" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="373.38" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R40" gate="G$1" x="363.22" y="20.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="362.077" y="20.32" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="364.363" y="20.32" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="363.22" y="20.32" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SPEC" x="363.22" y="20.32" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="363.22" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="363.22" y="20.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R21" gate="G$1" x="375.92" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="375.92" y="90.043" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="375.92" y="87.757" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="375.92" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SPEC" x="375.92" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="375.92" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="375.92" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R18" gate="G$1" x="363.22" y="91.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="362.077" y="91.44" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="364.363" y="91.44" size="1.778" layer="96" rot="R90" align="top-center"/>
+<attribute name="CONRAD" x="363.22" y="91.44" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SPEC" x="363.22" y="91.44" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="363.22" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="363.22" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C20" gate="G$1" x="393.7" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="393.6238" y="107.061" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="CONRAD" x="393.7" y="109.22" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="393.7" y="109.22" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="393.7" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="393.7" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C57" gate="G$1" x="393.7" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="393.6238" y="33.401" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="396.3162" y="33.401" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="393.7" y="35.56" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="393.7" y="35.56" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="393.7" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="393.7" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C17" gate="G$1" x="421.64" y="129.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="421.5638" y="127.381" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="424.2562" y="127.381" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="421.64" y="129.54" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="421.64" y="129.54" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="421.64" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="421.64" y="129.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C48" gate="G$1" x="421.64" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="421.5638" y="53.721" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="424.2562" y="53.721" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="421.64" y="55.88" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="SPEC" x="421.64" y="55.88" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="421.64" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="421.64" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C51" gate="G$1" x="436.88" y="43.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="434.2638" y="41.021" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="436.9562" y="41.021" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="436.88" y="43.18" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SPEC" x="436.88" y="43.18" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="436.88" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="436.88" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C59" gate="G$1" x="436.88" y="22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="434.2638" y="20.701" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="436.9562" y="20.701" size="1.778" layer="96" rot="R180" align="top-right"/>
+<attribute name="CONRAD" x="436.88" y="22.86" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SPEC" x="436.88" y="22.86" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="436.88" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="436.88" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP2" gate="A" x="393.7" y="119.38" smashed="yes">
+<attribute name="NAME" x="392.43" y="119.38" size="1.778" layer="95" rot="R90"/>
+<attribute name="CONRAD" x="393.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="393.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="393.7" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP3" gate="A" x="393.7" y="45.72" smashed="yes">
+<attribute name="NAME" x="392.43" y="45.72" size="1.778" layer="95" rot="R90"/>
+<attribute name="CONRAD" x="393.7" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="393.7" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="393.7" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R11" gate="G$1" x="322.58" y="111.76" smashed="yes">
+<attribute name="NAME" x="322.58" y="112.903" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="322.58" y="110.617" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="322.58" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="SPEC" x="322.58" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="322.58" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="322.58" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R19" gate="G$1" x="322.58" y="91.44" smashed="yes">
+<attribute name="NAME" x="322.58" y="92.583" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="322.58" y="90.297" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="322.58" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="SPEC" x="322.58" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="322.58" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="322.58" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R28" gate="G$1" x="322.58" y="58.42" smashed="yes">
+<attribute name="NAME" x="322.58" y="59.563" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="322.58" y="57.277" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="322.58" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="SPEC" x="322.58" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="322.58" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="322.58" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R35" gate="G$1" x="322.58" y="38.1" smashed="yes">
+<attribute name="NAME" x="322.58" y="39.243" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="322.58" y="36.957" size="1.778" layer="96" align="top-center"/>
+<attribute name="CONRAD" x="322.58" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="SPEC" x="322.58" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="322.58" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="322.58" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D8" gate="G$1" x="683.26" y="33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="686.943" y="28.1432" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="684.403" y="36.6268" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="683.26" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="683.26" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="683.26" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J5" gate="G$1" x="688.34" y="104.14" smashed="yes">
 <attribute name="CONRAD" x="688.34" y="104.14" size="1.778" layer="96" display="off"/>
@@ -27490,21 +27486,21 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <attribute name="MOUSER" x="147.32" y="180.34" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="147.32" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="T2" gate="G$1" x="683.26" y="17.78" smashed="yes">
-<attribute name="NAME" x="685.8762" y="20.5232" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="685.8762" y="15.0368" size="1.778" layer="96" align="top-right"/>
-<attribute name="CONRAD" x="683.26" y="17.78" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="683.26" y="17.78" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="683.26" y="17.78" size="1.778" layer="96" display="off"/>
+<instance part="T2" gate="G$1" x="688.34" y="17.78" smashed="yes">
+<attribute name="NAME" x="690.9562" y="20.5232" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="690.9562" y="15.0368" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="688.34" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="688.34" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="688.34" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY27" gate="G$1" x="530.86" y="2.54" smashed="yes">
-<attribute name="VALUE" x="530.86" y="1.016" size="1.778" layer="96" align="top-center"/>
+<instance part="SUPPLY27" gate="G$1" x="546.1" y="2.54" smashed="yes">
+<attribute name="VALUE" x="546.1" y="1.016" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY24" gate="G$1" x="500.38" y="15.24" smashed="yes">
-<attribute name="VALUE" x="500.38" y="13.716" size="1.778" layer="96" align="top-center"/>
+<instance part="SUPPLY24" gate="G$1" x="515.62" y="15.24" smashed="yes">
+<attribute name="VALUE" x="515.62" y="13.716" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY23" gate="G$1" x="685.8" y="7.62" smashed="yes">
-<attribute name="VALUE" x="685.8" y="6.096" size="1.778" layer="96" align="top-center"/>
+<instance part="SUPPLY23" gate="G$1" x="690.88" y="7.62" smashed="yes">
+<attribute name="VALUE" x="690.88" y="6.096" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="JP1" gate="G$1" x="411.48" y="187.96" smashed="yes">
 <attribute name="STOCK" x="411.48" y="187.96" size="1.778" layer="96" display="off"/>
@@ -27518,11 +27514,11 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <instance part="GND4" gate="1" x="398.78" y="160.02" smashed="yes">
 <attribute name="VALUE" x="398.78" y="159.766" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="AGND4" gate="VR1" x="299.72" y="96.52" smashed="yes">
-<attribute name="VALUE" x="297.18" y="93.98" size="1.778" layer="96"/>
+<instance part="AGND4" gate="VR1" x="320.04" y="96.52" smashed="yes">
+<attribute name="VALUE" x="317.5" y="93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="AGND16" gate="VR1" x="299.72" y="45.72" smashed="yes">
-<attribute name="VALUE" x="297.18" y="43.18" size="1.778" layer="96"/>
+<instance part="AGND16" gate="VR1" x="320.04" y="45.72" smashed="yes">
+<attribute name="VALUE" x="317.5" y="43.18" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY29" gate="G$1" x="535.94" y="205.74" smashed="yes">
 <attribute name="VALUE" x="533.273" y="202.565" size="1.778" layer="96"/>
@@ -27671,8 +27667,8 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <instance part="SUPPLY21" gate="G$1" x="91.44" y="17.78" smashed="yes">
 <attribute name="VALUE" x="91.44" y="16.256" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="P+10" gate="1" x="685.8" y="48.26" smashed="yes">
-<attribute name="VALUE" x="685.8" y="49.784" size="1.778" layer="96" align="bottom-center"/>
+<instance part="P+10" gate="1" x="690.88" y="48.26" smashed="yes">
+<attribute name="VALUE" x="690.88" y="49.784" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="P+1" gate="1" x="149.86" y="208.28" smashed="yes">
 <attribute name="VALUE" x="149.86" y="209.804" size="1.778" layer="96" align="bottom-center"/>
@@ -27787,10 +27783,10 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <instance part="PE3" gate="M" x="342.9" y="187.96" smashed="yes">
 <attribute name="VALUE" x="342.9" y="186.182" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="KK3" gate="G$1" x="551.18" y="104.14" smashed="yes">
-<attribute name="NAME" x="556.895" y="107.315" size="1.778" layer="95"/>
-<attribute name="VALUE" x="556.895" y="104.775" size="1.778" layer="96"/>
-<attribute name="STOCK" x="551.18" y="104.14" size="1.778" layer="96" display="off"/>
+<instance part="KK3" gate="G$1" x="566.42" y="104.14" smashed="yes">
+<attribute name="NAME" x="572.135" y="107.315" size="1.778" layer="95"/>
+<attribute name="VALUE" x="572.135" y="104.775" size="1.778" layer="96"/>
+<attribute name="STOCK" x="566.42" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J10" gate="G$1" x="177.8" y="22.86" smashed="yes" rot="R180">
 <attribute name="VALUE" x="180.34" y="27.686" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -27833,19 +27829,19 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <instance part="K1" gate="SW1" x="190.5" y="200.66" smashed="yes" rot="MR270">
 <attribute name="PART" x="190.5" y="198.12" size="1.778" layer="95" rot="MR270"/>
 </instance>
-<instance part="K2" gate="SW2" x="670.56" y="106.68" smashed="yes">
-<attribute name="PART" x="673.1" y="106.68" size="1.778" layer="95" display="off"/>
-<attribute name="MOUSER" x="670.56" y="106.68" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="670.56" y="106.68" size="1.778" layer="96" display="off"/>
+<instance part="K2" gate="SW2" x="683.26" y="106.68" smashed="yes">
+<attribute name="PART" x="685.8" y="106.68" size="1.778" layer="95" display="off"/>
+<attribute name="MOUSER" x="683.26" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="683.26" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="K2" gate="K1" x="685.8" y="33.02" smashed="yes">
-<attribute name="VALUE" x="687.07" y="35.941" size="1.778" layer="96"/>
-<attribute name="PART" x="687.07" y="38.1" size="1.778" layer="95"/>
-<attribute name="CONRAD" x="685.8" y="33.02" size="1.27" layer="96" display="off"/>
-<attribute name="SPEC" x="685.8" y="33.02" size="1.27" layer="96" display="off"/>
+<instance part="K2" gate="K1" x="690.88" y="33.02" smashed="yes">
+<attribute name="VALUE" x="689.61" y="35.941" size="1.778" layer="96"/>
+<attribute name="PART" x="692.15" y="38.1" size="1.778" layer="95"/>
+<attribute name="CONRAD" x="690.88" y="33.02" size="1.27" layer="96" display="off"/>
+<attribute name="SPEC" x="690.88" y="33.02" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="K2" gate="SW1" x="670.56" y="68.58" smashed="yes">
-<attribute name="PART" x="673.1" y="68.58" size="1.778" layer="95"/>
+<instance part="K2" gate="SW1" x="683.26" y="68.58" smashed="yes">
+<attribute name="PART" x="685.8" y="68.58" size="1.778" layer="95"/>
 </instance>
 <instance part="X3" gate="1" x="101.6" y="43.18" smashed="yes">
 <attribute name="NAME" x="102.616" y="42.418" size="1.524" layer="95"/>
@@ -27902,35 +27898,35 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <attribute name="MOUSER" x="574.04" y="185.42" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="574.04" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="IC4" gate="A" x="345.44" y="109.22" smashed="yes">
-<attribute name="NAME" x="347.98" y="112.395" size="1.778" layer="95"/>
-<attribute name="VALUE" x="347.98" y="104.14" size="1.778" layer="96"/>
+<instance part="IC4" gate="A" x="370.84" y="109.22" smashed="yes">
+<attribute name="NAME" x="373.38" y="112.395" size="1.778" layer="95"/>
+<attribute name="VALUE" x="373.38" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="R54" gate="G$1" x="525.78" y="17.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="520.573" y="18.923" size="1.778" layer="95"/>
-<attribute name="VALUE" x="530.987" y="18.923" size="1.778" layer="96" align="bottom-right"/>
-<attribute name="CONRAD" x="525.78" y="17.78" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="525.78" y="17.78" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="525.78" y="17.78" size="1.778" layer="96" display="off"/>
+<instance part="R54" gate="G$1" x="541.02" y="17.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="535.813" y="18.923" size="1.778" layer="95"/>
+<attribute name="VALUE" x="546.227" y="18.923" size="1.778" layer="96" align="bottom-right"/>
+<attribute name="CONRAD" x="541.02" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="541.02" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="541.02" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R55" gate="G$1" x="525.78" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="520.573" y="14.097" size="1.778" layer="95" align="top-left"/>
-<attribute name="VALUE" x="530.987" y="14.097" size="1.778" layer="96" align="top-right"/>
-<attribute name="CONRAD" x="525.78" y="15.24" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER" x="525.78" y="15.24" size="1.778" layer="96" display="off"/>
-<attribute name="STOCK" x="525.78" y="15.24" size="1.778" layer="96" display="off"/>
+<instance part="R55" gate="G$1" x="541.02" y="15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="535.813" y="14.097" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="546.227" y="14.097" size="1.778" layer="96" align="top-right"/>
+<attribute name="CONRAD" x="541.02" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="541.02" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="STOCK" x="541.02" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="149.86" y="170.18" smashed="yes">
 <attribute name="VALUE" x="147.32" y="167.64" size="1.778" layer="96"/>
 </instance>
-<instance part="JP5" gate="A" x="340.36" y="66.04" smashed="yes">
-<attribute name="NAME" x="334.01" y="71.755" size="1.778" layer="95"/>
+<instance part="JP5" gate="A" x="365.76" y="66.04" smashed="yes">
+<attribute name="NAME" x="359.41" y="71.755" size="1.778" layer="95"/>
 </instance>
-<instance part="JP6" gate="A" x="497.84" y="93.98" smashed="yes" rot="MR0">
-<attribute name="NAME" x="504.19" y="99.695" size="1.778" layer="95" rot="MR0"/>
+<instance part="JP6" gate="A" x="515.62" y="93.98" smashed="yes" rot="MR0">
+<attribute name="NAME" x="521.97" y="99.695" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="AGND21" gate="VR1" x="490.22" y="86.36" smashed="yes">
-<attribute name="VALUE" x="490.22" y="85.598" size="1.778" layer="96" align="top-center"/>
+<instance part="AGND21" gate="VR1" x="505.46" y="86.36" smashed="yes">
+<attribute name="VALUE" x="505.46" y="85.598" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="JP7" gate="G$1" x="116.84" y="190.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="110.49" y="184.785" size="1.778" layer="95" rot="MR180"/>
@@ -28092,233 +28088,233 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 </net>
 <net name="EQ_OUT_R" class="0">
 <segment>
-<wire x1="419.1" y1="109.22" x2="421.64" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="109.22" x2="421.64" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="444.5" y1="109.22" x2="447.04" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="109.22" x2="447.04" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="421.64" y1="121.92" x2="419.1" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="121.92" x2="444.5" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="419.1" y1="139.7" x2="421.64" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="139.7" x2="421.64" y2="129.54" width="0.1524" layer="91"/>
-<junction x="421.64" y="121.92"/>
+<wire x1="444.5" y1="139.7" x2="447.04" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="139.7" x2="447.04" y2="129.54" width="0.1524" layer="91"/>
+<junction x="447.04" y="121.92"/>
 <pinref part="IC5" gate="A" pin="OUT"/>
-<wire x1="421.64" y1="129.54" x2="421.64" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="447.04" y1="96.52" x2="457.2" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="457.2" y1="96.52" x2="457.2" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="139.7" x2="457.2" y2="139.7" width="0.1524" layer="91"/>
-<junction x="421.64" y="139.7"/>
+<wire x1="447.04" y1="129.54" x2="447.04" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="472.44" y1="96.52" x2="482.6" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="482.6" y1="96.52" x2="482.6" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="139.7" x2="482.6" y2="139.7" width="0.1524" layer="91"/>
+<junction x="447.04" y="139.7"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="419.1" y1="129.54" x2="421.64" y2="129.54" width="0.1524" layer="91"/>
-<junction x="421.64" y="129.54"/>
+<wire x1="444.5" y1="129.54" x2="447.04" y2="129.54" width="0.1524" layer="91"/>
+<junction x="447.04" y="129.54"/>
 <pinref part="U2" gate="R2" pin="B"/>
-<wire x1="457.2" y1="96.52" x2="464.82" y2="96.52" width="0.1524" layer="91"/>
-<junction x="457.2" y="96.52"/>
+<wire x1="482.6" y1="96.52" x2="487.68" y2="96.52" width="0.1524" layer="91"/>
+<junction x="482.6" y="96.52"/>
 </segment>
 </net>
 <net name="EQ_OUT_L" class="0">
 <segment>
-<wire x1="419.1" y1="48.26" x2="421.64" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="48.26" x2="421.64" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="55.88" x2="421.64" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="66.04" x2="419.1" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="419.1" y1="35.56" x2="421.64" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="35.56" x2="421.64" y2="48.26" width="0.1524" layer="91"/>
-<junction x="421.64" y="48.26"/>
+<wire x1="444.5" y1="48.26" x2="447.04" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="48.26" x2="447.04" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="55.88" x2="447.04" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="66.04" x2="444.5" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="444.5" y1="35.56" x2="447.04" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="35.56" x2="447.04" y2="48.26" width="0.1524" layer="91"/>
+<junction x="447.04" y="48.26"/>
 <pinref part="IC5" gate="B" pin="OUT"/>
-<wire x1="444.5" y1="20.32" x2="457.2" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="457.2" y1="20.32" x2="457.2" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="457.2" y1="66.04" x2="421.64" y2="66.04" width="0.1524" layer="91"/>
-<junction x="421.64" y="66.04"/>
+<wire x1="469.9" y1="20.32" x2="482.6" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="482.6" y1="20.32" x2="482.6" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="482.6" y1="66.04" x2="447.04" y2="66.04" width="0.1524" layer="91"/>
+<junction x="447.04" y="66.04"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="R38" gate="G$1" pin="1"/>
 <pinref part="R33" gate="G$1" pin="1"/>
 <pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="419.1" y1="55.88" x2="421.64" y2="55.88" width="0.1524" layer="91"/>
-<junction x="421.64" y="55.88"/>
+<wire x1="444.5" y1="55.88" x2="447.04" y2="55.88" width="0.1524" layer="91"/>
+<junction x="447.04" y="55.88"/>
 <pinref part="U2" gate="R1" pin="B"/>
-<wire x1="464.82" y1="66.04" x2="457.2" y2="66.04" width="0.1524" layer="91"/>
-<junction x="457.2" y="66.04"/>
+<wire x1="487.68" y1="66.04" x2="482.6" y2="66.04" width="0.1524" layer="91"/>
+<junction x="482.6" y="66.04"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<wire x1="373.38" y1="109.22" x2="375.92" y2="109.22" width="0.1524" layer="91"/>
-<junction x="375.92" y="109.22"/>
-<wire x1="375.92" y1="109.22" x2="378.46" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="109.22" x2="375.92" y2="116.84" width="0.1524" layer="91"/>
-<junction x="375.92" y="109.22"/>
-<wire x1="375.92" y1="116.84" x2="375.92" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="121.92" x2="378.46" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="139.7" x2="375.92" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="139.7" x2="375.92" y2="129.54" width="0.1524" layer="91"/>
-<junction x="375.92" y="121.92"/>
+<wire x1="398.78" y1="109.22" x2="401.32" y2="109.22" width="0.1524" layer="91"/>
+<junction x="401.32" y="109.22"/>
+<wire x1="401.32" y1="109.22" x2="403.86" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="109.22" x2="401.32" y2="116.84" width="0.1524" layer="91"/>
+<junction x="401.32" y="109.22"/>
+<wire x1="401.32" y1="116.84" x2="401.32" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="121.92" x2="403.86" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="139.7" x2="401.32" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="139.7" x2="401.32" y2="129.54" width="0.1524" layer="91"/>
+<junction x="401.32" y="121.92"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="375.92" y1="129.54" x2="375.92" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="129.54" x2="375.92" y2="129.54" width="0.1524" layer="91"/>
-<junction x="375.92" y="129.54"/>
+<wire x1="401.32" y1="129.54" x2="401.32" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="129.54" x2="401.32" y2="129.54" width="0.1524" layer="91"/>
+<junction x="401.32" y="129.54"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="C20" gate="G$1" pin="2"/>
 <pinref part="JP2" gate="A" pin="2"/>
-<wire x1="370.84" y1="116.84" x2="375.92" y2="116.84" width="0.1524" layer="91"/>
-<junction x="375.92" y="116.84"/>
+<wire x1="396.24" y1="116.84" x2="401.32" y2="116.84" width="0.1524" layer="91"/>
+<junction x="401.32" y="116.84"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="C25" gate="G$1" pin="2"/>
-<wire x1="408.94" y1="99.06" x2="398.78" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="99.06" x2="398.78" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="434.34" y1="99.06" x2="424.18" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="424.18" y1="99.06" x2="424.18" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="U5" gate="R1" pin="W"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="388.62" y1="121.92" x2="391.16" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="129.54" x2="391.16" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="391.16" y1="129.54" x2="391.16" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="121.92" x2="416.56" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="129.54" x2="416.56" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="129.54" x2="416.56" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U4" gate="R1" pin="A"/>
-<wire x1="393.7" y1="121.92" x2="391.16" y2="121.92" width="0.1524" layer="91"/>
-<junction x="391.16" y="121.92"/>
+<wire x1="419.1" y1="121.92" x2="416.56" y2="121.92" width="0.1524" layer="91"/>
+<junction x="416.56" y="121.92"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="391.16" y1="129.54" x2="388.62" y2="129.54" width="0.1524" layer="91"/>
-<junction x="391.16" y="129.54"/>
+<wire x1="416.56" y1="129.54" x2="414.02" y2="129.54" width="0.1524" layer="91"/>
+<junction x="416.56" y="129.54"/>
 <pinref part="C17" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="398.78" y1="116.84" x2="406.4" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="424.18" y1="116.84" x2="431.8" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U4" gate="R1" pin="W"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="414.02" y1="116.84" x2="429.26" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="439.42" y1="116.84" x2="454.66" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="429.26" y1="124.46" x2="429.26" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="124.46" x2="454.66" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<junction x="429.26" y="116.84"/>
+<junction x="454.66" y="116.84"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="408.94" y1="121.92" x2="406.4" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="401.32" y1="129.54" x2="406.4" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="129.54" x2="406.4" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="434.34" y1="121.92" x2="431.8" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="129.54" x2="431.8" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="129.54" x2="431.8" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U4" gate="R1" pin="B"/>
-<wire x1="403.86" y1="121.92" x2="406.4" y2="121.92" width="0.1524" layer="91"/>
-<junction x="406.4" y="121.92"/>
+<wire x1="429.26" y1="121.92" x2="431.8" y2="121.92" width="0.1524" layer="91"/>
+<junction x="431.8" y="121.92"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="408.94" y1="129.54" x2="406.4" y2="129.54" width="0.1524" layer="91"/>
-<junction x="406.4" y="129.54"/>
+<wire x1="434.34" y1="129.54" x2="431.8" y2="129.54" width="0.1524" layer="91"/>
+<junction x="431.8" y="129.54"/>
 <pinref part="C17" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<wire x1="373.38" y1="35.56" x2="375.92" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="35.56" x2="378.46" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="33.02" x2="375.92" y2="35.56" width="0.1524" layer="91"/>
-<junction x="375.92" y="35.56"/>
-<wire x1="378.46" y1="66.04" x2="375.92" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="66.04" x2="375.92" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="55.88" x2="375.92" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="48.26" x2="375.92" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="43.18" x2="375.92" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="48.26" x2="375.92" y2="48.26" width="0.1524" layer="91"/>
-<junction x="375.92" y="48.26"/>
+<wire x1="398.78" y1="35.56" x2="401.32" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="35.56" x2="403.86" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="33.02" x2="401.32" y2="35.56" width="0.1524" layer="91"/>
+<junction x="401.32" y="35.56"/>
+<wire x1="403.86" y1="66.04" x2="401.32" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="66.04" x2="401.32" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="55.88" x2="401.32" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="48.26" x2="401.32" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="43.18" x2="401.32" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="48.26" x2="401.32" y2="48.26" width="0.1524" layer="91"/>
+<junction x="401.32" y="48.26"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <pinref part="R32" gate="G$1" pin="2"/>
 <pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="378.46" y1="55.88" x2="375.92" y2="55.88" width="0.1524" layer="91"/>
-<junction x="375.92" y="55.88"/>
+<wire x1="403.86" y1="55.88" x2="401.32" y2="55.88" width="0.1524" layer="91"/>
+<junction x="401.32" y="55.88"/>
 <pinref part="R39" gate="G$1" pin="2"/>
 <pinref part="C57" gate="G$1" pin="2"/>
 <pinref part="JP3" gate="A" pin="2"/>
-<wire x1="370.84" y1="43.18" x2="375.92" y2="43.18" width="0.1524" layer="91"/>
-<junction x="375.92" y="43.18"/>
+<wire x1="396.24" y1="43.18" x2="401.32" y2="43.18" width="0.1524" layer="91"/>
+<junction x="401.32" y="43.18"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<wire x1="406.4" y1="22.86" x2="398.78" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="22.86" x2="398.78" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="22.86" x2="424.18" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="424.18" y1="22.86" x2="424.18" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U5" gate="R2" pin="W"/>
 <pinref part="C59" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<wire x1="398.78" y1="43.18" x2="406.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="424.18" y1="43.18" x2="431.8" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U4" gate="R2" pin="W"/>
 <pinref part="C51" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<wire x1="388.62" y1="48.26" x2="391.16" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="55.88" x2="391.16" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="391.16" y1="55.88" x2="391.16" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="48.26" x2="416.56" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="55.88" x2="416.56" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="55.88" x2="416.56" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U4" gate="R2" pin="A"/>
-<wire x1="393.7" y1="48.26" x2="391.16" y2="48.26" width="0.1524" layer="91"/>
-<junction x="391.16" y="48.26"/>
+<wire x1="419.1" y1="48.26" x2="416.56" y2="48.26" width="0.1524" layer="91"/>
+<junction x="416.56" y="48.26"/>
 <pinref part="R32" gate="G$1" pin="1"/>
 <pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="388.62" y1="55.88" x2="391.16" y2="55.88" width="0.1524" layer="91"/>
-<junction x="391.16" y="55.88"/>
+<wire x1="414.02" y1="55.88" x2="416.56" y2="55.88" width="0.1524" layer="91"/>
+<junction x="416.56" y="55.88"/>
 <pinref part="C48" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<wire x1="406.4" y1="48.26" x2="408.94" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="401.32" y1="55.88" x2="406.4" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="55.88" x2="406.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="48.26" x2="434.34" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="55.88" x2="431.8" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="55.88" x2="431.8" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U4" gate="R2" pin="B"/>
-<wire x1="403.86" y1="48.26" x2="406.4" y2="48.26" width="0.1524" layer="91"/>
-<junction x="406.4" y="48.26"/>
+<wire x1="429.26" y1="48.26" x2="431.8" y2="48.26" width="0.1524" layer="91"/>
+<junction x="431.8" y="48.26"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 <pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="408.94" y1="55.88" x2="406.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="406.4" y="55.88"/>
+<wire x1="434.34" y1="55.88" x2="431.8" y2="55.88" width="0.1524" layer="91"/>
+<junction x="431.8" y="55.88"/>
 <pinref part="C48" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<wire x1="426.72" y1="50.8" x2="426.72" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="414.02" y1="43.18" x2="426.72" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="452.12" y1="50.8" x2="452.12" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="439.42" y1="43.18" x2="452.12" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="1"/>
 <pinref part="R36" gate="G$1" pin="2"/>
-<junction x="426.72" y="43.18"/>
+<junction x="452.12" y="43.18"/>
 <pinref part="C51" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OUT_R_DAMPED" class="0">
 <segment>
 <pinref part="C25" gate="G$1" pin="1"/>
-<wire x1="416.56" y1="99.06" x2="429.26" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="429.26" y1="99.06" x2="429.26" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="429.26" y1="99.06" x2="431.8" y2="99.06" width="0.1524" layer="91"/>
-<junction x="429.26" y="99.06"/>
+<wire x1="441.96" y1="99.06" x2="454.66" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="99.06" x2="454.66" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="99.06" x2="457.2" y2="99.06" width="0.1524" layer="91"/>
+<junction x="454.66" y="99.06"/>
 <pinref part="IC5" gate="A" pin="-IN"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OUT_L_DAMPED" class="0">
 <segment>
-<wire x1="426.72" y1="33.02" x2="426.72" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="22.86" x2="414.02" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="22.86" x2="429.26" y2="22.86" width="0.1524" layer="91"/>
-<junction x="426.72" y="22.86"/>
+<wire x1="452.12" y1="33.02" x2="452.12" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="452.12" y1="22.86" x2="439.42" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="452.12" y1="22.86" x2="454.66" y2="22.86" width="0.1524" layer="91"/>
+<junction x="452.12" y="22.86"/>
 <pinref part="IC5" gate="B" pin="-IN"/>
 <pinref part="R36" gate="G$1" pin="1"/>
 <pinref part="C59" gate="G$1" pin="1"/>
@@ -28389,30 +28385,30 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="441.96" y1="106.68" x2="439.42" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="467.36" y1="106.68" x2="464.82" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="P+9" gate="1" pin="+12V"/>
-<wire x1="439.42" y1="106.68" x2="439.42" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="464.82" y1="106.68" x2="464.82" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="P" pin="V+"/>
-<wire x1="439.42" y1="104.14" x2="439.42" y2="106.68" width="0.1524" layer="91"/>
-<junction x="439.42" y="106.68"/>
+<wire x1="464.82" y1="104.14" x2="464.82" y2="106.68" width="0.1524" layer="91"/>
+<junction x="464.82" y="106.68"/>
 </segment>
 <segment>
 <pinref part="P+8" gate="1" pin="+12V"/>
 <pinref part="IC4" gate="P" pin="V+"/>
-<wire x1="345.44" y1="121.92" x2="345.44" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="121.92" x2="370.84" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="345.44" y1="119.38" x2="345.44" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="119.38" x2="345.44" y2="119.38" width="0.1524" layer="91"/>
-<junction x="345.44" y="119.38"/>
+<wire x1="370.84" y1="119.38" x2="370.84" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="119.38" x2="370.84" y2="119.38" width="0.1524" layer="91"/>
+<junction x="370.84" y="119.38"/>
 </segment>
 <segment>
-<wire x1="685.8" y1="38.1" x2="685.8" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="685.8" y1="40.64" x2="678.18" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="690.88" y1="38.1" x2="690.88" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="690.88" y1="40.64" x2="683.26" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="D8" gate="G$1" pin="C"/>
-<wire x1="678.18" y1="40.64" x2="678.18" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="683.26" y1="40.64" x2="683.26" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="+12V"/>
-<wire x1="685.8" y1="45.72" x2="685.8" y2="40.64" width="0.1524" layer="91"/>
-<junction x="685.8" y="40.64"/>
+<wire x1="690.88" y1="45.72" x2="690.88" y2="40.64" width="0.1524" layer="91"/>
+<junction x="690.88" y="40.64"/>
 <pinref part="K2" gate="K1" pin="1"/>
 </segment>
 <segment>
@@ -28474,46 +28470,46 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="IC5" gate="P" pin="V-"/>
 <pinref part="P-5" gate="1" pin="-12V"/>
-<wire x1="439.42" y1="88.9" x2="439.42" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="464.82" y1="88.9" x2="464.82" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="1"/>
-<wire x1="439.42" y1="86.36" x2="439.42" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="441.96" y1="86.36" x2="439.42" y2="86.36" width="0.1524" layer="91"/>
-<junction x="439.42" y="86.36"/>
+<wire x1="464.82" y1="86.36" x2="464.82" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="467.36" y1="86.36" x2="464.82" y2="86.36" width="0.1524" layer="91"/>
+<junction x="464.82" y="86.36"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>
-<wire x1="347.98" y1="99.06" x2="345.44" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="99.06" x2="370.84" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="P-4" gate="1" pin="-12V"/>
-<wire x1="345.44" y1="99.06" x2="345.44" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="99.06" x2="370.84" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="P" pin="V-"/>
-<wire x1="345.44" y1="101.6" x2="345.44" y2="99.06" width="0.1524" layer="91"/>
-<junction x="345.44" y="99.06"/>
+<wire x1="370.84" y1="101.6" x2="370.84" y2="99.06" width="0.1524" layer="91"/>
+<junction x="370.84" y="99.06"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="388.62" y1="109.22" x2="393.7" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="109.22" x2="419.1" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="U5" gate="R1" pin="A"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="403.86" y1="109.22" x2="408.94" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="429.26" y1="109.22" x2="434.34" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="U5" gate="R1" pin="B"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<wire x1="393.7" y1="35.56" x2="388.62" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="35.56" x2="414.02" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U5" gate="R2" pin="A"/>
 <pinref part="R37" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<wire x1="403.86" y1="35.56" x2="408.94" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="429.26" y1="35.56" x2="434.34" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U5" gate="R2" pin="B"/>
 <pinref part="R38" gate="G$1" pin="2"/>
 </segment>
@@ -28521,9 +28517,9 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <net name="PREAMP_OUT_L" class="0">
 <segment>
 <pinref part="U2" gate="R1" pin="W"/>
-<wire x1="469.9" y1="81.28" x2="469.9" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="81.28" x2="492.76" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="492.76" y1="91.44" x2="492.76" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="492.76" y1="81.28" x2="492.76" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="492.76" y1="81.28" x2="510.54" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="91.44" x2="510.54" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="A" pin="6"/>
 </segment>
 </net>
@@ -28640,18 +28636,18 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
 <pinref part="+3V312" gate="G$1" pin="+3V3"/>
-<wire x1="502.92" y1="68.58" x2="502.92" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="68.58" x2="518.16" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="VDDS"/>
-<wire x1="533.4" y1="63.5" x2="533.4" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="533.4" y1="60.96" x2="508" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="508" y1="60.96" x2="508" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="508" y1="66.04" x2="502.92" y2="66.04" width="0.1524" layer="91" style="longdash"/>
-<junction x="502.92" y="66.04"/>
+<wire x1="548.64" y1="63.5" x2="548.64" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="60.96" x2="523.24" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="523.24" y1="60.96" x2="523.24" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="523.24" y1="66.04" x2="518.16" y2="66.04" width="0.1524" layer="91" style="longdash"/>
+<junction x="518.16" y="66.04"/>
 </segment>
 <segment>
 <pinref part="C62" gate="G$1" pin="2"/>
-<wire x1="518.16" y1="10.16" x2="492.76" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="492.76" y1="10.16" x2="492.76" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="533.4" y1="10.16" x2="508" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="508" y1="10.16" x2="508" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="+3V319" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -28851,19 +28847,19 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <label x="513.08" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="307.34" y1="38.1" x2="309.88" y2="38.1" width="0.1524" layer="91"/>
-<label x="309.88" y="38.1" size="1.27" layer="95" xref="yes"/>
+<wire x1="327.66" y1="38.1" x2="330.2" y2="38.1" width="0.1524" layer="91"/>
+<label x="330.2" y="38.1" size="1.27" layer="95" xref="yes"/>
 <pinref part="R35" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="307.34" y1="91.44" x2="309.88" y2="91.44" width="0.1524" layer="91"/>
-<label x="309.88" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="327.66" y1="91.44" x2="330.2" y2="91.44" width="0.1524" layer="91"/>
+<label x="330.2" y="91.44" size="1.27" layer="95" xref="yes"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="5"/>
-<wire x1="337.82" y1="63.5" x2="332.74" y2="63.5" width="0.1524" layer="91"/>
-<label x="332.74" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="363.22" y1="63.5" x2="358.14" y2="63.5" width="0.1524" layer="91"/>
+<label x="358.14" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MIX_R" class="0">
@@ -28873,31 +28869,31 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <label x="513.08" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="307.34" y1="111.76" x2="309.88" y2="111.76" width="0.1524" layer="91"/>
-<label x="309.88" y="111.76" size="1.27" layer="95" xref="yes"/>
+<wire x1="327.66" y1="111.76" x2="330.2" y2="111.76" width="0.1524" layer="91"/>
+<label x="330.2" y="111.76" size="1.27" layer="95" xref="yes"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="307.34" y1="58.42" x2="309.88" y2="58.42" width="0.1524" layer="91"/>
-<label x="309.88" y="58.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="327.66" y1="58.42" x2="330.2" y2="58.42" width="0.1524" layer="91"/>
+<label x="330.2" y="58.42" size="1.27" layer="95" xref="yes"/>
 <pinref part="R28" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="1"/>
-<wire x1="337.82" y1="68.58" x2="332.74" y2="68.58" width="0.1524" layer="91"/>
-<label x="332.74" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="363.22" y1="68.58" x2="358.14" y2="68.58" width="0.1524" layer="91"/>
+<label x="358.14" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="429.26" y1="134.62" x2="398.78" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="134.62" x2="424.18" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U3" gate="R1" pin="W"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<wire x1="426.72" y1="60.96" x2="398.78" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="452.12" y1="60.96" x2="424.18" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U3" gate="R2" pin="W"/>
 <pinref part="R31" gate="G$1" pin="2"/>
 </segment>
@@ -28905,21 +28901,21 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <net name="N$10" class="0">
 <segment>
 <pinref part="U3" gate="R2" pin="B"/>
-<wire x1="403.86" y1="66.04" x2="408.94" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="429.26" y1="66.04" x2="434.34" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="U3" gate="R2" pin="A"/>
-<wire x1="388.62" y1="66.04" x2="393.7" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="66.04" x2="419.1" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="U3" gate="R1" pin="A"/>
-<wire x1="393.7" y1="139.7" x2="388.62" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="139.7" x2="414.02" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -28927,51 +28923,49 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="U3" gate="R1" pin="B"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="403.86" y1="139.7" x2="408.94" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$52" class="0">
-<segment>
-<wire x1="337.82" y1="104.14" x2="337.82" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="A" pin="-IN"/>
+<wire x1="429.26" y1="139.7" x2="434.34" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIX_AMP_R" class="0">
 <segment>
-<wire x1="355.6" y1="88.9" x2="363.22" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="88.9" x2="363.22" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="109.22" x2="353.06" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="109.22" x2="365.76" y2="109.22" width="0.1524" layer="91"/>
-<junction x="363.22" y="109.22"/>
+<wire x1="381" y1="88.9" x2="388.62" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="88.9" x2="388.62" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="109.22" x2="378.46" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="109.22" x2="391.16" y2="109.22" width="0.1524" layer="91"/>
+<junction x="388.62" y="109.22"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="363.22" y1="109.22" x2="363.22" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="109.22" x2="388.62" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="1"/>
-<wire x1="363.22" y1="116.84" x2="368.3" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="116.84" x2="393.7" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="A" pin="OUT"/>
 </segment>
 </net>
 <net name="N$44" class="0">
 <segment>
 <pinref part="IC4" gate="B" pin="-IN"/>
-<wire x1="337.82" y1="33.02" x2="337.82" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="33.02" x2="363.22" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="R42" gate="G$1" pin="2"/>
+<wire x1="363.22" y1="27.94" x2="363.22" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="15.24" x2="368.3" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="27.94" x2="363.22" y2="27.94" width="0.1524" layer="91"/>
+<junction x="363.22" y="27.94"/>
 </segment>
 </net>
 <net name="MIX_AMP_L" class="0">
 <segment>
-<wire x1="363.22" y1="35.56" x2="365.76" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="35.56" x2="391.16" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="B" pin="OUT"/>
-<wire x1="353.06" y1="35.56" x2="363.22" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="35.56" x2="363.22" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="15.24" x2="353.06" y2="15.24" width="0.1524" layer="91"/>
-<junction x="363.22" y="35.56"/>
+<wire x1="378.46" y1="35.56" x2="388.62" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="35.56" x2="388.62" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="15.24" x2="378.46" y2="15.24" width="0.1524" layer="91"/>
+<junction x="388.62" y="35.56"/>
 <pinref part="R42" gate="G$1" pin="1"/>
 <pinref part="C57" gate="G$1" pin="1"/>
-<wire x1="363.22" y1="35.56" x2="363.22" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="35.56" x2="388.62" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="1"/>
-<wire x1="363.22" y1="43.18" x2="368.3" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="43.18" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -29037,36 +29031,36 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="U6" gate="G$1" pin="PVCCB"/>
 <pinref part="C53" gate="G$1" pin="1"/>
-<wire x1="568.96" y1="45.72" x2="574.04" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="574.04" y1="45.72" x2="574.04" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="45.72" x2="589.28" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="589.28" y1="45.72" x2="589.28" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="PVCCA"/>
-<wire x1="568.96" y1="48.26" x2="574.04" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="574.04" y1="48.26" x2="574.04" y2="45.72" width="0.1524" layer="91"/>
-<junction x="574.04" y="45.72"/>
+<wire x1="584.2" y1="48.26" x2="589.28" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="589.28" y1="48.26" x2="589.28" y2="45.72" width="0.1524" layer="91"/>
+<junction x="589.28" y="45.72"/>
 <pinref part="C54" gate="G$1" pin="1"/>
-<wire x1="584.2" y1="48.26" x2="584.2" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="584.2" y1="45.72" x2="584.2" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="574.04" y1="48.26" x2="584.2" y2="48.26" width="0.1524" layer="91"/>
-<junction x="574.04" y="48.26"/>
+<wire x1="599.44" y1="48.26" x2="599.44" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="599.44" y1="45.72" x2="599.44" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="589.28" y1="48.26" x2="599.44" y2="48.26" width="0.1524" layer="91"/>
+<junction x="589.28" y="48.26"/>
 <pinref part="C55" gate="G$1" pin="1"/>
-<wire x1="594.36" y1="48.26" x2="594.36" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="594.36" y1="45.72" x2="594.36" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="584.2" y1="48.26" x2="594.36" y2="48.26" width="0.1524" layer="91"/>
-<junction x="584.2" y="48.26"/>
+<wire x1="609.6" y1="48.26" x2="609.6" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="45.72" x2="609.6" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="599.44" y1="48.26" x2="609.6" y2="48.26" width="0.1524" layer="91"/>
+<junction x="599.44" y="48.26"/>
 <pinref part="C56" gate="G$1" pin="1"/>
-<wire x1="604.52" y1="48.26" x2="604.52" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="604.52" y1="45.72" x2="604.52" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="594.36" y1="48.26" x2="604.52" y2="48.26" width="0.1524" layer="91"/>
-<junction x="594.36" y="48.26"/>
-<wire x1="574.04" y1="45.72" x2="584.2" y2="45.72" width="0.1524" layer="91"/>
-<junction x="584.2" y="45.72"/>
-<wire x1="584.2" y1="45.72" x2="594.36" y2="45.72" width="0.1524" layer="91"/>
-<junction x="594.36" y="45.72"/>
-<wire x1="594.36" y1="45.72" x2="604.52" y2="45.72" width="0.1524" layer="91"/>
-<junction x="604.52" y="45.72"/>
+<wire x1="619.76" y1="48.26" x2="619.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="619.76" y1="45.72" x2="619.76" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="48.26" x2="619.76" y2="48.26" width="0.1524" layer="91"/>
+<junction x="609.6" y="48.26"/>
+<wire x1="589.28" y1="45.72" x2="599.44" y2="45.72" width="0.1524" layer="91"/>
+<junction x="599.44" y="45.72"/>
+<wire x1="599.44" y1="45.72" x2="609.6" y2="45.72" width="0.1524" layer="91"/>
+<junction x="609.6" y="45.72"/>
+<wire x1="609.6" y1="45.72" x2="619.76" y2="45.72" width="0.1524" layer="91"/>
+<junction x="619.76" y="45.72"/>
 <pinref part="SUPPLY17" gate="+18V" pin="+18V"/>
-<wire x1="604.52" y1="48.26" x2="607.06" y2="48.26" width="0.1524" layer="91"/>
-<junction x="604.52" y="48.26"/>
+<wire x1="619.76" y1="48.26" x2="622.3" y2="48.26" width="0.1524" layer="91"/>
+<junction x="619.76" y="48.26"/>
 </segment>
 </net>
 <net name="-18V" class="0">
@@ -29085,37 +29079,37 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="PGNDB"/>
-<wire x1="568.96" y1="27.94" x2="574.04" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="27.94" x2="589.28" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="C53" gate="G$1" pin="2"/>
-<wire x1="574.04" y1="27.94" x2="574.04" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="589.28" y1="27.94" x2="589.28" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="PGNDA"/>
-<wire x1="574.04" y1="30.48" x2="574.04" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="568.96" y1="30.48" x2="574.04" y2="30.48" width="0.1524" layer="91"/>
-<junction x="574.04" y="30.48"/>
+<wire x1="589.28" y1="30.48" x2="589.28" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="30.48" x2="589.28" y2="30.48" width="0.1524" layer="91"/>
+<junction x="589.28" y="30.48"/>
 <pinref part="C54" gate="G$1" pin="2"/>
-<wire x1="584.2" y1="27.94" x2="584.2" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="584.2" y1="30.48" x2="584.2" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="574.04" y1="30.48" x2="584.2" y2="30.48" width="0.1524" layer="91"/>
-<junction x="584.2" y="30.48"/>
-<wire x1="574.04" y1="27.94" x2="584.2" y2="27.94" width="0.1524" layer="91"/>
-<junction x="574.04" y="27.94"/>
+<wire x1="599.44" y1="27.94" x2="599.44" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="599.44" y1="30.48" x2="599.44" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="589.28" y1="30.48" x2="599.44" y2="30.48" width="0.1524" layer="91"/>
+<junction x="599.44" y="30.48"/>
+<wire x1="589.28" y1="27.94" x2="599.44" y2="27.94" width="0.1524" layer="91"/>
+<junction x="589.28" y="27.94"/>
 <pinref part="C55" gate="G$1" pin="2"/>
-<wire x1="594.36" y1="27.94" x2="594.36" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="594.36" y1="30.48" x2="594.36" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="584.2" y1="27.94" x2="594.36" y2="27.94" width="0.1524" layer="91"/>
-<junction x="584.2" y="27.94"/>
-<wire x1="584.2" y1="30.48" x2="594.36" y2="30.48" width="0.1524" layer="91"/>
-<junction x="594.36" y="30.48"/>
+<wire x1="609.6" y1="27.94" x2="609.6" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="30.48" x2="609.6" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="599.44" y1="27.94" x2="609.6" y2="27.94" width="0.1524" layer="91"/>
+<junction x="599.44" y="27.94"/>
+<wire x1="599.44" y1="30.48" x2="609.6" y2="30.48" width="0.1524" layer="91"/>
+<junction x="609.6" y="30.48"/>
 <pinref part="C56" gate="G$1" pin="2"/>
-<wire x1="604.52" y1="27.94" x2="604.52" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="604.52" y1="30.48" x2="604.52" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="594.36" y1="30.48" x2="604.52" y2="30.48" width="0.1524" layer="91"/>
-<junction x="604.52" y="30.48"/>
-<wire x1="604.52" y1="27.94" x2="594.36" y2="27.94" width="0.1524" layer="91"/>
-<junction x="594.36" y="27.94"/>
+<wire x1="619.76" y1="27.94" x2="619.76" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="619.76" y1="30.48" x2="619.76" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="30.48" x2="619.76" y2="30.48" width="0.1524" layer="91"/>
+<junction x="619.76" y="30.48"/>
+<wire x1="619.76" y1="27.94" x2="609.6" y2="27.94" width="0.1524" layer="91"/>
+<junction x="609.6" y="27.94"/>
 <pinref part="SUPPLY22" gate="G$1" pin="-18V"/>
-<wire x1="604.52" y1="27.94" x2="607.06" y2="27.94" width="0.1524" layer="91"/>
-<junction x="604.52" y="27.94"/>
+<wire x1="619.76" y1="27.94" x2="622.3" y2="27.94" width="0.1524" layer="91"/>
+<junction x="619.76" y="27.94"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -29155,8 +29149,8 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="U6" gate="G$1" pin="SUB_GND"/>
 <pinref part="PE2" gate="M" pin="PE"/>
-<wire x1="568.96" y1="10.16" x2="571.5" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="571.5" y1="10.16" x2="571.5" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="10.16" x2="586.74" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="586.74" y1="10.16" x2="586.74" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J9" gate="G$1" pin="SHIELD"/>
@@ -29175,50 +29169,50 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="U6" gate="G$1" pin="VDDPW"/>
 <pinref part="C49" gate="G$1" pin="1"/>
-<wire x1="533.4" y1="55.88" x2="525.78" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="55.88" x2="541.02" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="1"/>
-<junction x="525.78" y="55.88"/>
-<wire x1="525.78" y1="55.88" x2="502.92" y2="55.88" width="0.1524" layer="91"/>
+<junction x="541.02" y="55.88"/>
+<wire x1="541.02" y1="55.88" x2="518.16" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="PGND"/>
 <pinref part="C49" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="48.26" x2="525.78" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="48.26" x2="541.02" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="VSS"/>
 <pinref part="C52" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="38.1" x2="525.78" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="38.1" x2="541.02" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="SVCC"/>
 <pinref part="C52" gate="G$1" pin="1"/>
-<wire x1="533.4" y1="45.72" x2="525.78" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="45.72" x2="541.02" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="ROSC"/>
 <pinref part="R41" gate="G$1" pin="2"/>
-<wire x1="497.84" y1="27.94" x2="497.84" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="497.84" y1="30.48" x2="505.46" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="30.48" x2="533.4" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="513.08" y1="27.94" x2="513.08" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="513.08" y1="30.48" x2="520.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="520.7" y1="30.48" x2="548.64" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C58" gate="G$1" pin="1"/>
-<wire x1="505.46" y1="27.94" x2="505.46" y2="30.48" width="0.1524" layer="91"/>
-<junction x="505.46" y="30.48"/>
+<wire x1="520.7" y1="27.94" x2="520.7" y2="30.48" width="0.1524" layer="91"/>
+<junction x="520.7" y="30.48"/>
 </segment>
 </net>
 <net name="AMP_DIAG" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="DIAG"/>
-<wire x1="533.4" y1="20.32" x2="518.16" y2="20.32" width="0.1524" layer="91"/>
-<label x="518.16" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="548.64" y1="20.32" x2="533.4" y2="20.32" width="0.1524" layer="91"/>
+<label x="533.4" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="PC0(ADC0)"/>
@@ -29233,8 +29227,8 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <label x="83.82" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="520.7" y1="17.78" x2="518.16" y2="17.78" width="0.1524" layer="91"/>
-<label x="518.16" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="535.94" y1="17.78" x2="533.4" y2="17.78" width="0.1524" layer="91"/>
+<label x="533.4" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R54" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -29245,70 +29239,70 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <label x="83.82" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="520.7" y1="15.24" x2="518.16" y2="15.24" width="0.1524" layer="91"/>
-<label x="518.16" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="535.94" y1="15.24" x2="533.4" y2="15.24" width="0.1524" layer="91"/>
+<label x="533.4" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R55" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="INNB" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="INNB"/>
-<wire x1="533.4" y1="73.66" x2="528.32" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="73.66" x2="543.56" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C41" gate="G$1" pin="2"/>
 <pinref part="C40" gate="G$1" pin="2"/>
-<wire x1="528.32" y1="73.66" x2="518.16" y2="73.66" width="0.1524" layer="91"/>
-<junction x="528.32" y="73.66"/>
+<wire x1="543.56" y1="73.66" x2="533.4" y2="73.66" width="0.1524" layer="91"/>
+<junction x="543.56" y="73.66"/>
 </segment>
 </net>
 <net name="INPB" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="INPB"/>
 <pinref part="C37" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="81.28" x2="530.86" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="81.28" x2="546.1" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C39" gate="G$1" pin="2"/>
-<wire x1="530.86" y1="81.28" x2="528.32" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="76.2" x2="530.86" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="530.86" y1="76.2" x2="530.86" y2="81.28" width="0.1524" layer="91"/>
-<junction x="530.86" y="81.28"/>
+<wire x1="546.1" y1="81.28" x2="543.56" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="76.2" x2="546.1" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="76.2" x2="546.1" y2="81.28" width="0.1524" layer="91"/>
+<junction x="546.1" y="81.28"/>
 </segment>
 </net>
 <net name="INNA" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="INNA"/>
-<wire x1="533.4" y1="88.9" x2="530.86" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="88.9" x2="546.1" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C33" gate="G$1" pin="2"/>
-<wire x1="528.32" y1="93.98" x2="530.86" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="530.86" y1="93.98" x2="530.86" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="93.98" x2="546.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="93.98" x2="546.1" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C32" gate="G$1" pin="2"/>
-<wire x1="518.16" y1="93.98" x2="528.32" y2="93.98" width="0.1524" layer="91"/>
-<junction x="528.32" y="93.98"/>
+<wire x1="533.4" y1="93.98" x2="543.56" y2="93.98" width="0.1524" layer="91"/>
+<junction x="543.56" y="93.98"/>
 </segment>
 </net>
 <net name="INPA" class="0">
 <segment>
 <pinref part="C22" gate="G$1" pin="2"/>
 <pinref part="C27" gate="G$1" pin="2"/>
-<wire x1="530.86" y1="101.6" x2="528.32" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="96.52" x2="530.86" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="530.86" y1="96.52" x2="530.86" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="101.6" x2="543.56" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="96.52" x2="546.1" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="96.52" x2="546.1" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="INPA"/>
-<wire x1="533.4" y1="96.52" x2="530.86" y2="96.52" width="0.1524" layer="91"/>
-<junction x="530.86" y="96.52"/>
+<wire x1="548.64" y1="96.52" x2="546.1" y2="96.52" width="0.1524" layer="91"/>
+<junction x="546.1" y="96.52"/>
 </segment>
 </net>
 <net name="N$65" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="VREF"/>
-<wire x1="568.96" y1="17.78" x2="576.58" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="576.58" y1="17.78" x2="576.58" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="17.78" x2="591.82" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="591.82" y1="17.78" x2="591.82" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="C60" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$66" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="SVR"/>
-<wire x1="568.96" y1="20.32" x2="586.74" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="586.74" y1="20.32" x2="586.74" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="20.32" x2="601.98" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="601.98" y1="20.32" x2="601.98" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="C61" gate="G$1" pin="+"/>
 </segment>
 </net>
@@ -29328,67 +29322,67 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="U6" gate="G$1" pin="OUTNA"/>
 <pinref part="C38" gate="G$1" pin="2"/>
-<wire x1="568.96" y1="76.2" x2="576.58" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="76.2" x2="591.82" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="576.58" y1="76.2" x2="579.12" y2="76.2" width="0.1524" layer="91"/>
-<junction x="576.58" y="76.2"/>
+<wire x1="591.82" y1="76.2" x2="594.36" y2="76.2" width="0.1524" layer="91"/>
+<junction x="591.82" y="76.2"/>
 </segment>
 </net>
 <net name="N$71" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="C38" gate="G$1" pin="1"/>
-<wire x1="576.58" y1="86.36" x2="576.58" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="591.82" y1="86.36" x2="591.82" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="R_OUT-" class="0">
 <segment>
 <pinref part="C35" gate="G$1" pin="2"/>
-<wire x1="596.9" y1="76.2" x2="596.9" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="612.14" y1="76.2" x2="612.14" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C36" gate="G$1" pin="2"/>
-<wire x1="596.9" y1="76.2" x2="614.68" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="614.68" y1="76.2" x2="614.68" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="612.14" y1="76.2" x2="629.92" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="629.92" y1="76.2" x2="629.92" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="642.62" y1="76.2" x2="614.68" y2="76.2" width="0.1524" layer="91"/>
-<junction x="614.68" y="76.2"/>
+<wire x1="657.86" y1="76.2" x2="629.92" y2="76.2" width="0.1524" layer="91"/>
+<junction x="629.92" y="76.2"/>
 <pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="594.36" y1="76.2" x2="596.9" y2="76.2" width="0.1524" layer="91"/>
-<junction x="596.9" y="76.2"/>
-<wire x1="642.62" y1="76.2" x2="670.56" y2="76.2" width="0.1524" layer="91"/>
-<junction x="642.62" y="76.2"/>
-<label x="652.78" y="76.2" size="1.27" layer="95" rot="R90" xref="yes"/>
-<wire x1="670.56" y1="76.2" x2="670.56" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="76.2" x2="612.14" y2="76.2" width="0.1524" layer="91"/>
+<junction x="612.14" y="76.2"/>
+<wire x1="657.86" y1="76.2" x2="680.72" y2="76.2" width="0.1524" layer="91"/>
+<junction x="657.86" y="76.2"/>
+<label x="668.02" y="76.2" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="680.72" y1="76.2" x2="680.72" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="J5" gate="G$2" pin="P$1"/>
-<wire x1="670.56" y1="99.06" x2="688.34" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="680.72" y1="99.06" x2="688.34" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$73" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="U6" gate="G$1" pin="OUTPA"/>
-<wire x1="568.96" y1="96.52" x2="576.58" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="96.52" x2="591.82" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="579.12" y1="96.52" x2="576.58" y2="96.52" width="0.1524" layer="91"/>
-<junction x="576.58" y="96.52"/>
+<wire x1="594.36" y1="96.52" x2="591.82" y2="96.52" width="0.1524" layer="91"/>
+<junction x="591.82" y="96.52"/>
 </segment>
 </net>
 <net name="R_OUT+" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="C35" gate="G$1" pin="1"/>
-<wire x1="594.36" y1="96.52" x2="596.9" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="596.9" y1="96.52" x2="596.9" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="96.52" x2="612.14" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="612.14" y1="96.52" x2="612.14" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C30" gate="G$1" pin="1"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="642.62" y1="111.76" x2="614.68" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="614.68" y1="111.76" x2="614.68" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="614.68" y1="96.52" x2="614.68" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="596.9" y1="96.52" x2="614.68" y2="96.52" width="0.1524" layer="91"/>
-<junction x="596.9" y="96.52"/>
-<junction x="614.68" y="96.52"/>
-<label x="652.78" y="111.76" size="1.27" layer="95" rot="R90" xref="yes"/>
-<wire x1="642.62" y1="111.76" x2="665.48" y2="111.76" width="0.1524" layer="91"/>
-<junction x="642.62" y="111.76"/>
+<wire x1="657.86" y1="111.76" x2="629.92" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="629.92" y1="111.76" x2="629.92" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="629.92" y1="96.52" x2="629.92" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="612.14" y1="96.52" x2="629.92" y2="96.52" width="0.1524" layer="91"/>
+<junction x="612.14" y="96.52"/>
+<junction x="629.92" y="96.52"/>
+<label x="668.02" y="111.76" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="657.86" y1="111.76" x2="678.18" y2="111.76" width="0.1524" layer="91"/>
+<junction x="657.86" y="111.76"/>
 <pinref part="K2" gate="SW2" pin="S"/>
 </segment>
 </net>
@@ -29407,10 +29401,10 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <net name="N$69" class="0">
 <segment>
 <pinref part="C47" gate="G$1" pin="2"/>
-<wire x1="568.96" y1="53.34" x2="576.58" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="53.34" x2="591.82" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="L4" gate="G$1" pin="1"/>
-<wire x1="576.58" y1="53.34" x2="579.12" y2="53.34" width="0.1524" layer="91"/>
-<junction x="576.58" y="53.34"/>
+<wire x1="591.82" y1="53.34" x2="594.36" y2="53.34" width="0.1524" layer="91"/>
+<junction x="591.82" y="53.34"/>
 <pinref part="U6" gate="G$1" pin="OUTNB"/>
 </segment>
 </net>
@@ -29418,16 +29412,16 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
 <pinref part="C47" gate="G$1" pin="1"/>
-<wire x1="576.58" y1="63.5" x2="576.58" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="591.82" y1="63.5" x2="591.82" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$74" class="0">
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="568.96" y1="73.66" x2="576.58" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="73.66" x2="591.82" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="L3" gate="G$1" pin="1"/>
-<wire x1="579.12" y1="73.66" x2="576.58" y2="73.66" width="0.1524" layer="91"/>
-<junction x="576.58" y="73.66"/>
+<wire x1="594.36" y1="73.66" x2="591.82" y2="73.66" width="0.1524" layer="91"/>
+<junction x="591.82" y="73.66"/>
 <pinref part="U6" gate="G$1" pin="OUTPB"/>
 </segment>
 </net>
@@ -29435,78 +29429,78 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="L3" gate="G$1" pin="2"/>
 <pinref part="C44" gate="G$1" pin="1"/>
-<wire x1="594.36" y1="73.66" x2="596.9" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="596.9" y1="73.66" x2="596.9" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="73.66" x2="612.14" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="612.14" y1="73.66" x2="612.14" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C42" gate="G$1" pin="1"/>
 <pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="642.62" y1="73.66" x2="614.68" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="614.68" y1="73.66" x2="614.68" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="596.9" y1="73.66" x2="614.68" y2="73.66" width="0.1524" layer="91"/>
-<junction x="596.9" y="73.66"/>
-<junction x="614.68" y="73.66"/>
-<label x="652.78" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-<wire x1="665.48" y1="73.66" x2="642.62" y2="73.66" width="0.1524" layer="91"/>
-<junction x="642.62" y="73.66"/>
+<wire x1="657.86" y1="73.66" x2="629.92" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="629.92" y1="73.66" x2="629.92" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="612.14" y1="73.66" x2="629.92" y2="73.66" width="0.1524" layer="91"/>
+<junction x="612.14" y="73.66"/>
+<junction x="629.92" y="73.66"/>
+<label x="668.02" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="678.18" y1="73.66" x2="657.86" y2="73.66" width="0.1524" layer="91"/>
+<junction x="657.86" y="73.66"/>
 <pinref part="K2" gate="SW1" pin="S"/>
 </segment>
 </net>
 <net name="L_OUT-" class="0">
 <segment>
 <pinref part="C44" gate="G$1" pin="2"/>
-<wire x1="596.9" y1="53.34" x2="596.9" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="612.14" y1="53.34" x2="612.14" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C45" gate="G$1" pin="2"/>
-<wire x1="596.9" y1="53.34" x2="614.68" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="614.68" y1="53.34" x2="614.68" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="612.14" y1="53.34" x2="629.92" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="629.92" y1="53.34" x2="629.92" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="L4" gate="G$1" pin="2"/>
-<wire x1="594.36" y1="53.34" x2="596.9" y2="53.34" width="0.1524" layer="91"/>
-<junction x="596.9" y="53.34"/>
-<wire x1="614.68" y1="53.34" x2="614.68" y2="38.1" width="0.1524" layer="91"/>
-<junction x="614.68" y="53.34"/>
-<wire x1="614.68" y1="38.1" x2="642.62" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="609.6" y1="53.34" x2="612.14" y2="53.34" width="0.1524" layer="91"/>
+<junction x="612.14" y="53.34"/>
+<wire x1="629.92" y1="53.34" x2="629.92" y2="38.1" width="0.1524" layer="91"/>
+<junction x="629.92" y="53.34"/>
+<wire x1="629.92" y1="38.1" x2="657.86" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="642.62" y1="38.1" x2="670.56" y2="38.1" width="0.1524" layer="91"/>
-<label x="652.78" y="38.1" size="1.27" layer="95" rot="R270" xref="yes"/>
-<wire x1="670.56" y1="38.1" x2="670.56" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="657.86" y1="38.1" x2="680.72" y2="38.1" width="0.1524" layer="91"/>
+<label x="668.02" y="38.1" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="680.72" y1="38.1" x2="680.72" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="P$1"/>
-<wire x1="688.34" y1="60.96" x2="670.56" y2="60.96" width="0.1524" layer="91"/>
-<junction x="642.62" y="38.1"/>
+<wire x1="688.34" y1="60.96" x2="680.72" y2="60.96" width="0.1524" layer="91"/>
+<junction x="657.86" y="38.1"/>
 </segment>
 </net>
 <net name="N$75" class="0">
 <segment>
 <pinref part="D8" gate="G$1" pin="A"/>
-<wire x1="678.18" y1="30.48" x2="678.18" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="678.18" y1="25.4" x2="685.8" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="685.8" y1="25.4" x2="685.8" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="683.26" y1="30.48" x2="683.26" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="683.26" y1="25.4" x2="690.88" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="690.88" y1="25.4" x2="690.88" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="T2" gate="G$1" pin="C"/>
-<wire x1="685.8" y1="22.86" x2="685.8" y2="25.4" width="0.1524" layer="91"/>
-<junction x="685.8" y="25.4"/>
+<wire x1="690.88" y1="22.86" x2="690.88" y2="25.4" width="0.1524" layer="91"/>
+<junction x="690.88" y="25.4"/>
 <pinref part="K2" gate="K1" pin="2"/>
 </segment>
 </net>
 <net name="DGND" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="SGND"/>
-<wire x1="533.4" y1="10.16" x2="530.86" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="530.86" y1="10.16" x2="530.86" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="10.16" x2="546.1" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="10.16" x2="546.1" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="C62" gate="G$1" pin="1"/>
-<wire x1="530.86" y1="10.16" x2="525.78" y2="10.16" width="0.1524" layer="91"/>
-<junction x="530.86" y="10.16"/>
+<wire x1="546.1" y1="10.16" x2="541.02" y2="10.16" width="0.1524" layer="91"/>
+<junction x="546.1" y="10.16"/>
 <pinref part="SUPPLY27" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
 <pinref part="R41" gate="G$1" pin="1"/>
 <pinref part="C58" gate="G$1" pin="2"/>
-<wire x1="505.46" y1="20.32" x2="505.46" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="17.78" x2="500.38" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="520.7" y1="20.32" x2="520.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="520.7" y1="17.78" x2="515.62" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY24" gate="G$1" pin="DGND"/>
-<wire x1="500.38" y1="17.78" x2="497.84" y2="17.78" width="0.1524" layer="91"/>
-<junction x="500.38" y="17.78"/>
+<wire x1="515.62" y1="17.78" x2="513.08" y2="17.78" width="0.1524" layer="91"/>
+<junction x="515.62" y="17.78"/>
 </segment>
 <segment>
 <pinref part="T2" gate="G$1" pin="E"/>
 <pinref part="SUPPLY23" gate="G$1" pin="DGND"/>
-<wire x1="685.8" y1="12.7" x2="685.8" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="690.88" y1="12.7" x2="690.88" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="DGND"/>
@@ -29788,181 +29782,172 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="C33" gate="G$1" pin="1"/>
 <pinref part="AGND11" gate="VR1" pin="AGND"/>
-<wire x1="528.32" y1="86.36" x2="518.16" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="86.36" x2="533.4" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C32" gate="G$1" pin="1"/>
-<junction x="518.16" y="86.36"/>
+<junction x="533.4" y="86.36"/>
 <pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="520.7" y1="96.52" x2="510.54" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="510.54" y1="96.52" x2="510.54" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="510.54" y1="86.36" x2="518.16" y2="86.36" width="0.1524" layer="91"/>
-<junction x="518.16" y="86.36"/>
+<wire x1="535.94" y1="96.52" x2="525.78" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="525.78" y1="96.52" x2="525.78" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="525.78" y1="86.36" x2="533.4" y2="86.36" width="0.1524" layer="91"/>
+<junction x="533.4" y="86.36"/>
 </segment>
 <segment>
 <pinref part="AGND14" gate="VR1" pin="AGND"/>
 <pinref part="C40" gate="G$1" pin="1"/>
 <pinref part="C41" gate="G$1" pin="1"/>
-<wire x1="518.16" y1="66.04" x2="528.32" y2="66.04" width="0.1524" layer="91"/>
-<junction x="518.16" y="66.04"/>
+<wire x1="533.4" y1="66.04" x2="543.56" y2="66.04" width="0.1524" layer="91"/>
+<junction x="533.4" y="66.04"/>
 <pinref part="C39" gate="G$1" pin="1"/>
-<wire x1="520.7" y1="76.2" x2="510.54" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="510.54" y1="76.2" x2="510.54" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="510.54" y1="66.04" x2="518.16" y2="66.04" width="0.1524" layer="91"/>
-<junction x="518.16" y="66.04"/>
+<wire x1="535.94" y1="76.2" x2="525.78" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="525.78" y1="76.2" x2="525.78" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="525.78" y1="66.04" x2="533.4" y2="66.04" width="0.1524" layer="91"/>
+<junction x="533.4" y="66.04"/>
 </segment>
 <segment>
-<wire x1="576.58" y1="7.62" x2="576.58" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="576.58" y1="5.08" x2="581.66" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="581.66" y1="5.08" x2="586.74" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="586.74" y1="5.08" x2="586.74" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="591.82" y1="7.62" x2="591.82" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="591.82" y1="5.08" x2="596.9" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="596.9" y1="5.08" x2="601.98" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="601.98" y1="5.08" x2="601.98" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="AGND20" gate="VR1" pin="AGND"/>
-<junction x="581.66" y="5.08"/>
+<junction x="596.9" y="5.08"/>
 <pinref part="C60" gate="G$1" pin="-"/>
 <pinref part="C61" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="C26" gate="G$1" pin="2"/>
 <pinref part="C31" gate="G$1" pin="1"/>
-<junction x="642.62" y="93.98"/>
+<junction x="657.86" y="93.98"/>
 <pinref part="AGND9" gate="VR1" pin="AGND"/>
-<wire x1="642.62" y1="93.98" x2="652.78" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="642.62" y1="93.98" x2="632.46" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="632.46" y1="93.98" x2="632.46" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="657.86" y1="93.98" x2="668.02" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="657.86" y1="93.98" x2="647.7" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="93.98" x2="647.7" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C30" gate="G$1" pin="2"/>
 <pinref part="C36" gate="G$1" pin="1"/>
-<wire x1="632.46" y1="86.36" x2="614.68" y2="86.36" width="0.1524" layer="91"/>
-<junction x="614.68" y="86.36"/>
+<wire x1="647.7" y1="86.36" x2="629.92" y2="86.36" width="0.1524" layer="91"/>
+<junction x="629.92" y="86.36"/>
 </segment>
 <segment>
 <pinref part="C46" gate="G$1" pin="2"/>
 <pinref part="C50" gate="G$1" pin="1"/>
-<junction x="642.62" y="55.88"/>
+<junction x="657.86" y="55.88"/>
 <pinref part="AGND15" gate="VR1" pin="AGND"/>
-<wire x1="642.62" y1="55.88" x2="652.78" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="642.62" y1="55.88" x2="632.46" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="632.46" y1="55.88" x2="632.46" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="657.86" y1="55.88" x2="668.02" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="657.86" y1="55.88" x2="647.7" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="55.88" x2="647.7" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C42" gate="G$1" pin="2"/>
 <pinref part="C45" gate="G$1" pin="1"/>
-<wire x1="632.46" y1="63.5" x2="614.68" y2="63.5" width="0.1524" layer="91"/>
-<junction x="614.68" y="63.5"/>
+<wire x1="647.7" y1="63.5" x2="629.92" y2="63.5" width="0.1524" layer="91"/>
+<junction x="629.92" y="63.5"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="B" pin="+IN"/>
 <pinref part="AGND18" gate="VR1" pin="AGND"/>
-<wire x1="429.26" y1="17.78" x2="424.18" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="17.78" x2="449.58" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="A" pin="+IN"/>
 <pinref part="AGND8" gate="VR1" pin="AGND"/>
-<wire x1="431.8" y1="93.98" x2="429.26" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="429.26" y1="93.98" x2="429.26" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="457.2" y1="93.98" x2="454.66" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="93.98" x2="454.66" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C34" gate="G$1" pin="2"/>
-<wire x1="449.58" y1="86.36" x2="452.12" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="474.98" y1="86.36" x2="477.52" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="AGND12" gate="VR1" pin="AGND"/>
-<wire x1="452.12" y1="86.36" x2="452.12" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="477.52" y1="86.36" x2="477.52" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="2"/>
-<wire x1="355.6" y1="99.06" x2="358.14" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="381" y1="99.06" x2="383.54" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="AGND5" gate="VR1" pin="AGND"/>
-<wire x1="358.14" y1="99.06" x2="358.14" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="99.06" x2="383.54" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="355.6" y1="119.38" x2="358.14" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="381" y1="119.38" x2="383.54" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="AGND2" gate="VR1" pin="AGND"/>
-<wire x1="358.14" y1="119.38" x2="358.14" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="119.38" x2="383.54" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND6" gate="VR1" pin="AGND"/>
-<wire x1="375.92" y1="96.52" x2="375.92" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="96.52" x2="401.32" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="AGND17" gate="VR1" pin="AGND"/>
-<wire x1="375.92" y1="22.86" x2="375.92" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="22.86" x2="401.32" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="X1" gate="A" pin="S"/>
-<wire x1="279.4" y1="101.6" x2="294.64" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="101.6" x2="299.72" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="99.06" x2="299.72" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="96.52" x2="294.64" y2="101.6" width="0.1524" layer="91"/>
-<junction x="294.64" y="101.6"/>
-<wire x1="294.64" y1="106.68" x2="294.64" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="101.6" x2="314.96" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="101.6" x2="320.04" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="99.06" x2="320.04" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="96.52" x2="314.96" y2="101.6" width="0.1524" layer="91"/>
+<junction x="314.96" y="101.6"/>
+<wire x1="314.96" y1="106.68" x2="314.96" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="AGND4" gate="VR1" pin="AGND"/>
 <pinref part="U8" gate="R1" pin="A"/>
-<wire x1="292.1" y1="96.52" x2="294.64" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="96.52" x2="314.96" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U8" gate="R2" pin="A"/>
-<wire x1="292.1" y1="106.68" x2="294.64" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="106.68" x2="314.96" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X1" gate="B" pin="S"/>
-<wire x1="279.4" y1="48.26" x2="294.64" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="48.26" x2="299.72" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="53.34" x2="294.64" y2="48.26" width="0.1524" layer="91"/>
-<junction x="294.64" y="48.26"/>
-<wire x1="294.64" y1="43.18" x2="294.64" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="48.26" x2="314.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="48.26" x2="320.04" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="53.34" x2="314.96" y2="48.26" width="0.1524" layer="91"/>
+<junction x="314.96" y="48.26"/>
+<wire x1="314.96" y1="43.18" x2="314.96" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="AGND16" gate="VR1" pin="AGND"/>
 <pinref part="U7" gate="R2" pin="A"/>
-<wire x1="292.1" y1="53.34" x2="294.64" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="53.34" x2="314.96" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U7" gate="R1" pin="A"/>
-<wire x1="292.1" y1="43.18" x2="294.64" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="43.18" x2="314.96" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="345.44" y1="88.9" x2="337.82" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="88.9" x2="337.82" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="AGND10" gate="VR1" pin="AGND"/>
-<wire x1="337.82" y1="86.36" x2="337.82" y2="88.9" width="0.1524" layer="91"/>
-<junction x="337.82" y="88.9"/>
-<pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="342.9" y1="15.24" x2="337.82" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="15.24" x2="337.82" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="12.7" x2="363.22" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="AGND19" gate="VR1" pin="AGND"/>
-<wire x1="337.82" y1="12.7" x2="337.82" y2="15.24" width="0.1524" layer="91"/>
-<junction x="337.82" y="15.24"/>
-<pinref part="R42" gate="G$1" pin="2"/>
 <pinref part="R40" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="449.58" y1="106.68" x2="452.12" y2="106.68" width="0.1524" layer="91" style="longdash"/>
+<wire x1="474.98" y1="106.68" x2="477.52" y2="106.68" width="0.1524" layer="91" style="longdash"/>
 <pinref part="AGND3" gate="VR1" pin="AGND"/>
-<wire x1="452.12" y1="106.68" x2="452.12" y2="104.14" width="0.1524" layer="91" style="longdash"/>
+<wire x1="477.52" y1="106.68" x2="477.52" y2="104.14" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
 <pinref part="U2" gate="R2" pin="A"/>
 <pinref part="AGND7" gate="VR1" pin="AGND"/>
-<wire x1="474.98" y1="96.52" x2="474.98" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="96.52" x2="497.84" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="R1" pin="A"/>
 <pinref part="AGND13" gate="VR1" pin="AGND"/>
-<wire x1="474.98" y1="66.04" x2="474.98" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="66.04" x2="497.84" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="3"/>
-<wire x1="337.82" y1="66.04" x2="332.74" y2="66.04" width="0.1524" layer="91"/>
-<label x="332.74" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="363.22" y1="66.04" x2="358.14" y2="66.04" width="0.1524" layer="91"/>
+<label x="358.14" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="4"/>
-<wire x1="345.44" y1="66.04" x2="350.52" y2="66.04" width="0.1524" layer="91"/>
-<label x="350.52" y="66.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="370.84" y1="66.04" x2="375.92" y2="66.04" width="0.1524" layer="91"/>
+<label x="375.92" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="AGND21" gate="VR1" pin="AGND"/>
-<wire x1="490.22" y1="93.98" x2="490.22" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="93.98" x2="505.46" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="A" pin="4"/>
 <pinref part="JP6" gate="A" pin="3"/>
-<wire x1="492.76" y1="93.98" x2="500.38" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="492.76" y1="93.98" x2="490.22" y2="93.98" width="0.1524" layer="91"/>
-<junction x="492.76" y="93.98"/>
+<wire x1="510.54" y1="93.98" x2="518.16" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="93.98" x2="505.46" y2="93.98" width="0.1524" layer="91"/>
+<junction x="510.54" y="93.98"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -30083,8 +30068,8 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <net name="SPK_PROTECT" class="0">
 <segment>
 <pinref part="T2" gate="G$1" pin="B"/>
-<wire x1="680.72" y1="17.78" x2="678.18" y2="17.78" width="0.1524" layer="91"/>
-<label x="678.18" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="685.8" y1="17.78" x2="678.18" y2="17.78" width="0.1524" layer="91"/>
+<label x="678.18" y="17.78" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="PD7(AIN1)"/>
@@ -30152,7 +30137,7 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <net name="N$61" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="P$1"/>
-<wire x1="688.34" y1="104.14" x2="670.56" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="688.34" y1="104.14" x2="683.26" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="K2" gate="SW2" pin="P"/>
 </segment>
 </net>
@@ -30215,77 +30200,77 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="X1" gate="B" pin="T2"/>
 <pinref part="U7" gate="R2" pin="B"/>
-<wire x1="279.4" y1="53.34" x2="281.94" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="53.34" x2="302.26" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
 <pinref part="X1" gate="B" pin="T1"/>
 <pinref part="U7" gate="R1" pin="B"/>
-<wire x1="279.4" y1="43.18" x2="281.94" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="43.18" x2="302.26" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="U7" gate="R1" pin="W"/>
 <pinref part="R35" gate="G$1" pin="1"/>
-<wire x1="287.02" y1="38.1" x2="297.18" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="38.1" x2="317.5" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
 <pinref part="U7" gate="R2" pin="W"/>
 <pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="287.02" y1="58.42" x2="297.18" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="58.42" x2="317.5" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
 <pinref part="X1" gate="A" pin="T2"/>
 <pinref part="U8" gate="R2" pin="B"/>
-<wire x1="279.4" y1="106.68" x2="281.94" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="106.68" x2="302.26" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
 <pinref part="X1" gate="A" pin="T1"/>
 <pinref part="U8" gate="R1" pin="B"/>
-<wire x1="279.4" y1="96.52" x2="281.94" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="96.52" x2="302.26" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
 <segment>
 <pinref part="U8" gate="R1" pin="W"/>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="287.02" y1="91.44" x2="297.18" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="91.44" x2="317.5" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$49" class="0">
 <segment>
 <pinref part="U8" gate="R2" pin="W"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="287.02" y1="111.76" x2="297.18" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="111.76" x2="317.5" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AMP_MUTE_CL" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="MUTE"/>
-<wire x1="533.4" y1="17.78" x2="530.86" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="17.78" x2="546.1" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R54" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="AMP_STBY_CL" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="STBY"/>
-<wire x1="533.4" y1="15.24" x2="530.86" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="15.24" x2="546.1" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R55" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GAIN1" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="GAIN1"/>
-<wire x1="518.16" y1="22.86" x2="533.4" y2="22.86" width="0.1524" layer="91"/>
-<label x="518.16" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="533.4" y1="22.86" x2="548.64" y2="22.86" width="0.1524" layer="91"/>
+<label x="533.4" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="PB5(SCK)"/>
@@ -30301,8 +30286,8 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <net name="GAIN0" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="GAIN0"/>
-<wire x1="518.16" y1="25.4" x2="533.4" y2="25.4" width="0.1524" layer="91"/>
-<label x="518.16" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="533.4" y1="25.4" x2="548.64" y2="25.4" width="0.1524" layer="91"/>
+<label x="533.4" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="PB4(MISO)"/>
@@ -30319,7 +30304,7 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <segment>
 <pinref part="K2" gate="SW1" pin="P"/>
 <pinref part="J6" gate="G$2" pin="P$1"/>
-<wire x1="670.56" y1="66.04" x2="688.34" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="683.26" y1="66.04" x2="688.34" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -30339,51 +30324,51 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <net name="EQ_L" class="0">
 <segment>
 <pinref part="IC4" gate="B" pin="+IN"/>
-<wire x1="337.82" y1="38.1" x2="335.28" y2="38.1" width="0.1524" layer="91"/>
-<label x="335.28" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="363.22" y1="38.1" x2="360.68" y2="38.1" width="0.1524" layer="91"/>
+<label x="360.68" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="6"/>
-<wire x1="345.44" y1="63.5" x2="350.52" y2="63.5" width="0.1524" layer="91"/>
-<label x="350.52" y="63.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="370.84" y1="63.5" x2="375.92" y2="63.5" width="0.1524" layer="91"/>
+<label x="375.92" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EQ_R" class="0">
 <segment>
 <pinref part="JP5" gate="A" pin="2"/>
-<wire x1="345.44" y1="68.58" x2="350.52" y2="68.58" width="0.1524" layer="91"/>
-<label x="350.52" y="68.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="370.84" y1="68.58" x2="375.92" y2="68.58" width="0.1524" layer="91"/>
+<label x="375.92" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="337.82" y1="111.76" x2="335.28" y2="111.76" width="0.1524" layer="91"/>
-<label x="335.28" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="363.22" y1="111.76" x2="360.68" y2="111.76" width="0.1524" layer="91"/>
+<label x="360.68" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC4" gate="A" pin="+IN"/>
 </segment>
 </net>
 <net name="N$81" class="0">
 <segment>
 <pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="520.7" y1="101.6" x2="508" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="508" y1="96.52" x2="508" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="535.94" y1="101.6" x2="523.24" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="523.24" y1="96.52" x2="523.24" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="A" pin="1"/>
-<wire x1="500.38" y1="96.52" x2="508" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="96.52" x2="523.24" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$84" class="0">
 <segment>
 <pinref part="C37" gate="G$1" pin="1"/>
-<wire x1="508" y1="81.28" x2="520.7" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="508" y1="81.28" x2="508" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="523.24" y1="81.28" x2="535.94" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="523.24" y1="81.28" x2="523.24" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="A" pin="5"/>
-<wire x1="508" y1="91.44" x2="500.38" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="523.24" y1="91.44" x2="518.16" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PREAMP_OUT_R" class="0">
 <segment>
 <pinref part="U2" gate="R2" pin="W"/>
-<wire x1="492.76" y1="104.14" x2="469.9" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="104.14" x2="469.9" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="492.76" y1="96.52" x2="492.76" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="104.14" x2="492.76" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="492.76" y1="104.14" x2="492.76" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="96.52" x2="510.54" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="A" pin="2"/>
 </segment>
 </net>
@@ -30455,6 +30440,19 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <pinref part="IC6" gate="G$1" pin="PC2(ADC2)"/>
 <wire x1="81.28" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91" style="longdash"/>
 <label x="83.82" y="96.52" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="370.84" y1="88.9" x2="368.3" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="88.9" x2="368.3" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="96.52" x2="363.22" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="IC4" gate="A" pin="-IN"/>
+<wire x1="363.22" y1="99.06" x2="363.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="99.06" x2="363.22" y2="99.06" width="0.1524" layer="91"/>
+<junction x="363.22" y="99.06"/>
 </segment>
 </net>
 </nets>
