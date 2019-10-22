@@ -477,7 +477,7 @@ void setup()
   pinMode(FAN_CTRL, OUTPUT);
   pinMode(PIN_GAIN0, OUTPUT);
   pinMode(PIN_GAIN1, OUTPUT);
-  pinMode(AMP_DIAG, INPUT);
+  pinMode(AMP_DIAG, INPUT_PULLUP);
   pinMode(T_SENSE, INPUT);
   pinMode(POWER_LED, OUTPUT);
 

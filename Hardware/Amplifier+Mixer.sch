@@ -17743,6 +17743,14 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="VDD" urn="urn:adsk.eagle:symbol:26943/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.905" x2="0" y2="1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VDD" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
@@ -17853,6 +17861,19 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VDD" urn="urn:adsk.eagle:component:26970/1" prefix="VDD" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="VDD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -24370,8 +24391,8 @@ Source: www.kingbright.com</description>
 <attribute name="MOUSER" value="511-L7912CV"/>
 <attribute name="STOCK" value="1"/>
 </part>
-<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1" value="7812">
-<attribute name="CONRAD" value="179230 - 62"/>
+<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1" value="LM2940CT-12">
+<attribute name="CONRAD" value="1013996 - 62"/>
 <attribute name="MOUSER" value="511-L7812CV"/>
 <attribute name="STOCK" value="1"/>
 </part>
@@ -24787,7 +24808,6 @@ Source: www.kingbright.com</description>
 <attribute name="STOCK" value="0"/>
 </part>
 <part name="PE2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="PE" device=""/>
-<part name="+3V312" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
 <spice>
 <pinmapping spiceprefix="C">
@@ -24952,7 +24972,6 @@ Source: www.kingbright.com</description>
 <attribute name="MOUSER" value="710-885012206071"/>
 <attribute name="STOCK" value="24"/>
 </part>
-<part name="+3V319" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="AGND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="C60" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="10µ 10V">
 <spice>
@@ -26075,6 +26094,8 @@ Source: www.kingbright.com</description>
 <attribute name="STOCK" value="3"/>
 </part>
 <part name="SUPPLY42" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
+<part name="VDD1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
+<part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26830,9 +26851,6 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <instance part="PE2" gate="M" x="586.74" y="2.54" smashed="yes">
 <attribute name="VALUE" x="586.74" y="0.762" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="+3V312" gate="G$1" x="518.16" y="71.12" smashed="yes">
-<attribute name="VALUE" x="518.16" y="71.374" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="C49" gate="G$1" x="541.02" y="53.34" smashed="yes">
 <attribute name="NAME" x="538.988" y="50.5968" size="1.778" layer="95" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="543.052" y="50.5968" size="1.778" layer="96" rot="R180" align="top-right"/>
@@ -26944,9 +26962,6 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <attribute name="CONRAD" x="538.48" y="10.16" size="1.778" layer="96" display="off"/>
 <attribute name="MOUSER" x="538.48" y="10.16" size="1.778" layer="96" display="off"/>
 <attribute name="STOCK" x="538.48" y="10.16" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="+3V319" gate="G$1" x="508" y="15.24" smashed="yes">
-<attribute name="VALUE" x="508" y="15.494" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="AGND20" gate="VR1" x="596.9" y="2.54" smashed="yes">
 <attribute name="VALUE" x="596.9" y="1.778" size="1.778" layer="96" align="top-center"/>
@@ -28009,6 +28024,12 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <instance part="SUPPLY42" gate="G$1" x="614.68" y="160.02" smashed="yes">
 <attribute name="VALUE" x="614.68" y="158.496" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="VDD1" gate="G$1" x="518.16" y="71.12" smashed="yes">
+<attribute name="VALUE" x="515.62" y="68.58" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="VDD2" gate="G$1" x="508" y="15.24" smashed="yes">
+<attribute name="VALUE" x="505.46" y="12.7" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -28632,23 +28653,6 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <wire x1="302.26" y1="193.04" x2="309.88" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="193.04" x2="309.88" y2="187.96" width="0.1524" layer="91"/>
 <junction x="302.26" y="193.04"/>
-</segment>
-<segment>
-<pinref part="R27" gate="G$1" pin="2"/>
-<pinref part="+3V312" gate="G$1" pin="+3V3"/>
-<wire x1="518.16" y1="68.58" x2="518.16" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="VDDS"/>
-<wire x1="548.64" y1="63.5" x2="548.64" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="548.64" y1="60.96" x2="523.24" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="523.24" y1="60.96" x2="523.24" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="523.24" y1="66.04" x2="518.16" y2="66.04" width="0.1524" layer="91" style="longdash"/>
-<junction x="518.16" y="66.04"/>
-</segment>
-<segment>
-<pinref part="C62" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="10.16" x2="508" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="508" y1="10.16" x2="508" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="+3V319" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G1" pin="A0/HVP"/>
@@ -30453,6 +30457,25 @@ fcut = 1/(2π1µ60k) = 2,6Hz</text>
 <wire x1="363.22" y1="99.06" x2="363.22" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="99.06" x2="363.22" y2="99.06" width="0.1524" layer="91"/>
 <junction x="363.22" y="99.06"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="518.16" y1="68.58" x2="518.16" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="VDDS"/>
+<wire x1="548.64" y1="63.5" x2="548.64" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="60.96" x2="523.24" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="523.24" y1="60.96" x2="523.24" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="523.24" y1="66.04" x2="518.16" y2="66.04" width="0.1524" layer="91" style="longdash"/>
+<junction x="518.16" y="66.04"/>
+<pinref part="VDD1" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="C62" gate="G$1" pin="2"/>
+<wire x1="533.4" y1="10.16" x2="508" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="508" y1="10.16" x2="508" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="VDD2" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 </nets>
